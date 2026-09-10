@@ -81,6 +81,37 @@ namespace SilksongGodhome.Godhome
             Advance();
         }
 
+        /// <summary>
+        /// Whether Silksong can actually load a scene by that key.
+        ///
+        /// Worth asking before travelling rather than after: a bad key sends the
+        /// transition somewhere it cannot come back from, and the player is left
+        /// looking at a fade that never ends. Addressables' locators answer
+        /// synchronously, so this costs nothing.
+        /// </summary>
+        public static bool SceneExists(string key)
+        {
+            if (string.IsNullOrEmpty(key)) return false;
+            try
+            {
+                foreach (UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
+                         in UnityEngine.AddressableAssets.Addressables.ResourceLocators)
+                {
+                    if (loc.Locate("Scenes/" + key, typeof(UnityEngine.ResourceManagement
+                                   .ResourceProviders.SceneInstance), out _))
+                    {
+                        return true;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Plugin.Log.LogWarning($"Godhome: couldn't check for scene '{key}': {e.Message}");
+                return true;      // don't block a run on a failed check
+            }
+            return false;
+        }
+
         private static void GoTo(int index)
         {
             string scene = Sequence.GetSceneAt(index);
@@ -105,6 +136,21 @@ namespace SilksongGodhome.Godhome
 
             PantheonRegistry.Entry entry = PantheonRegistry.EntryAt(Title, index);
             string boss = entry != null ? entry.DisplayName : scene;
+
+            // Step over an arena Silksong cannot load rather than travelling into a
+            // fade that never ends.
+            bool baked = Rebuild.GodhomeData.HasScene(scene);
+            if (!baked && !SceneExists(scene))
+            {
+                Plugin.Log.LogError(
+                    $"Godhome: '{boss}' names scene '{scene}', which Silksong has no " +
+                    "record of - skipping it. Check the name in pantheons/*.txt.");
+                Index++;
+                if (Index >= Sequence.Count) { Finish(); return; }
+                GoTo(Index);
+                return;
+            }
+
             Plugin.Log.LogInfo($"Godhome: run -> {boss} in {scene} ({Index + 1}/{Count})");
 
             // Godhome's own rooms are rebuilt from baked data and keep Hollow Knight's

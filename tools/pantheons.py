@@ -24,6 +24,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 INDEX = os.path.join(HERE, "enemies.json")
 SCENES = os.path.join(HERE, "scenes.json")
+NAMES = os.path.join(HERE, "names.json")
 OUT_DIR = os.path.join(os.path.dirname(HERE), "SilksongGodhome", "Baked", "pantheons")
 
 # Pantheon of Pharloom's order. "Bench" is a rest stop, not a fight.
@@ -96,9 +97,30 @@ ALIASES = {
 }
 
 
+_names = None
+
+
 def scene_key(bundle_name):
-    """Bundle file names are lowercased; the Addressables scene key is capitalised."""
-    return bundle_name[0].upper() + bundle_name[1:] if bundle_name else bundle_name
+    """
+    The name Silksong itself uses for a scene.
+
+    Bundle files are lowercased and the Addressables catalog holds both spellings, so
+    neither can be trusted: capitalising the first letter gets Weave_03 right and
+    coral_judge_arena wrong, and 32 of 42 arena keys were wrong that way. names.json is
+    harvested from the game's own TransitionPoint.targetScene and
+    SceneAdditiveLoadConditional.sceneNameToLoad strings, which are by definition the
+    names it passes to Addressables.
+    """
+    global _names
+    if _names is None:
+        if os.path.exists(NAMES):
+            with open(NAMES, encoding="utf-8") as f:
+                _names = json.load(f)
+        else:
+            raise SystemExit(f"{NAMES} is missing - run silksong_names.py first.")
+    if not bundle_name:
+        return bundle_name
+    return _names.get(bundle_name.lower(), bundle_name)
 
 
 def load_index():

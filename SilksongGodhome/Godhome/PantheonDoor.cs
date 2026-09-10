@@ -80,11 +80,14 @@ namespace SilksongGodhome.Godhome
                 return;
             }
 
+            // A Godhome arena has to have been baked or the player lands in an empty
+            // donor room. A Silksong arena is one of the game's own rooms and is never
+            // baked - demanding it be was a leftover from when the Pantheons were fought
+            // against Hollow Knight's bosses, and it refused every run.
             string first = seq.GetSceneAt(0);
-            if (!Rebuild.GodhomeData.HasScene(first))
+            if (first != null && first.StartsWith("GG_", StringComparison.Ordinal)
+                && !Rebuild.GodhomeData.HasScene(first))
             {
-                // Starting anyway would strand the player in an empty donor room, which
-                // reads as a crash. Refuse loudly instead.
                 Plugin.Log.LogWarning(
                     $"Godhome: not starting '{SequenceName}' - its first arena '{first}' " +
                     "hasn't been baked. Add it with tools/extract_godhome.py --scenes " + first);
