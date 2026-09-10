@@ -171,6 +171,11 @@ namespace SilksongGodhome.Godhome
             bool godhomeRoom = Rebuild.GodhomeData.HasScene(scene);
             if (!godhomeRoom && entry != null)
             {
+                // Before travelling: the room reads these on load to decide whether to
+                // put the boss in at all, and whether this is a first meeting or a
+                // rematch.
+                ArenaFlags.Apply(entry);
+
                 // A Silksong room needs the boss piece loading, the hero standing
                 // somewhere solid, and something watching the boss so the run advances.
                 PantheonArena.Install(entry);
