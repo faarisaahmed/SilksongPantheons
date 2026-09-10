@@ -23,6 +23,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 INDEX = os.path.join(HERE, "enemies.json")
+SCENES = os.path.join(HERE, "scenes.json")
 OUT_DIR = os.path.join(os.path.dirname(HERE), "SilksongGodhome", "Baked", "pantheons")
 
 # Pantheon of Pharloom's order. "Bench" is a rest stop, not a fight.
@@ -107,15 +108,44 @@ def load_index():
         return json.load(f)
 
 
-def resolve(display, index):
+def load_scenes():
+    if not os.path.exists(SCENES):
+        raise SystemExit(f"{SCENES} is missing - run silksong_scenes.py first.")
+    with open(SCENES, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def room_for(scene, scenes):
+    """
+    (room to load, sub-scene to force) for an arena.
+
+    Silksong composes a room from a main scene plus additive pieces, and its bosses often
+    live in a piece: bone_05_boss has no _SceneManager, no _Managers and no TileMap.
+    Loading one of those directly puts the player in a void with no terrain - which is
+    what being teleported out of bounds at the Bell Beast actually was. So an arena that
+    is a piece names its room instead, and the piece alongside it.
+    """
+    info = scenes.get(scene)
+    if info is None or info.get("standalone"):
+        return scene, None
+    parent = info.get("parent")
+    if not parent:
+        return scene, None      # a piece with no known room; flagged by the caller
+    return parent, scene
+
+
+def resolve(display, index, scenes):
     """(scene, object, note) - note is empty when the mapping is a known one."""
     alias = ALIASES.get(display)
     if alias:
         obj, scene = alias
         for e in index.get(scene, []):
             if e["name"] == obj:
-                return scene, obj, ""
-        return scene, obj, f"'{obj}' not found in {scene}"
+                room, sub = room_for(scene, scenes)
+                if sub and not scenes.get(scene, {}).get("parent"):
+                    return scene, obj, f"{scene} is a scene piece with no known room"
+                return (room, sub), obj, ""
+        return (scene, None), obj, f"'{obj}' not found in {scene}"
 
     # Nothing known: offer the closest names in the whole game, and leave it unresolved.
     every = {}
@@ -126,12 +156,20 @@ def resolve(display, index):
     if close:
         best = close[0]
         scene, hp = max(every[best], key=lambda x: x[1])
-        return scene, best, f"guessed from the name; candidates: {', '.join(close)}"
+        return room_for(scene, scenes), best, \
+            f"guessed from the name; candidates: {', '.join(close)}"
     return None, None, "no candidate found"
+
+
+def render(where, obj):
+    room, sub = where
+    left = scene_key(room) if not sub else f"{scene_key(room)} + {scene_key(sub)}"
+    return f"{left} : {obj}"
 
 
 def main():
     index = load_index()
+    scenes = load_scenes()
     os.makedirs(OUT_DIR, exist_ok=True)
 
     resolved = unresolved = 0
@@ -140,7 +178,9 @@ def main():
         lines = [
             f"# {title}",
             "#",
-            "# One entry per line:  Display Name = Scene : Boss Object",
+            "# One entry per line:  Display Name = Room : Boss Object",
+            "# or, when the boss lives in one of the room's additive pieces:",
+            "#                      Display Name = Room + Piece : Boss Object",
             "# 'Bench' on its own is a rest stop between fights.",
             "# Lines starting with # are ignored; edit freely, no rebuild needed.",
             "#",
@@ -152,12 +192,12 @@ def main():
             if e == "Bench":
                 lines.append("Bench")
                 continue
-            scene, obj, note = resolve(e, index)
-            if scene and not note:
-                lines.append(f"{e} = {scene_key(scene)} : {obj}")
+            where, obj, note = resolve(e, index, scenes)
+            if where and not note:
+                lines.append(f"{e} = {render(where, obj)}")
                 resolved += 1
-            elif scene:
-                lines.append(f"# UNRESOLVED  {e} = {scene_key(scene)} : {obj}    # {note}")
+            elif where:
+                lines.append(f"# UNRESOLVED  {e} = {render(where, obj)}    # {note}")
                 unresolved += 1
             else:
                 lines.append(f"# UNRESOLVED  {e}    # {note}")
@@ -188,7 +228,8 @@ def main():
                 continue
             rhs = line.split("=", 1)[1]
             sc, _, ob = rhs.partition(":")
-            used.add((sc.strip().lower(), ob.strip()))
+            for part in sc.split("+"):
+                used.add((part.strip().lower(), ob.strip()))
 
     spare = []
     for scene, es in index.items():

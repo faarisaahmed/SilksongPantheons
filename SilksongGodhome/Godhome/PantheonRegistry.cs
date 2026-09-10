@@ -41,14 +41,25 @@ namespace SilksongGodhome.Godhome
         public sealed class Entry
         {
             public string DisplayName;
-            /// <summary>Silksong's own scene, e.g. "Bone_05_boss". Empty for a bench.</summary>
+            /// <summary>The room to load, e.g. "Bone_05". Empty for a bench.</summary>
             public string Scene;
+
+            /// <summary>
+            /// An additive piece of that room holding the boss, e.g. "Bone_05_boss", or
+            /// empty. Silksong composes rooms from a main scene plus pieces, and a piece
+            /// has no _SceneManager or terrain of its own - loading one directly is what
+            /// put the player in a void at the Bell Beast.
+            /// </summary>
+            public string SubScene;
             /// <summary>The boss object inside it, e.g. "Bone Beast".</summary>
             public string BossObject;
             public bool IsBench;
 
             public override string ToString() =>
-                IsBench ? "Bench" : $"{DisplayName} = {Scene} : {BossObject}";
+                IsBench ? "Bench"
+                        : $"{DisplayName} = {Scene}" +
+                          (string.IsNullOrEmpty(SubScene) ? "" : " + " + SubScene) +
+                          $" : {BossObject}";
         }
 
         private static Dictionary<string, BossSequence> _sequences;
@@ -165,13 +176,23 @@ namespace SilksongGodhome.Godhome
                         string display = line.Substring(0, eq).Trim();
                         string rhs = line.Substring(eq + 1).Trim();
                         int colon = rhs.IndexOf(':');
-                        string scene = colon < 0 ? rhs : rhs.Substring(0, colon).Trim();
+                        string left = colon < 0 ? rhs : rhs.Substring(0, colon).Trim();
                         string obj = colon < 0 ? "" : rhs.Substring(colon + 1).Trim();
+
+                        // "Room + Piece" when the boss lives in an additive piece.
+                        string scene = left, piece = "";
+                        int plus = left.IndexOf('+');
+                        if (plus >= 0)
+                        {
+                            scene = left.Substring(0, plus).Trim();
+                            piece = left.Substring(plus + 1).Trim();
+                        }
 
                         outp.Add(new Entry
                         {
                             DisplayName = display,
                             Scene = scene,
+                            SubScene = piece,
                             BossObject = obj,
                         });
                     }
