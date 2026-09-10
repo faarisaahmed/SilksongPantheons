@@ -27,23 +27,27 @@ SCENES = os.path.join(HERE, "scenes.json")
 NAMES = os.path.join(HERE, "names.json")
 OUT_DIR = os.path.join(os.path.dirname(HERE), "SilksongGodhome", "Baked", "pantheons")
 
-# Pantheon of Pharloom's order. "Bench" is a rest stop, not a fight.
+# The four Pantheons, as the user laid them out. "Bench" is a rest stop, not a fight.
 PANTHEONS = [
     ("Pantheon of the Judge", [
-        "Moss Mother", "Skull Tyrant", "Bell Beast", "Savage Beastfly", "Fourth Chorus",
-        "Fire Lace", "Bench", "Double Conchfly", "Moorwing", "Sister Splinter", "Widow",
-        "Phantom", "Last Judge",
+        "Moss Mother", "Bell Beast", "Lace", "Fourth Chorus", "Savage Beastfly",
+        "Sister Splinter", "Skull Tyrant", "Moorwing", "Widow", "Moss Mother Duo",
+        "Great Conchflies", "Last Judge",
     ]),
-    ("Pantheon of the Sinner", [
-        "Garmond and Zaza", "Cogwork Dancers", "Trobbio", "Chef Lugoli", "Broodmother",
-        "Groal", "Bench", "Moss Mother 2", "Single Conchfly", "Zango", "Voltvyrm",
-        "Savage Beastfly 2", "Shakra", "Bench", "Father of Flame", "Signis and Gron",
-        "Second Sentinel", "Unravelled", "Flower Lace", "First Sinner",
+    ("Pantheon of the Weaver", [
+        "Phantom", "Cogwork Dancers", "Trobbio", "Garmond And Zaza",
+        "Forebrothers Signis and Gron", "Savage Beastfly 2", "The Unravelled",
+        "Disgraced Chef Lugoli", "Father Of The Flame", "First Sinner",
     ]),
-    ("Pantheon of the Void", [
-        "Bell Eater", "Crawfather", "Gurr", "Lost Garmond", "Pinstress", "Watcher",
-        "Tormented Trobbio", "Bench", "Palestag", "Clover Dancer", "Seth", "Nyleth",
-        "Khann", "Kramelita", "Bench", "Grandmother", "Lost Lace",
+    ("Pantheon of the Monarch", [
+        "Groal The Great", "Voltvyrm", "Raging Conchfly", "Broodmother",
+        "Second Sentinel", "Shakra", "Lace 2", "Grand Mother Silk",
+    ]),
+    ("Pantheon of the Imperators", [
+        "Bell Eater", "Lost Garmond", "Crawfather", "Plasmified Zango",
+        "Watcher At The Edge", "Gurr The Outcast", "Tormented Trobbio", "Pinstress",
+        "Palestag", "Clover Dancers", "Shrine Guardian Seth", "Nyleth",
+        "Skarrsinger Karmelita", "Crust King Khann",
     ]),
 ]
 
@@ -51,49 +55,74 @@ PANTHEONS = [
 # scene contains it, the scene to prefer. Everything here was read out of the game with
 # silksong_bosses.py; anything not listed falls through to fuzzy matching and is flagged.
 ALIASES = {
-    "Bell Beast":          ("Bone Beast", "bone_05_boss"),
-    "Skull Tyrant":        ("Skull King", "bonetown_boss"),
-    "Savage Beastfly":     ("Bone Flyer Giant", "bone_east_08_boss_beastfly"),
-    "Savage Beastfly 2":   ("Bone Flyer Giant", "bone_east_08_boss_beastfly"),
-    "Moorwing":            ("Vampire Gnat", "greymoor_05_boss"),
-    "Sister Splinter":     ("Splinter Queen", "shellwood_18"),
-    "Widow":               ("Spinner Boss", "belltown_shrine"),
-    "Last Judge":          ("Last Judge", "coral_judge_arena"),
-    "Phantom":             ("Phantom", "organ_01"),
-    "Cogwork Dancers":     ("Dancer A", "cog_dancers_boss"),
-    "Clover Dancer":       ("Dancer A", "clover_10"),
-    "Trobbio":             ("Trobbio", "library_13"),
-    "Tormented Trobbio":   ("Tormented Trobbio", "library_13"),
-    "Chef Lugoli":         ("Roachkeeper Chef (1)", "dust_chef"),
-    "Broodmother":         ("Slab Fly Broodmother", "slab_16b"),
-    "Crawfather":          ("Crawfather", "room_crowcourt_02"),
-    "Pinstress":           ("Pinstress Boss", "peak_07"),
-    "Seth":                ("Seth", "shellwood_22"),
-    "Lost Lace":           ("Lost Lace Boss", "abyss_cocoon"),
-    "Palestag":            ("Cloverstag White Boss", "clover_19"),
-    "Fire Lace":           ("Lace Boss1", "bone_east_12"),
-    "Flower Lace":         ("Lace Boss2 New", "song_tower_01"),
-    "Garmond and Zaza":    ("Garmond Fighter", "library_09"),
-    "Lost Garmond":        ("Garmond Black Threaded Fighter", "coral_33"),
-    "Second Sentinel":     ("Song Knight", "hang_17b"),
-    "Fourth Chorus":       ("Conductor Boss", "ward_02_boss"),
-    "Grandmother":         ("First Weaver", "slab_10b"),
-    "Groal":               ("Swamp Shaman", "shadow_18"),
-    "Voltvyrm":            ("Zap Core Enemy", "coral_29"),
-    "Khann":               ("Blue Assistant", "crawl_10"),
-    "Moss Mother":         ("Mossbone Mother A", "weave_03"),
-    "Moss Mother 2":       ("Mossbone Mother B", "weave_03"),
-    "Double Conchfly":     ("Coral Conch Driller Giant Solo", "coral_27"),
-    "Single Conchfly":     ("Driller A", "coral_11"),
-    "Bell Eater":          ("Giant Centipede Head", "bellway_centipede_arena"),
-    # Shakra is Pharloom's cartographer, and the duel with her is a "spar".
-    "Shakra":              ("Mapper Spar NPC", "greymoor_08_mapper"),
-    # Nyleth is the bloom boss; the Flower Queen sits in a Shellwood memory.
-    "Nyleth":              ("Flower Queen Boss", "shellwood_11b_memory"),
-    # The Cradle's boss is the grandmother of the whole thing.
-    "Grandmother":         ("Silk Boss", "cradle_03"),
-    # The Slab is Pharloom's prison, and its boss is the First Weaver.
-    "First Sinner":        ("First Weaver", "slab_10b"),
+    # -- Pantheon of the Judge -------------------------------------------------
+    "Moss Mother":            ("Mossbone Mother", "tut_03"),
+    "Moss Mother Duo":        ("Mossbone Mother A", "weave_03"),
+    "Bell Beast":             ("Bone Beast", "bone_05_boss"),
+    "Lace":                   ("Lace Boss1", "bone_east_12"),
+    "Fourth Chorus":          ("Conductor Boss", "ward_02_boss"),
+    "Savage Beastfly":        ("Bone Flyer Giant", "bone_east_08_boss_beastfly"),
+    "Sister Splinter":        ("Splinter Queen", "shellwood_18"),
+    "Skull Tyrant":           ("Skull King", "bonetown_boss"),
+    "Moorwing":               ("Vampire Gnat", "greymoor_05_boss"),
+    "Widow":                  ("Spinner Boss", "belltown_shrine"),
+    "Great Conchflies":       ("Coral Conch Driller Giant Solo", "coral_27"),
+    "Last Judge":             ("Last Judge", "coral_judge_arena"),
+
+    # -- Pantheon of the Weaver ------------------------------------------------
+    "Phantom":                ("Phantom", "organ_01"),
+    "Cogwork Dancers":        ("Dancer A", "cog_dancers_boss"),
+    "Trobbio":                ("Trobbio", "library_13"),
+    "Garmond And Zaza":       ("Garmond Fighter", "library_09"),
+    "Savage Beastfly 2":      ("Bone Flyer Giant", "ant_19"),
+    "Disgraced Chef Lugoli":  ("Roachkeeper Chef (1)", "dust_chef"),
+    "First Sinner":           ("First Weaver", "slab_10b"),
+
+    # -- Pantheon of the Monarch -----------------------------------------------
+    "Groal The Great":        ("Swamp Shaman", "shadow_18"),
+    "Voltvyrm":               ("Zap Core Enemy", "coral_29"),
+    "Raging Conchfly":        ("Driller A", "coral_11"),
+    "Broodmother":            ("Slab Fly Broodmother", "slab_16b"),
+    "Second Sentinel":        ("Song Knight", "hang_17b"),
+    "Shakra":                 ("Mapper Spar NPC", "greymoor_08_mapper"),
+    "Lace 2":                 ("Lace Boss2 New", "song_tower_01"),
+    "Grand Mother Silk":      ("Silk Boss", "cradle_03"),
+
+    # -- Pantheon of the Imperators --------------------------------------------
+    "Bell Eater":             ("Giant Centipede Head", "bellway_centipede_arena"),
+    "Lost Garmond":           ("Garmond Black Threaded Fighter", "coral_33"),
+    "Crawfather":             ("Crawfather", "room_crowcourt_02"),
+    "Tormented Trobbio":      ("Tormented Trobbio", "library_13"),
+    "Pinstress":              ("Pinstress Boss", "peak_07"),
+    "Palestag":               ("Cloverstag White Boss", "clover_19"),
+    "Clover Dancers":         ("Dancer A", "clover_10"),
+    "Shrine Guardian Seth":   ("Seth", "shellwood_22"),
+    "Nyleth":                 ("Flower Queen Boss", "shellwood_11b_memory"),
+    "Skarrsinger Karmelita":  ("SG_head", "bone_east_08_boss_golem"),
+    "Crust King Khann":       ("Blue Assistant", "crawl_10"),
+
+}
+
+# Bosses Silksong does not name anywhere in its scenes - findboss.py finds zero
+# GameObjects containing "zango", "signis", "gron", "khann", "gurr", "groal",
+# "karmelita" or "watcher" in all 590 of them. These are the best fit from the enemies
+# that no Pantheon uses, and they are written into the lists with the reasoning attached
+# so a wrong one is visible and one edit away rather than silently wrong.
+INFERRED = {
+    # A slasher and a thrower in one room is the shape of a two-brother fight.
+    "Forebrothers Signis and Gron": ("Dock Guard Slasher", "dock_09",
+                                     "a slasher and a thrower share this room"),
+    # Abyss-themed, and the Unravelled are what the void makes of people.
+    "The Unravelled":               ("Abyss Mass", "bone_steel_servant",
+                                     "abyss-themed, no better candidate"),
+    "Father Of The Flame":          ("Coral King", "memory_coral_tower",
+                                     "a memory boss of the right scale"),
+    "Plasmified Zango":             ("Bone Hunter Trapper", "bone_east_18b",
+                                     "a hunter duel, which is what Zango is"),
+    "Watcher At The Edge":          ("Coral Warrior Grey", "coral_39",
+                                     "unused boss-sized enemy; weak match"),
+    "Gurr The Outcast":             ("Hunter Queen Boss", "memory_ant_queen",
+                                     "unused boss-sized enemy; weak match"),
 }
 
 
@@ -157,6 +186,14 @@ def room_for(scene, scenes):
 
 
 def resolve(display, index, scenes):
+    guess = INFERRED.get(display)
+    if guess:
+        obj, scene, why = guess
+        for e in index.get(scene, []):
+            if e["name"] == obj:
+                return room_for(scene, scenes), obj, "GUESS: " + why
+        return (scene, None), obj, f"GUESS ({why}) but '{obj}' not found in {scene}"
+
     """(scene, object, note) - note is empty when the mapping is a known one."""
     alias = ALIASES.get(display)
     if alias:
@@ -195,6 +232,7 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
 
     resolved = unresolved = 0
+    guessed = []
     made = []
     for n, (title, entries) in enumerate(PANTHEONS, 1):
         lines = [
@@ -206,8 +244,6 @@ def main():
             "# 'Bench' on its own is a rest stop between fights.",
             "# Lines starting with # are ignored; edit freely, no rebuild needed.",
             "#",
-            "# Order follows Pantheon of Pharloom, the convention the Silksong",
-            "# boss-rush mods use.",
             "",
         ]
         for e in entries:
@@ -218,6 +254,11 @@ def main():
             if where and not note:
                 lines.append(f"{e} = {render(where, obj)}")
                 resolved += 1
+            elif where and note.startswith("GUESS: "):
+                # Written live, but labelled - the mapping is a judgement, not a lookup.
+                lines.append(f"{e} = {render(where, obj)}    # {note}")
+                resolved += 1
+                guessed.append(e)
             elif where:
                 lines.append(f"# UNRESOLVED  {e} = {render(where, obj)}    # {note}")
                 unresolved += 1
@@ -229,17 +270,6 @@ def main():
             f.write("\n".join(lines) + "\n")
         made.append(path)
         print(f"  pantheon{n}.txt  {title}")
-
-    # The fourth is the first three back to back, which is what the mods do and what
-    # the door in the Atrium has always been for.
-    p4 = os.path.join(OUT_DIR, "pantheon4.txt")
-    with open(p4, "w", encoding="utf-8") as f:
-        f.write("# Pantheon of Pharloom\n#\n"
-                "# The first three, run back to back, with no rest between them beyond\n"
-                "# the benches the earlier lists already carry. Built at load time from\n"
-                "# pantheon1-3, so editing those changes this one too.\n#\n"
-                "@include pantheon1\n@include pantheon2\n@include pantheon3\n")
-    print(f"  pantheon4.txt  Pantheon of Pharloom (pantheon1 + 2 + 3)")
 
     # Everything boss-sized the lists do not use, so the unresolved entries above can be
     # filled in by looking at one file instead of searching the game again.
@@ -276,6 +306,11 @@ def main():
 
     print(f"\n{resolved} bosses resolved, {unresolved} left unresolved "
           f"(written as # UNRESOLVED lines).")
+    if guessed:
+        print(f"{len(guessed)} of those are inferred, not looked up, and are labelled "
+              f"GUESS in the lists:")
+        for g in guessed:
+            print(f"    {g}")
     return 0
 
 
