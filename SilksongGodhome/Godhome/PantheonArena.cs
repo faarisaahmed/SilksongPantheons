@@ -52,9 +52,24 @@ namespace SilksongGodhome.Godhome
 
         private IEnumerator Run()
         {
-            // Let the room finish loading and its own Start() methods run.
-            for (int i = 0; i < 4; i++) yield return null;
-            yield return new WaitForSeconds(0.25f);
+            // Wait for the room to be up and the hero in control. Looking earlier finds
+            // a half-loaded scene - the first version reported the boss missing simply
+            // because it asked before the room existed - and moving the hero mid-entry
+            // fights GameManager's own placement.
+            float deadline = Time.realtimeSinceStartup + 30f;
+            while (Time.realtimeSinceStartup < deadline)
+            {
+                GameManager gm = GameManager.instance;
+                if (gm != null && gm.GameState == GlobalEnums.GameState.PLAYING) break;
+                yield return null;
+            }
+            if (Time.realtimeSinceStartup >= deadline)
+            {
+                Plugin.Log.LogWarning(
+                    $"Godhome: {_entry.Scene} did not reach PLAYING within 30s; " +
+                    "setting the arena up anyway.");
+            }
+            yield return null;
 
             if (!string.IsNullOrEmpty(_entry.SubScene)) yield return EnsurePiece(_entry.SubScene);
 

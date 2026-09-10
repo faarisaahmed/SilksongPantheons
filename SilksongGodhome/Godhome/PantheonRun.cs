@@ -34,6 +34,17 @@ namespace SilksongGodhome.Godhome
 
         private const string ArenaEntryGate = "door_dreamEnter";
 
+        /// <summary>
+        /// The gate a Silksong arena is entered by.
+        ///
+        /// It does not have to exist. GameManager.EnterHero looks it up with
+        /// FindTransitionPoint(..., fallbackToAnyAvailable: true), so any name lands on
+        /// one of the room's real doors. What it must not be is *empty*: that branch
+        /// calls FinishedEnteringScene() and never FadeSceneIn(), so the screen never
+        /// comes back and the run looks like it is loading forever.
+        /// </summary>
+        private const string SilksongArenaGate = "left1";
+
         public static void Begin(BossSequence sequence, string title)
         {
             Sequence = sequence;
@@ -164,7 +175,7 @@ namespace SilksongGodhome.Godhome
                 // somewhere solid, and something watching the boss so the run advances.
                 PantheonArena.Install(entry);
             }
-            Travel(scene, godhomeRoom ? ArenaEntryGate : "");
+            Travel(scene, godhomeRoom ? ArenaEntryGate : SilksongArenaGate);
         }
 
         private static void Finish()
