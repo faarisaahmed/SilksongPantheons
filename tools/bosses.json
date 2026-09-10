@@ -1,0 +1,921 @@
+{
+ "abyss_02b": [
+  {
+   "active": true,
+   "hp": 200,
+   "name": "Gloom Beast"
+  },
+  {
+   "active": true,
+   "hp": 200,
+   "name": "Gloom Beast (1)"
+  }
+ ],
+ "abyss_cocoon": [
+  {
+   "active": true,
+   "hp": 1800,
+   "name": "Lost Lace Boss"
+  }
+ ],
+ "ant_02": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Hunter Throw"
+  }
+ ],
+ "ant_04_left": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "ant_05b": [
+  {
+   "active": true,
+   "hp": 30000000,
+   "name": "Bone Hunter Child (1)"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "ant_08": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Hunter Throw"
+  }
+ ],
+ "ant_19": [
+  {
+   "active": true,
+   "hp": 550,
+   "name": "Bone Flyer Giant"
+  }
+ ],
+ "ant_21": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Hunter Throw"
+  },
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Hunter Throw"
+  },
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Hunter Throw"
+  }
+ ],
+ "arborium_02": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Rhino"
+  }
+ ],
+ "arborium_08": [
+  {
+   "active": false,
+   "hp": 200,
+   "name": "Giant Flea"
+  }
+ ],
+ "belltown_shrine": [
+  {
+   "active": true,
+   "hp": 360,
+   "name": "Spinner Boss"
+  }
+ ],
+ "bellway_centipede_arena": [
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (2)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (4)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (4)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (1)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (3)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (2)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (3)"
+  },
+  {
+   "active": true,
+   "hp": 10000,
+   "name": "Giant Centipede Coil (1)"
+  },
+  {
+   "active": true,
+   "hp": 400,
+   "name": "Giant Centipede Head"
+  },
+  {
+   "active": true,
+   "hp": 400,
+   "name": "Giant Centipede Butt"
+  }
+ ],
+ "bone_02": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_04": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_05_boss": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Beast"
+  }
+ ],
+ "bone_07": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_09": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_15": [
+  {
+   "active": false,
+   "hp": 9999999,
+   "name": "Pierce Dmg Receiver"
+  },
+  {
+   "active": true,
+   "hp": 450,
+   "name": "Skull King"
+  }
+ ],
+ "bone_east_02b": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  },
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Rhino"
+  }
+ ],
+ "bone_east_03": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_east_05": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_east_08_boss_beastfly": [
+  {
+   "active": true,
+   "hp": 650,
+   "name": "Bone Flyer Giant"
+  }
+ ],
+ "bone_east_08_boss_golem": [
+  {
+   "active": true,
+   "hp": 500,
+   "name": "SG_head"
+  }
+ ],
+ "bone_east_10_church": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Rhino"
+  }
+ ],
+ "bone_east_10_room": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Rhino"
+  }
+ ],
+ "bone_east_12": [
+  {
+   "active": true,
+   "hp": 250,
+   "name": "Lace Boss1"
+  }
+ ],
+ "bone_east_17": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "bone_east_18b": [
+  {
+   "active": true,
+   "hp": 1000,
+   "name": "Bone Hunter Trapper"
+  }
+ ],
+ "bone_east_25": [
+  {
+   "active": true,
+   "hp": 150,
+   "name": "Bone Hunter Throw"
+  }
+ ],
+ "bone_east_26": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "bone_steel_servant": [
+  {
+   "active": true,
+   "hp": 500,
+   "name": "Abyss Mass"
+  }
+ ],
+ "bonetown_boss": [
+  {
+   "active": false,
+   "hp": 9999999,
+   "name": "Pierce Dmg Receiver"
+  },
+  {
+   "active": true,
+   "hp": 450,
+   "name": "Skull King"
+  }
+ ],
+ "clover_10": [
+  {
+   "active": true,
+   "hp": 300,
+   "name": "Dancer B"
+  },
+  {
+   "active": true,
+   "hp": 300,
+   "name": "Dancer A"
+  }
+ ],
+ "clover_19": [
+  {
+   "active": true,
+   "hp": 480,
+   "name": "Cloverstag White Boss"
+  }
+ ],
+ "cog_04": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "cog_07": [
+  {
+   "active": false,
+   "hp": 190,
+   "name": "Song Automaton Ball R"
+  },
+  {
+   "active": false,
+   "hp": 190,
+   "name": "Song Automaton Ball L"
+  }
+ ],
+ "cog_dancers_boss": [
+  {
+   "active": true,
+   "hp": 300,
+   "name": "Dancer A"
+  },
+  {
+   "active": true,
+   "hp": 300,
+   "name": "Dancer B"
+  }
+ ],
+ "coral_11": [
+  {
+   "active": true,
+   "hp": 400,
+   "name": "Driller A"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "coral_12": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "coral_27": [
+  {
+   "active": true,
+   "hp": 820,
+   "name": "Coral Conch Driller Giant Solo"
+  }
+ ],
+ "coral_29": [
+  {
+   "active": true,
+   "hp": 550,
+   "name": "Zap Core Enemy"
+  }
+ ],
+ "coral_32": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "coral_33": [
+  {
+   "active": false,
+   "hp": 900,
+   "name": "Garmond Black Threaded Fighter"
+  }
+ ],
+ "coral_39": [
+  {
+   "active": true,
+   "hp": 900,
+   "name": "Coral Warrior Grey"
+  }
+ ],
+ "coral_judge_arena": [
+  {
+   "active": true,
+   "hp": 720,
+   "name": "Last Judge"
+  }
+ ],
+ "cradle_03": [
+  {
+   "active": true,
+   "hp": 1204,
+   "name": "Silk Boss"
+  }
+ ],
+ "cradle_destroyed_challenge_01": [
+  {
+   "active": true,
+   "hp": 999999,
+   "name": "Centipede Trap"
+  },
+  {
+   "active": true,
+   "hp": 999999,
+   "name": "Centipede Trap"
+  },
+  {
+   "active": true,
+   "hp": 999999,
+   "name": "Centipede Trap"
+  }
+ ],
+ "crawl_04": [
+  {
+   "active": true,
+   "hp": 200,
+   "name": "Roof Crab"
+  }
+ ],
+ "crawl_10": [
+  {
+   "active": true,
+   "hp": 1000,
+   "name": "Blue Assistant"
+  }
+ ],
+ "dock_02b": [
+  {
+   "active": true,
+   "hp": 9999,
+   "name": "Dock Guard Thrower Enc1"
+  }
+ ],
+ "dock_04": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "dock_09": [
+  {
+   "active": true,
+   "hp": 720,
+   "name": "Dock Guard Slasher"
+  },
+  {
+   "active": false,
+   "hp": 520,
+   "name": "Dock Guard Thrower"
+  }
+ ],
+ "dust_03": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "dust_11": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core (1)"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "dust_chef": [
+  {
+   "active": true,
+   "hp": 600,
+   "name": "Roachkeeper Chef (1)"
+  }
+ ],
+ "greymoor_02": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "greymoor_05_boss": [
+  {
+   "active": true,
+   "hp": 600,
+   "name": "Vampire Gnat"
+  }
+ ],
+ "greymoor_07": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "greymoor_08_boss": [
+  {
+   "active": true,
+   "hp": 600,
+   "name": "Vampire Gnat"
+  }
+ ],
+ "greymoor_08_mapper": [
+  {
+   "active": true,
+   "hp": 600,
+   "name": "Mapper Spar NPC"
+  }
+ ],
+ "greymoor_11": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "greymoor_12": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "greymoor_16": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "hang_03": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "hang_04": [
+  {
+   "active": true,
+   "hp": 230,
+   "name": "Song Heavy Sentry"
+  }
+ ],
+ "hang_04_boss": [
+  {
+   "active": false,
+   "hp": 230,
+   "name": "Song Heavy Sentry"
+  },
+  {
+   "active": false,
+   "hp": 230,
+   "name": "Song Heavy Sentry (2)"
+  },
+  {
+   "active": false,
+   "hp": 230,
+   "name": "Song Heavy Sentry (3)"
+  }
+ ],
+ "hang_07": [
+  {
+   "active": true,
+   "hp": 800,
+   "name": "Song Knight"
+  }
+ ],
+ "hang_13": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "hang_17b": [
+  {
+   "active": true,
+   "hp": 800,
+   "name": "Song Knight"
+  }
+ ],
+ "library_04": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel (1)"
+  }
+ ],
+ "library_06": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "library_09": [
+  {
+   "active": true,
+   "hp": 460,
+   "name": "Garmond Fighter"
+  }
+ ],
+ "library_13": [
+  {
+   "active": true,
+   "hp": 950,
+   "name": "Tormented Trobbio"
+  },
+  {
+   "active": true,
+   "hp": 700,
+   "name": "Trobbio"
+  }
+ ],
+ "memory_ant_queen": [
+  {
+   "active": true,
+   "hp": 1500,
+   "name": "Hunter Queen Boss"
+  }
+ ],
+ "memory_coral_tower": [
+  {
+   "active": true,
+   "hp": 1650,
+   "name": "Coral King"
+  }
+ ],
+ "mosstown_02": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "organ_01": [
+  {
+   "active": true,
+   "hp": 650,
+   "name": "Phantom"
+  }
+ ],
+ "peak_07": [
+  {
+   "active": true,
+   "hp": 910,
+   "name": "Pinstress Boss"
+  }
+ ],
+ "room_crowcourt_02": [
+  {
+   "active": true,
+   "hp": 1300,
+   "name": "Crawfather"
+  }
+ ],
+ "shadow_05": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "shadow_18": [
+  {
+   "active": true,
+   "hp": 650,
+   "name": "Swamp Shaman"
+  }
+ ],
+ "shellwood_01b": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "shellwood_02": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "shellwood_04b": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "shellwood_11b_memory": [
+  {
+   "active": true,
+   "hp": 1250,
+   "name": "Flower Queen Boss"
+  }
+ ],
+ "shellwood_15": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "shellwood_18": [
+  {
+   "active": true,
+   "hp": 310,
+   "name": "Splinter Queen"
+  }
+ ],
+ "shellwood_22": [
+  {
+   "active": true,
+   "hp": 1185,
+   "name": "Seth"
+  }
+ ],
+ "shellwood_26": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "slab_10b": [
+  {
+   "active": true,
+   "hp": 1300,
+   "name": "First Weaver"
+  }
+ ],
+ "slab_16b": [
+  {
+   "active": true,
+   "hp": 700,
+   "name": "Slab Fly Broodmother"
+  }
+ ],
+ "song_01": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "song_02": [
+  {
+   "active": true,
+   "hp": 99999,
+   "name": "Song Knight BattleEncounter"
+  }
+ ],
+ "song_04": [
+  {
+   "active": true,
+   "hp": 99999,
+   "name": "Song Knight BattleEncounter"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "song_05": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "song_15": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "song_17": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "song_25": [
+  {
+   "active": true,
+   "hp": 99999,
+   "name": "Song Knight BattleEncounter"
+  }
+ ],
+ "song_27": [
+  {
+   "active": true,
+   "hp": 99999,
+   "name": "Song Knight BattleEncounter"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core_Citadel"
+  }
+ ],
+ "song_tower_01": [
+  {
+   "active": true,
+   "hp": 800,
+   "name": "Lace Boss2 New"
+  }
+ ],
+ "tut_02": [
+  {
+   "active": true,
+   "hp": 350,
+   "name": "Mossbone Mother Ambient"
+  }
+ ],
+ "under_02": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "under_05": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "under_18": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "under_27": [
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ],
+ "ward_02_boss": [
+  {
+   "active": true,
+   "hp": 1000,
+   "name": "Conductor Boss"
+  }
+ ],
+ "weave_03": [
+  {
+   "active": true,
+   "hp": 350,
+   "name": "Mossbone Mother B"
+  },
+  {
+   "active": true,
+   "hp": 350,
+   "name": "Mossbone Mother A"
+  },
+  {
+   "active": true,
+   "hp": 190,
+   "name": "Black_Thread_Core"
+  }
+ ]
+}
