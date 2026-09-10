@@ -112,6 +112,12 @@ namespace SilksongGodhome.Godhome
             // loaded the ordinary way and the hero is placed by the scene's own respawn
             // marker - Hollow Knight's gate name means nothing there.
             bool godhomeRoom = Rebuild.GodhomeData.HasScene(scene);
+            if (!godhomeRoom && entry != null)
+            {
+                // A Silksong room needs the boss piece loading, the hero standing
+                // somewhere solid, and something watching the boss so the run advances.
+                PantheonArena.Install(entry);
+            }
             Travel(scene, godhomeRoom ? ArenaEntryGate : "");
         }
 

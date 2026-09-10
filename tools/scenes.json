@@ -1,0 +1,2952 @@
+{
+"abandoned_town": {
+"objects": 1914,
+"parent": null,
+"standalone": true
+},
+"abyss_01": {
+"objects": 2005,
+"parent": null,
+"standalone": true
+},
+"abyss_02": {
+"objects": 2057,
+"parent": null,
+"standalone": true
+},
+"abyss_02b": {
+"objects": 2805,
+"parent": null,
+"standalone": true
+},
+"abyss_03": {
+"objects": 1647,
+"parent": null,
+"standalone": true
+},
+"abyss_04": {
+"objects": 2153,
+"parent": null,
+"standalone": true
+},
+"abyss_05": {
+"objects": 3233,
+"parent": null,
+"standalone": true
+},
+"abyss_06": {
+"objects": 792,
+"parent": null,
+"standalone": true
+},
+"abyss_07": {
+"objects": 1084,
+"parent": null,
+"standalone": true
+},
+"abyss_08": {
+"objects": 2770,
+"parent": null,
+"standalone": true
+},
+"abyss_09": {
+"objects": 14103,
+"parent": null,
+"standalone": true
+},
+"abyss_11": {
+"objects": 696,
+"parent": null,
+"standalone": true
+},
+"abyss_12": {
+"objects": 555,
+"parent": null,
+"standalone": true
+},
+"abyss_13": {
+"objects": 2256,
+"parent": null,
+"standalone": true
+},
+"abyss_cocoon": {
+"objects": 4306,
+"parent": null,
+"standalone": true
+},
+"ant_02": {
+"objects": 1480,
+"parent": null,
+"standalone": true
+},
+"ant_03": {
+"objects": 1542,
+"parent": null,
+"standalone": true
+},
+"ant_04": {
+"objects": 2496,
+"parent": null,
+"standalone": true
+},
+"ant_04_left": {
+"objects": 2511,
+"parent": null,
+"standalone": true
+},
+"ant_04_mid": {
+"objects": 2143,
+"parent": null,
+"standalone": true
+},
+"ant_05b": {
+"objects": 1459,
+"parent": null,
+"standalone": true
+},
+"ant_05c": {
+"objects": 1295,
+"parent": null,
+"standalone": true
+},
+"ant_08": {
+"objects": 2886,
+"parent": null,
+"standalone": true
+},
+"ant_09": {
+"objects": 2067,
+"parent": null,
+"standalone": true
+},
+"ant_14": {
+"objects": 1827,
+"parent": null,
+"standalone": true
+},
+"ant_17": {
+"objects": 410,
+"parent": null,
+"standalone": true
+},
+"ant_19": {
+"objects": 4616,
+"parent": null,
+"standalone": true
+},
+"ant_20": {
+"objects": 2794,
+"parent": null,
+"standalone": true
+},
+"ant_21": {
+"objects": 1297,
+"parent": null,
+"standalone": true
+},
+"ant_merchant": {
+"objects": 1598,
+"parent": null,
+"standalone": true
+},
+"ant_queen": {
+"objects": 540,
+"parent": null,
+"standalone": true
+},
+"aqueduct_01": {
+"objects": 3418,
+"parent": null,
+"standalone": true
+},
+"aqueduct_02": {
+"objects": 1795,
+"parent": null,
+"standalone": true
+},
+"aqueduct_03": {
+"objects": 3356,
+"parent": null,
+"standalone": true
+},
+"aqueduct_04": {
+"objects": 2613,
+"parent": null,
+"standalone": true
+},
+"aqueduct_05": {
+"objects": 2680,
+"parent": null,
+"standalone": true
+},
+"aqueduct_05_caravan": {
+"objects": 468,
+"parent": "aqueduct_05",
+"standalone": false
+},
+"aqueduct_05_festival": {
+"objects": 2430,
+"parent": "aqueduct_05",
+"standalone": false
+},
+"aqueduct_05_pre": {
+"objects": 53,
+"parent": "aqueduct_05",
+"standalone": false
+},
+"aqueduct_06": {
+"objects": 2762,
+"parent": null,
+"standalone": true
+},
+"aqueduct_07": {
+"objects": 971,
+"parent": null,
+"standalone": true
+},
+"aqueduct_08": {
+"objects": 583,
+"parent": null,
+"standalone": true
+},
+"arborium_01": {
+"objects": 2519,
+"parent": null,
+"standalone": true
+},
+"arborium_02": {
+"objects": 1478,
+"parent": null,
+"standalone": true
+},
+"arborium_03": {
+"objects": 1604,
+"parent": null,
+"standalone": true
+},
+"arborium_04": {
+"objects": 1662,
+"parent": null,
+"standalone": true
+},
+"arborium_05": {
+"objects": 1465,
+"parent": null,
+"standalone": true
+},
+"arborium_06": {
+"objects": 1709,
+"parent": null,
+"standalone": true
+},
+"arborium_07": {
+"objects": 1925,
+"parent": null,
+"standalone": true
+},
+"arborium_08": {
+"objects": 1575,
+"parent": null,
+"standalone": true
+},
+"arborium_09": {
+"objects": 3280,
+"parent": null,
+"standalone": true
+},
+"arborium_10": {
+"objects": 620,
+"parent": null,
+"standalone": true
+},
+"arborium_11": {
+"objects": 2596,
+"parent": null,
+"standalone": true
+},
+"arborium_tube": {
+"objects": 423,
+"parent": null,
+"standalone": true
+},
+"aspid_01": {
+"objects": 3410,
+"parent": null,
+"standalone": true
+},
+"bellshrine": {
+"objects": 382,
+"parent": null,
+"standalone": true
+},
+"bellshrine_02": {
+"objects": 459,
+"parent": null,
+"standalone": true
+},
+"bellshrine_03": {
+"objects": 573,
+"parent": null,
+"standalone": true
+},
+"bellshrine_05": {
+"objects": 607,
+"parent": null,
+"standalone": true
+},
+"bellshrine_coral": {
+"objects": 450,
+"parent": null,
+"standalone": true
+},
+"bellshrine_enclave": {
+"objects": 668,
+"parent": null,
+"standalone": true
+},
+"bellshrine_lore_additive": {
+"objects": 23,
+"parent": null,
+"standalone": false
+},
+"belltown": {
+"objects": 3018,
+"parent": null,
+"standalone": true
+},
+"belltown_04": {
+"objects": 3131,
+"parent": null,
+"standalone": true
+},
+"belltown_06": {
+"objects": 1560,
+"parent": null,
+"standalone": true
+},
+"belltown_07": {
+"objects": 1176,
+"parent": null,
+"standalone": true
+},
+"belltown_08": {
+"objects": 1445,
+"parent": null,
+"standalone": true
+},
+"belltown_basement": {
+"objects": 1582,
+"parent": null,
+"standalone": true
+},
+"belltown_basement_03": {
+"objects": 4511,
+"parent": null,
+"standalone": true
+},
+"belltown_cutscene": {
+"objects": 9,
+"parent": "belltown",
+"standalone": false
+},
+"belltown_room_doctor": {
+"objects": 170,
+"parent": null,
+"standalone": true
+},
+"belltown_room_pinsmith": {
+"objects": 87,
+"parent": null,
+"standalone": true
+},
+"belltown_room_relic": {
+"objects": 169,
+"parent": null,
+"standalone": true
+},
+"belltown_room_shellwood": {
+"objects": 349,
+"parent": null,
+"standalone": true
+},
+"belltown_room_spare": {
+"objects": 444,
+"parent": null,
+"standalone": true
+},
+"belltown_shrine": {
+"objects": 1780,
+"parent": null,
+"standalone": true
+},
+"bellway_01": {
+"objects": 1023,
+"parent": null,
+"standalone": true
+},
+"bellway_01_boss": {
+"objects": 34,
+"parent": "bellway_01",
+"standalone": false
+},
+"bellway_02": {
+"objects": 1041,
+"parent": null,
+"standalone": true
+},
+"bellway_02_boss": {
+"objects": 34,
+"parent": "bellway_02",
+"standalone": false
+},
+"bellway_03": {
+"objects": 2327,
+"parent": null,
+"standalone": true
+},
+"bellway_03_boss": {
+"objects": 34,
+"parent": "bellway_03",
+"standalone": false
+},
+"bellway_04": {
+"objects": 1530,
+"parent": null,
+"standalone": true
+},
+"bellway_04_boss": {
+"objects": 34,
+"parent": "bellway_04",
+"standalone": false
+},
+"bellway_08": {
+"objects": 1028,
+"parent": null,
+"standalone": true
+},
+"bellway_aqueduct": {
+"objects": 1386,
+"parent": null,
+"standalone": true
+},
+"bellway_centipede_additive": {
+"objects": 56,
+"parent": "belltown_basement",
+"standalone": false
+},
+"bellway_centipede_arena": {
+"objects": 1729,
+"parent": null,
+"standalone": true
+},
+"bellway_city": {
+"objects": 2518,
+"parent": null,
+"standalone": true
+},
+"bellway_peak": {
+"objects": 861,
+"parent": null,
+"standalone": true
+},
+"bellway_peak_02": {
+"objects": 1703,
+"parent": null,
+"standalone": true
+},
+"bellway_shadow": {
+"objects": 1133,
+"parent": null,
+"standalone": true
+},
+"bone_01": {
+"objects": 3548,
+"parent": null,
+"standalone": true
+},
+"bone_01b": {
+"objects": 882,
+"parent": null,
+"standalone": true
+},
+"bone_01c": {
+"objects": 1499,
+"parent": null,
+"standalone": true
+},
+"bone_02": {
+"objects": 2215,
+"parent": null,
+"standalone": true
+},
+"bone_03": {
+"objects": 3030,
+"parent": null,
+"standalone": true
+},
+"bone_04": {
+"objects": 3210,
+"parent": null,
+"standalone": true
+},
+"bone_05": {
+"objects": 1996,
+"parent": null,
+"standalone": true
+},
+"bone_05_bellway": {
+"objects": 36,
+"parent": "bone_05",
+"standalone": false
+},
+"bone_05_boss": {
+"objects": 202,
+"parent": "bone_05",
+"standalone": false
+},
+"bone_05b": {
+"objects": 833,
+"parent": null,
+"standalone": true
+},
+"bone_06": {
+"objects": 2362,
+"parent": null,
+"standalone": true
+},
+"bone_07": {
+"objects": 2919,
+"parent": null,
+"standalone": true
+},
+"bone_08": {
+"objects": 1752,
+"parent": null,
+"standalone": true
+},
+"bone_09": {
+"objects": 2487,
+"parent": null,
+"standalone": true
+},
+"bone_10": {
+"objects": 2711,
+"parent": null,
+"standalone": true
+},
+"bone_11": {
+"objects": 2317,
+"parent": null,
+"standalone": true
+},
+"bone_11b": {
+"objects": 508,
+"parent": null,
+"standalone": true
+},
+"bone_12": {
+"objects": 1654,
+"parent": null,
+"standalone": true
+},
+"bone_14": {
+"objects": 2045,
+"parent": null,
+"standalone": true
+},
+"bone_15": {
+"objects": 2124,
+"parent": null,
+"standalone": true
+},
+"bone_16": {
+"objects": 2411,
+"parent": null,
+"standalone": true
+},
+"bone_17": {
+"objects": 246,
+"parent": null,
+"standalone": true
+},
+"bone_18": {
+"objects": 920,
+"parent": null,
+"standalone": true
+},
+"bone_19": {
+"objects": 1248,
+"parent": null,
+"standalone": true
+},
+"bone_east_01": {
+"objects": 1466,
+"parent": null,
+"standalone": true
+},
+"bone_east_02": {
+"objects": 2317,
+"parent": null,
+"standalone": true
+},
+"bone_east_02b": {
+"objects": 3503,
+"parent": null,
+"standalone": true
+},
+"bone_east_03": {
+"objects": 3710,
+"parent": null,
+"standalone": true
+},
+"bone_east_04": {
+"objects": 1446,
+"parent": null,
+"standalone": true
+},
+"bone_east_04b": {
+"objects": 1253,
+"parent": null,
+"standalone": true
+},
+"bone_east_04c": {
+"objects": 863,
+"parent": null,
+"standalone": true
+},
+"bone_east_05": {
+"objects": 2986,
+"parent": null,
+"standalone": true
+},
+"bone_east_07": {
+"objects": 3607,
+"parent": null,
+"standalone": true
+},
+"bone_east_08": {
+"objects": 2746,
+"parent": null,
+"standalone": true
+},
+"bone_east_08_boss_beastfly": {
+"objects": 308,
+"parent": "bone_east_08",
+"standalone": false
+},
+"bone_east_08_boss_golem": {
+"objects": 68,
+"parent": "bone_east_08",
+"standalone": false
+},
+"bone_east_08_boss_golem_rest": {
+"objects": 144,
+"parent": "bone_east_08",
+"standalone": false
+},
+"bone_east_09": {
+"objects": 2304,
+"parent": null,
+"standalone": true
+},
+"bone_east_09b": {
+"objects": 2412,
+"parent": null,
+"standalone": true
+},
+"bone_east_10": {
+"objects": 2341,
+"parent": null,
+"standalone": true
+},
+"bone_east_10_church": {
+"objects": 1096,
+"parent": null,
+"standalone": true
+},
+"bone_east_10_room": {
+"objects": 681,
+"parent": null,
+"standalone": true
+},
+"bone_east_11": {
+"objects": 2748,
+"parent": null,
+"standalone": true
+},
+"bone_east_12": {
+"objects": 1959,
+"parent": null,
+"standalone": true
+},
+"bone_east_13": {
+"objects": 2459,
+"parent": null,
+"standalone": true
+},
+"bone_east_14": {
+"objects": 3407,
+"parent": null,
+"standalone": true
+},
+"bone_east_14b": {
+"objects": 3693,
+"parent": null,
+"standalone": true
+},
+"bone_east_15": {
+"objects": 3590,
+"parent": null,
+"standalone": true
+},
+"bone_east_16": {
+"objects": 1134,
+"parent": null,
+"standalone": true
+},
+"bone_east_17": {
+"objects": 2539,
+"parent": null,
+"standalone": true
+},
+"bone_east_17b": {
+"objects": 2090,
+"parent": null,
+"standalone": true
+},
+"bone_east_18": {
+"objects": 3514,
+"parent": null,
+"standalone": true
+},
+"bone_east_18b": {
+"objects": 4935,
+"parent": null,
+"standalone": true
+},
+"bone_east_18c": {
+"objects": 647,
+"parent": null,
+"standalone": true
+},
+"bone_east_20": {
+"objects": 1460,
+"parent": null,
+"standalone": true
+},
+"bone_east_21": {
+"objects": 222,
+"parent": null,
+"standalone": true
+},
+"bone_east_22": {
+"objects": 668,
+"parent": null,
+"standalone": true
+},
+"bone_east_24": {
+"objects": 5983,
+"parent": null,
+"standalone": true
+},
+"bone_east_25": {
+"objects": 1533,
+"parent": null,
+"standalone": true
+},
+"bone_east_26": {
+"objects": 2667,
+"parent": null,
+"standalone": true
+},
+"bone_east_27": {
+"objects": 1344,
+"parent": null,
+"standalone": true
+},
+"bone_east_lavachallenge": {
+"objects": 3253,
+"parent": null,
+"standalone": true
+},
+"bone_east_umbrella": {
+"objects": 177,
+"parent": null,
+"standalone": true
+},
+"bone_east_weavehome": {
+"objects": 2149,
+"parent": null,
+"standalone": true
+},
+"bone_steel_servant": {
+"objects": 1180,
+"parent": null,
+"standalone": true
+},
+"bonegrave": {
+"objects": 3576,
+"parent": null,
+"standalone": true
+},
+"bonetown": {
+"objects": 6293,
+"parent": null,
+"standalone": true
+},
+"bonetown_boss": {
+"objects": 1118,
+"parent": "bonetown",
+"standalone": false
+},
+"chapel_wanderer": {
+"objects": 2905,
+"parent": null,
+"standalone": true
+},
+"cinematic_ending_a": {
+"objects": 5,
+"parent": null,
+"standalone": true
+},
+"cinematic_ending_b": {
+"objects": 5,
+"parent": null,
+"standalone": true
+},
+"cinematic_ending_c": {
+"objects": 6,
+"parent": null,
+"standalone": true
+},
+"cinematic_ending_d": {
+"objects": 6,
+"parent": null,
+"standalone": true
+},
+"cinematic_ending_e": {
+"objects": 6,
+"parent": null,
+"standalone": true
+},
+"cinematic_mrmushroom": {
+"objects": 9,
+"parent": null,
+"standalone": true
+},
+"cinematic_stag_travel": {
+"objects": 7,
+"parent": null,
+"standalone": false
+},
+"city_lace_cutscene": {
+"objects": 10,
+"parent": "bellway_city",
+"standalone": false
+},
+"clover_01": {
+"objects": 1645,
+"parent": null,
+"standalone": true
+},
+"clover_01b": {
+"objects": 1439,
+"parent": null,
+"standalone": true
+},
+"clover_02c": {
+"objects": 5195,
+"parent": null,
+"standalone": true
+},
+"clover_03": {
+"objects": 2950,
+"parent": null,
+"standalone": true
+},
+"clover_04b": {
+"objects": 3522,
+"parent": null,
+"standalone": true
+},
+"clover_05c": {
+"objects": 2773,
+"parent": null,
+"standalone": true
+},
+"clover_06": {
+"objects": 3985,
+"parent": null,
+"standalone": true
+},
+"clover_10": {
+"objects": 3780,
+"parent": null,
+"standalone": true
+},
+"clover_10_web": {
+"objects": 600,
+"parent": null,
+"standalone": true
+},
+"clover_11": {
+"objects": 1082,
+"parent": null,
+"standalone": true
+},
+"clover_16": {
+"objects": 3891,
+"parent": null,
+"standalone": true
+},
+"clover_18": {
+"objects": 3966,
+"parent": null,
+"standalone": true
+},
+"clover_19": {
+"objects": 1372,
+"parent": null,
+"standalone": true
+},
+"clover_20": {
+"objects": 1470,
+"parent": null,
+"standalone": true
+},
+"clover_21": {
+"objects": 2072,
+"parent": null,
+"standalone": true
+},
+"cog_04": {
+"objects": 5137,
+"parent": null,
+"standalone": true
+},
+"cog_05": {
+"objects": 1768,
+"parent": null,
+"standalone": true
+},
+"cog_06": {
+"objects": 969,
+"parent": null,
+"standalone": true
+},
+"cog_07": {
+"objects": 2108,
+"parent": null,
+"standalone": true
+},
+"cog_08": {
+"objects": 4199,
+"parent": null,
+"standalone": true
+},
+"cog_09": {
+"objects": 2185,
+"parent": null,
+"standalone": true
+},
+"cog_09_destroyed": {
+"objects": 1842,
+"parent": null,
+"standalone": true
+},
+"cog_10": {
+"objects": 1160,
+"parent": null,
+"standalone": true
+},
+"cog_10_destroyed": {
+"objects": 2493,
+"parent": null,
+"standalone": true
+},
+"cog_bench": {
+"objects": 854,
+"parent": null,
+"standalone": true
+},
+"cog_dancers": {
+"objects": 1836,
+"parent": null,
+"standalone": true
+},
+"cog_dancers_boss": {
+"objects": 1047,
+"parent": "cog_dancers",
+"standalone": false
+},
+"cog_pass": {
+"objects": 827,
+"parent": null,
+"standalone": true
+},
+"coral_02": {
+"objects": 4059,
+"parent": null,
+"standalone": true
+},
+"coral_03": {
+"objects": 3052,
+"parent": null,
+"standalone": true
+},
+"coral_10": {
+"objects": 1697,
+"parent": null,
+"standalone": true
+},
+"coral_11": {
+"objects": 1761,
+"parent": null,
+"standalone": true
+},
+"coral_11b": {
+"objects": 825,
+"parent": null,
+"standalone": true
+},
+"coral_12": {
+"objects": 2131,
+"parent": null,
+"standalone": true
+},
+"coral_19": {
+"objects": 3832,
+"parent": null,
+"standalone": true
+},
+"coral_19b": {
+"objects": 1199,
+"parent": null,
+"standalone": true
+},
+"coral_23": {
+"objects": 7435,
+"parent": null,
+"standalone": true
+},
+"coral_24": {
+"objects": 5042,
+"parent": null,
+"standalone": true
+},
+"coral_25": {
+"objects": 1217,
+"parent": null,
+"standalone": true
+},
+"coral_26": {
+"objects": 2501,
+"parent": null,
+"standalone": true
+},
+"coral_27": {
+"objects": 4179,
+"parent": null,
+"standalone": true
+},
+"coral_28": {
+"objects": 2251,
+"parent": null,
+"standalone": true
+},
+"coral_29": {
+"objects": 5853,
+"parent": null,
+"standalone": true
+},
+"coral_32": {
+"objects": 3811,
+"parent": null,
+"standalone": true
+},
+"coral_33": {
+"objects": 730,
+"parent": null,
+"standalone": true
+},
+"coral_34": {
+"objects": 2554,
+"parent": null,
+"standalone": true
+},
+"coral_35": {
+"objects": 1371,
+"parent": null,
+"standalone": true
+},
+"coral_35b": {
+"objects": 2192,
+"parent": null,
+"standalone": true
+},
+"coral_36": {
+"objects": 898,
+"parent": null,
+"standalone": true
+},
+"coral_37": {
+"objects": 600,
+"parent": null,
+"standalone": true
+},
+"coral_38": {
+"objects": 2444,
+"parent": null,
+"standalone": true
+},
+"coral_39": {
+"objects": 1154,
+"parent": null,
+"standalone": true
+},
+"coral_40": {
+"objects": 634,
+"parent": null,
+"standalone": true
+},
+"coral_41": {
+"objects": 4207,
+"parent": null,
+"standalone": true
+},
+"coral_42": {
+"objects": 868,
+"parent": null,
+"standalone": true
+},
+"coral_43": {
+"objects": 1043,
+"parent": null,
+"standalone": true
+},
+"coral_44": {
+"objects": 3958,
+"parent": null,
+"standalone": true
+},
+"coral_judge_arena": {
+"objects": 1340,
+"parent": null,
+"standalone": true
+},
+"coral_tower_01": {
+"objects": 1482,
+"parent": null,
+"standalone": true
+},
+"cradle_01": {
+"objects": 603,
+"parent": null,
+"standalone": true
+},
+"cradle_01_destroyed": {
+"objects": 1104,
+"parent": null,
+"standalone": true
+},
+"cradle_02": {
+"objects": 861,
+"parent": null,
+"standalone": true
+},
+"cradle_02b": {
+"objects": 857,
+"parent": null,
+"standalone": true
+},
+"cradle_03": {
+"objects": 3654,
+"parent": null,
+"standalone": true
+},
+"cradle_03_destroyed": {
+"objects": 1567,
+"parent": null,
+"standalone": true
+},
+"cradle_destroyed_challenge_01": {
+"objects": 5454,
+"parent": null,
+"standalone": true
+},
+"cradle_destroyed_challenge_02": {
+"objects": 2390,
+"parent": null,
+"standalone": true
+},
+"cradle_destroyed_challenge_bench": {
+"objects": 597,
+"parent": null,
+"standalone": true
+},
+"crawl_01": {
+"objects": 3361,
+"parent": null,
+"standalone": true
+},
+"crawl_02": {
+"objects": 2028,
+"parent": null,
+"standalone": true
+},
+"crawl_03": {
+"objects": 3276,
+"parent": null,
+"standalone": true
+},
+"crawl_03b": {
+"objects": 1337,
+"parent": null,
+"standalone": true
+},
+"crawl_04": {
+"objects": 1523,
+"parent": null,
+"standalone": true
+},
+"crawl_05": {
+"objects": 3102,
+"parent": null,
+"standalone": true
+},
+"crawl_06": {
+"objects": 1087,
+"parent": null,
+"standalone": true
+},
+"crawl_07": {
+"objects": 1369,
+"parent": null,
+"standalone": true
+},
+"crawl_08": {
+"objects": 791,
+"parent": null,
+"standalone": true
+},
+"crawl_09": {
+"objects": 2733,
+"parent": null,
+"standalone": true
+},
+"crawl_10": {
+"objects": 492,
+"parent": null,
+"standalone": true
+},
+"demoend": {
+"objects": 12,
+"parent": null,
+"standalone": true
+},
+"demostart": {
+"objects": 6,
+"parent": null,
+"standalone": false
+},
+"dock_01": {
+"objects": 1491,
+"parent": null,
+"standalone": true
+},
+"dock_02": {
+"objects": 5192,
+"parent": null,
+"standalone": true
+},
+"dock_02b": {
+"objects": 4490,
+"parent": null,
+"standalone": true
+},
+"dock_03": {
+"objects": 3665,
+"parent": null,
+"standalone": true
+},
+"dock_03b": {
+"objects": 870,
+"parent": null,
+"standalone": true
+},
+"dock_03c": {
+"objects": 4437,
+"parent": null,
+"standalone": true
+},
+"dock_03d": {
+"objects": 1078,
+"parent": null,
+"standalone": true
+},
+"dock_04": {
+"objects": 1684,
+"parent": null,
+"standalone": true
+},
+"dock_05": {
+"objects": 552,
+"parent": null,
+"standalone": true
+},
+"dock_06_church": {
+"objects": 1405,
+"parent": null,
+"standalone": true
+},
+"dock_08": {
+"objects": 1873,
+"parent": null,
+"standalone": true
+},
+"dock_09": {
+"objects": 1651,
+"parent": null,
+"standalone": true
+},
+"dock_10": {
+"objects": 409,
+"parent": null,
+"standalone": true
+},
+"dock_11": {
+"objects": 7762,
+"parent": null,
+"standalone": true
+},
+"dock_12": {
+"objects": 1006,
+"parent": null,
+"standalone": true
+},
+"dock_13": {
+"objects": 966,
+"parent": null,
+"standalone": true
+},
+"dock_14": {
+"objects": 457,
+"parent": null,
+"standalone": true
+},
+"dock_15": {
+"objects": 1047,
+"parent": null,
+"standalone": true
+},
+"dock_16": {
+"objects": 1190,
+"parent": null,
+"standalone": true
+},
+"dust_01": {
+"objects": 3040,
+"parent": null,
+"standalone": true
+},
+"dust_02": {
+"objects": 3774,
+"parent": null,
+"standalone": true
+},
+"dust_03": {
+"objects": 3459,
+"parent": null,
+"standalone": true
+},
+"dust_04": {
+"objects": 3027,
+"parent": null,
+"standalone": true
+},
+"dust_05": {
+"objects": 5165,
+"parent": null,
+"standalone": true
+},
+"dust_06": {
+"objects": 4564,
+"parent": null,
+"standalone": true
+},
+"dust_09": {
+"objects": 3086,
+"parent": null,
+"standalone": true
+},
+"dust_10": {
+"objects": 4009,
+"parent": null,
+"standalone": true
+},
+"dust_11": {
+"objects": 3481,
+"parent": null,
+"standalone": true
+},
+"dust_12": {
+"objects": 968,
+"parent": null,
+"standalone": true
+},
+"dust_barb": {
+"objects": 735,
+"parent": null,
+"standalone": true
+},
+"dust_chef": {
+"objects": 1954,
+"parent": null,
+"standalone": true
+},
+"dust_maze_01": {
+"objects": 2945,
+"parent": null,
+"standalone": true
+},
+"dust_maze_02": {
+"objects": 3609,
+"parent": null,
+"standalone": true
+},
+"dust_maze_03": {
+"objects": 2931,
+"parent": null,
+"standalone": true
+},
+"dust_maze_04": {
+"objects": 3356,
+"parent": null,
+"standalone": true
+},
+"dust_maze_05": {
+"objects": 3502,
+"parent": null,
+"standalone": true
+},
+"dust_maze_06": {
+"objects": 3491,
+"parent": null,
+"standalone": true
+},
+"dust_maze_07": {
+"objects": 1708,
+"parent": null,
+"standalone": true
+},
+"dust_maze_08": {
+"objects": 2858,
+"parent": null,
+"standalone": true
+},
+"dust_maze_08_completed": {
+"objects": 2894,
+"parent": null,
+"standalone": true
+},
+"dust_maze_09_entrance": {
+"objects": 1086,
+"parent": null,
+"standalone": true
+},
+"dust_maze_crossing": {
+"objects": 1015,
+"parent": null,
+"standalone": true
+},
+"dust_maze_last_hall": {
+"objects": 717,
+"parent": null,
+"standalone": true
+},
+"dust_shack": {
+"objects": 328,
+"parent": null,
+"standalone": true
+},
+"end_credits": {
+"objects": 230,
+"parent": null,
+"standalone": true
+},
+"end_credits_scroll": {
+"objects": 152,
+"parent": null,
+"standalone": true
+},
+"end_game_completion": {
+"objects": 163,
+"parent": null,
+"standalone": false
+},
+"greymoor_01": {
+"objects": 2947,
+"parent": null,
+"standalone": true
+},
+"greymoor_02": {
+"objects": 3984,
+"parent": null,
+"standalone": true
+},
+"greymoor_03": {
+"objects": 4510,
+"parent": null,
+"standalone": true
+},
+"greymoor_04": {
+"objects": 2984,
+"parent": null,
+"standalone": true
+},
+"greymoor_05": {
+"objects": 3163,
+"parent": null,
+"standalone": true
+},
+"greymoor_05_boss": {
+"objects": 61,
+"parent": "greymoor_05",
+"standalone": false
+},
+"greymoor_06": {
+"objects": 3407,
+"parent": null,
+"standalone": true
+},
+"greymoor_07": {
+"objects": 3654,
+"parent": null,
+"standalone": true
+},
+"greymoor_08": {
+"objects": 2506,
+"parent": null,
+"standalone": true
+},
+"greymoor_08_boss": {
+"objects": 116,
+"parent": "greymoor_08",
+"standalone": false
+},
+"greymoor_08_caravan": {
+"objects": 445,
+"parent": "greymoor_08",
+"standalone": false
+},
+"greymoor_08_mapper": {
+"objects": 69,
+"parent": "greymoor_08",
+"standalone": false
+},
+"greymoor_10": {
+"objects": 1416,
+"parent": null,
+"standalone": true
+},
+"greymoor_11": {
+"objects": 2295,
+"parent": null,
+"standalone": true
+},
+"greymoor_12": {
+"objects": 2514,
+"parent": null,
+"standalone": true
+},
+"greymoor_13": {
+"objects": 1876,
+"parent": null,
+"standalone": true
+},
+"greymoor_15": {
+"objects": 2529,
+"parent": null,
+"standalone": true
+},
+"greymoor_15b": {
+"objects": 8952,
+"parent": null,
+"standalone": true
+},
+"greymoor_16": {
+"objects": 3698,
+"parent": null,
+"standalone": true
+},
+"greymoor_17": {
+"objects": 937,
+"parent": null,
+"standalone": true
+},
+"greymoor_20b": {
+"objects": 1009,
+"parent": null,
+"standalone": true
+},
+"greymoor_20c": {
+"objects": 3432,
+"parent": null,
+"standalone": true
+},
+"greymoor_21": {
+"objects": 608,
+"parent": null,
+"standalone": true
+},
+"greymoor_22": {
+"objects": 2019,
+"parent": null,
+"standalone": true
+},
+"greymoor_24": {
+"objects": 1180,
+"parent": null,
+"standalone": true
+},
+"halfway_01": {
+"objects": 865,
+"parent": null,
+"standalone": true
+},
+"hang_01": {
+"objects": 1507,
+"parent": null,
+"standalone": true
+},
+"hang_02": {
+"objects": 1358,
+"parent": null,
+"standalone": true
+},
+"hang_03": {
+"objects": 1779,
+"parent": null,
+"standalone": true
+},
+"hang_03_top": {
+"objects": 1600,
+"parent": null,
+"standalone": true
+},
+"hang_04": {
+"objects": 1292,
+"parent": null,
+"standalone": true
+},
+"hang_04_boss": {
+"objects": 936,
+"parent": "hang_04",
+"standalone": false
+},
+"hang_06": {
+"objects": 1680,
+"parent": null,
+"standalone": true
+},
+"hang_06_bank": {
+"objects": 2975,
+"parent": null,
+"standalone": true
+},
+"hang_06b": {
+"objects": 839,
+"parent": null,
+"standalone": true
+},
+"hang_07": {
+"objects": 1866,
+"parent": null,
+"standalone": true
+},
+"hang_08": {
+"objects": 2989,
+"parent": null,
+"standalone": true
+},
+"hang_09": {
+"objects": 1106,
+"parent": null,
+"standalone": true
+},
+"hang_10": {
+"objects": 1245,
+"parent": null,
+"standalone": true
+},
+"hang_12": {
+"objects": 1030,
+"parent": null,
+"standalone": true
+},
+"hang_13": {
+"objects": 1703,
+"parent": null,
+"standalone": true
+},
+"hang_14": {
+"objects": 2142,
+"parent": null,
+"standalone": true
+},
+"hang_15": {
+"objects": 542,
+"parent": null,
+"standalone": true
+},
+"hang_16": {
+"objects": 843,
+"parent": null,
+"standalone": true
+},
+"hang_17b": {
+"objects": 1235,
+"parent": null,
+"standalone": true
+},
+"last_dive": {
+"objects": 124,
+"parent": null,
+"standalone": true
+},
+"last_dive_return": {
+"objects": 120,
+"parent": null,
+"standalone": true
+},
+"library_01": {
+"objects": 3686,
+"parent": null,
+"standalone": true
+},
+"library_02": {
+"objects": 3951,
+"parent": null,
+"standalone": true
+},
+"library_03": {
+"objects": 3525,
+"parent": null,
+"standalone": true
+},
+"library_04": {
+"objects": 8297,
+"parent": null,
+"standalone": true
+},
+"library_05": {
+"objects": 2315,
+"parent": null,
+"standalone": true
+},
+"library_06": {
+"objects": 2662,
+"parent": null,
+"standalone": true
+},
+"library_07": {
+"objects": 3856,
+"parent": null,
+"standalone": true
+},
+"library_08": {
+"objects": 2668,
+"parent": null,
+"standalone": true
+},
+"library_09": {
+"objects": 3823,
+"parent": null,
+"standalone": true
+},
+"library_10": {
+"objects": 1633,
+"parent": null,
+"standalone": true
+},
+"library_11": {
+"objects": 2007,
+"parent": null,
+"standalone": true
+},
+"library_11b": {
+"objects": 6115,
+"parent": null,
+"standalone": true
+},
+"library_12": {
+"objects": 4772,
+"parent": null,
+"standalone": true
+},
+"library_12b": {
+"objects": 1935,
+"parent": null,
+"standalone": true
+},
+"library_13": {
+"objects": 3903,
+"parent": null,
+"standalone": true
+},
+"library_13b": {
+"objects": 1134,
+"parent": null,
+"standalone": true
+},
+"library_14": {
+"objects": 951,
+"parent": null,
+"standalone": true
+},
+"library_15": {
+"objects": 1560,
+"parent": null,
+"standalone": true
+},
+"library_16": {
+"objects": 597,
+"parent": null,
+"standalone": true
+},
+"memory_ant_queen": {
+"objects": 2708,
+"parent": null,
+"standalone": true
+},
+"memory_coral_tower": {
+"objects": 19120,
+"parent": null,
+"standalone": true
+},
+"memory_first_sinner": {
+"objects": 2882,
+"parent": null,
+"standalone": true
+},
+"memory_needolin": {
+"objects": 2557,
+"parent": null,
+"standalone": true
+},
+"memory_red": {
+"objects": 12738,
+"parent": null,
+"standalone": true
+},
+"memory_silk_heart_bellbeast": {
+"objects": 725,
+"parent": null,
+"standalone": true
+},
+"memory_silk_heart_lacetower": {
+"objects": 739,
+"parent": null,
+"standalone": true
+},
+"memory_silk_heart_wardboss": {
+"objects": 733,
+"parent": null,
+"standalone": true
+},
+"menu_credits": {
+"objects": 971,
+"parent": null,
+"standalone": false
+},
+"menu_title": {
+"objects": 4663,
+"parent": null,
+"standalone": true
+},
+"mosstown_01": {
+"objects": 2130,
+"parent": null,
+"standalone": true
+},
+"mosstown_02": {
+"objects": 3792,
+"parent": null,
+"standalone": true
+},
+"mosstown_02c": {
+"objects": 605,
+"parent": null,
+"standalone": true
+},
+"mosstown_03": {
+"objects": 2252,
+"parent": null,
+"standalone": true
+},
+"opening_sequence": {
+"objects": 72,
+"parent": null,
+"standalone": false
+},
+"opening_sequence_act3": {
+"objects": 16,
+"parent": null,
+"standalone": false
+},
+"organ_01": {
+"objects": 6246,
+"parent": null,
+"standalone": true
+},
+"peak_01": {
+"objects": 4810,
+"parent": null,
+"standalone": true
+},
+"peak_02": {
+"objects": 3709,
+"parent": null,
+"standalone": true
+},
+"peak_04": {
+"objects": 1703,
+"parent": null,
+"standalone": true
+},
+"peak_04c": {
+"objects": 986,
+"parent": null,
+"standalone": true
+},
+"peak_04d": {
+"objects": 1154,
+"parent": null,
+"standalone": true
+},
+"peak_05": {
+"objects": 3393,
+"parent": null,
+"standalone": true
+},
+"peak_05c": {
+"objects": 2154,
+"parent": null,
+"standalone": true
+},
+"peak_05d": {
+"objects": 879,
+"parent": null,
+"standalone": true
+},
+"peak_05e": {
+"objects": 2504,
+"parent": null,
+"standalone": true
+},
+"peak_06": {
+"objects": 2460,
+"parent": null,
+"standalone": true
+},
+"peak_06b": {
+"objects": 497,
+"parent": null,
+"standalone": true
+},
+"peak_07": {
+"objects": 2777,
+"parent": null,
+"standalone": true
+},
+"peak_08": {
+"objects": 3828,
+"parent": null,
+"standalone": true
+},
+"peak_08b": {
+"objects": 2672,
+"parent": null,
+"standalone": true
+},
+"peak_10": {
+"objects": 924,
+"parent": null,
+"standalone": true
+},
+"peak_12": {
+"objects": 371,
+"parent": null,
+"standalone": true
+},
+"peak_mask_maker": {
+"objects": 126,
+"parent": null,
+"standalone": true
+},
+"permadeath": {
+"objects": 27,
+"parent": null,
+"standalone": true
+},
+"pre_menu_intro": {
+"objects": 15,
+"parent": null,
+"standalone": false
+},
+"quit_to_menu": {
+"objects": 10,
+"parent": null,
+"standalone": false
+},
+"room_caravan_interior": {
+"objects": 85,
+"parent": null,
+"standalone": true
+},
+"room_caravan_interior_travel": {
+"objects": 111,
+"parent": null,
+"standalone": true
+},
+"room_caravan_spa": {
+"objects": 139,
+"parent": null,
+"standalone": true
+},
+"room_crowcourt": {
+"objects": 3502,
+"parent": null,
+"standalone": true
+},
+"room_crowcourt_02": {
+"objects": 2149,
+"parent": null,
+"standalone": true
+},
+"room_diving_bell": {
+"objects": 113,
+"parent": null,
+"standalone": true
+},
+"room_diving_bell_abyss": {
+"objects": 88,
+"parent": null,
+"standalone": true
+},
+"room_diving_bell_abyss_fixed": {
+"objects": 111,
+"parent": null,
+"standalone": true
+},
+"room_forge": {
+"objects": 3738,
+"parent": null,
+"standalone": true
+},
+"room_huntress": {
+"objects": 261,
+"parent": null,
+"standalone": true
+},
+"room_pinstress": {
+"objects": 352,
+"parent": null,
+"standalone": true
+},
+"room_witch": {
+"objects": 252,
+"parent": null,
+"standalone": true
+},
+"shadow_01": {
+"objects": 2927,
+"parent": null,
+"standalone": true
+},
+"shadow_02": {
+"objects": 3551,
+"parent": null,
+"standalone": true
+},
+"shadow_03": {
+"objects": 2307,
+"parent": null,
+"standalone": true
+},
+"shadow_04": {
+"objects": 1964,
+"parent": null,
+"standalone": true
+},
+"shadow_04b": {
+"objects": 1426,
+"parent": null,
+"standalone": true
+},
+"shadow_05": {
+"objects": 3062,
+"parent": null,
+"standalone": true
+},
+"shadow_08": {
+"objects": 1666,
+"parent": null,
+"standalone": true
+},
+"shadow_09": {
+"objects": 2090,
+"parent": null,
+"standalone": true
+},
+"shadow_10": {
+"objects": 3587,
+"parent": null,
+"standalone": true
+},
+"shadow_11": {
+"objects": 1347,
+"parent": null,
+"standalone": true
+},
+"shadow_12": {
+"objects": 2006,
+"parent": null,
+"standalone": true
+},
+"shadow_13": {
+"objects": 3462,
+"parent": null,
+"standalone": true
+},
+"shadow_14": {
+"objects": 875,
+"parent": null,
+"standalone": true
+},
+"shadow_15": {
+"objects": 1196,
+"parent": null,
+"standalone": true
+},
+"shadow_16": {
+"objects": 1663,
+"parent": null,
+"standalone": true
+},
+"shadow_18": {
+"objects": 1899,
+"parent": null,
+"standalone": true
+},
+"shadow_19": {
+"objects": 1686,
+"parent": null,
+"standalone": true
+},
+"shadow_20": {
+"objects": 4826,
+"parent": null,
+"standalone": true
+},
+"shadow_21": {
+"objects": 1324,
+"parent": null,
+"standalone": true
+},
+"shadow_22": {
+"objects": 970,
+"parent": null,
+"standalone": true
+},
+"shadow_23": {
+"objects": 426,
+"parent": null,
+"standalone": true
+},
+"shadow_24": {
+"objects": 2011,
+"parent": null,
+"standalone": true
+},
+"shadow_25": {
+"objects": 481,
+"parent": null,
+"standalone": true
+},
+"shadow_26": {
+"objects": 1502,
+"parent": null,
+"standalone": true
+},
+"shadow_27": {
+"objects": 1844,
+"parent": null,
+"standalone": true
+},
+"shadow_28": {
+"objects": 764,
+"parent": null,
+"standalone": true
+},
+"shadow_bilehaven_room": {
+"objects": 363,
+"parent": null,
+"standalone": true
+},
+"shadow_weavehome": {
+"objects": 2304,
+"parent": null,
+"standalone": true
+},
+"shellgrave": {
+"objects": 1291,
+"parent": null,
+"standalone": true
+},
+"shellwood_01": {
+"objects": 3514,
+"parent": null,
+"standalone": true
+},
+"shellwood_01b": {
+"objects": 3149,
+"parent": null,
+"standalone": true
+},
+"shellwood_02": {
+"objects": 3176,
+"parent": null,
+"standalone": true
+},
+"shellwood_03": {
+"objects": 2898,
+"parent": null,
+"standalone": true
+},
+"shellwood_04b": {
+"objects": 2805,
+"parent": null,
+"standalone": true
+},
+"shellwood_04c": {
+"objects": 1311,
+"parent": null,
+"standalone": true
+},
+"shellwood_08": {
+"objects": 1100,
+"parent": null,
+"standalone": true
+},
+"shellwood_08c": {
+"objects": 566,
+"parent": null,
+"standalone": true
+},
+"shellwood_10": {
+"objects": 3437,
+"parent": null,
+"standalone": true
+},
+"shellwood_11": {
+"objects": 1807,
+"parent": null,
+"standalone": true
+},
+"shellwood_11b": {
+"objects": 1131,
+"parent": null,
+"standalone": true
+},
+"shellwood_11b_memory": {
+"objects": 1852,
+"parent": null,
+"standalone": true
+},
+"shellwood_13": {
+"objects": 2575,
+"parent": null,
+"standalone": true
+},
+"shellwood_14": {
+"objects": 1829,
+"parent": null,
+"standalone": true
+},
+"shellwood_15": {
+"objects": 1878,
+"parent": null,
+"standalone": true
+},
+"shellwood_16": {
+"objects": 988,
+"parent": null,
+"standalone": true
+},
+"shellwood_18": {
+"objects": 2886,
+"parent": null,
+"standalone": true
+},
+"shellwood_19": {
+"objects": 1362,
+"parent": null,
+"standalone": true
+},
+"shellwood_20": {
+"objects": 1337,
+"parent": null,
+"standalone": true
+},
+"shellwood_22": {
+"objects": 1430,
+"parent": null,
+"standalone": true
+},
+"shellwood_25": {
+"objects": 2943,
+"parent": null,
+"standalone": true
+},
+"shellwood_25b": {
+"objects": 379,
+"parent": null,
+"standalone": true
+},
+"shellwood_26": {
+"objects": 2398,
+"parent": null,
+"standalone": true
+},
+"shellwood_witch": {
+"objects": 365,
+"parent": null,
+"standalone": true
+},
+"slab_01": {
+"objects": 1474,
+"parent": null,
+"standalone": true
+},
+"slab_02": {
+"objects": 1465,
+"parent": null,
+"standalone": true
+},
+"slab_03": {
+"objects": 4133,
+"parent": null,
+"standalone": true
+},
+"slab_04": {
+"objects": 1602,
+"parent": null,
+"standalone": true
+},
+"slab_05": {
+"objects": 1695,
+"parent": null,
+"standalone": true
+},
+"slab_06": {
+"objects": 1510,
+"parent": null,
+"standalone": true
+},
+"slab_07": {
+"objects": 2237,
+"parent": null,
+"standalone": true
+},
+"slab_08": {
+"objects": 539,
+"parent": null,
+"standalone": true
+},
+"slab_10b": {
+"objects": 1027,
+"parent": null,
+"standalone": true
+},
+"slab_10c": {
+"objects": 1451,
+"parent": null,
+"standalone": true
+},
+"slab_12": {
+"objects": 1431,
+"parent": null,
+"standalone": true
+},
+"slab_13": {
+"objects": 1329,
+"parent": null,
+"standalone": true
+},
+"slab_14": {
+"objects": 1201,
+"parent": null,
+"standalone": true
+},
+"slab_15": {
+"objects": 1360,
+"parent": null,
+"standalone": true
+},
+"slab_16": {
+"objects": 3978,
+"parent": null,
+"standalone": true
+},
+"slab_16b": {
+"objects": 1044,
+"parent": null,
+"standalone": true
+},
+"slab_17": {
+"objects": 1715,
+"parent": null,
+"standalone": true
+},
+"slab_18": {
+"objects": 1526,
+"parent": null,
+"standalone": true
+},
+"slab_19b": {
+"objects": 802,
+"parent": null,
+"standalone": true
+},
+"slab_20": {
+"objects": 941,
+"parent": null,
+"standalone": true
+},
+"slab_21": {
+"objects": 1728,
+"parent": null,
+"standalone": true
+},
+"slab_22": {
+"objects": 3003,
+"parent": null,
+"standalone": true
+},
+"slab_23": {
+"objects": 1834,
+"parent": null,
+"standalone": true
+},
+"slab_cell": {
+"objects": 356,
+"parent": null,
+"standalone": true
+},
+"slab_cell_creature": {
+"objects": 437,
+"parent": null,
+"standalone": true
+},
+"slab_cell_quiet": {
+"objects": 898,
+"parent": null,
+"standalone": true
+},
+"song_01": {
+"objects": 4921,
+"parent": null,
+"standalone": true
+},
+"song_01b": {
+"objects": 1572,
+"parent": null,
+"standalone": true
+},
+"song_01c": {
+"objects": 864,
+"parent": null,
+"standalone": true
+},
+"song_02": {
+"objects": 2989,
+"parent": null,
+"standalone": true
+},
+"song_03": {
+"objects": 2376,
+"parent": null,
+"standalone": true
+},
+"song_04": {
+"objects": 3328,
+"parent": null,
+"standalone": true
+},
+"song_05": {
+"objects": 3580,
+"parent": null,
+"standalone": true
+},
+"song_07": {
+"objects": 1105,
+"parent": null,
+"standalone": true
+},
+"song_08": {
+"objects": 661,
+"parent": null,
+"standalone": true
+},
+"song_09": {
+"objects": 2436,
+"parent": null,
+"standalone": true
+},
+"song_09b": {
+"objects": 3102,
+"parent": null,
+"standalone": true
+},
+"song_10": {
+"objects": 2391,
+"parent": null,
+"standalone": true
+},
+"song_11": {
+"objects": 3859,
+"parent": null,
+"standalone": true
+},
+"song_12": {
+"objects": 1810,
+"parent": null,
+"standalone": true
+},
+"song_13": {
+"objects": 1194,
+"parent": null,
+"standalone": true
+},
+"song_14": {
+"objects": 1006,
+"parent": null,
+"standalone": true
+},
+"song_15": {
+"objects": 1751,
+"parent": null,
+"standalone": true
+},
+"song_17": {
+"objects": 2362,
+"parent": null,
+"standalone": true
+},
+"song_18": {
+"objects": 1799,
+"parent": null,
+"standalone": true
+},
+"song_19_entrance": {
+"objects": 2520,
+"parent": null,
+"standalone": true
+},
+"song_20": {
+"objects": 3614,
+"parent": null,
+"standalone": true
+},
+"song_20b": {
+"objects": 1899,
+"parent": null,
+"standalone": true
+},
+"song_24": {
+"objects": 1207,
+"parent": null,
+"standalone": true
+},
+"song_25": {
+"objects": 3248,
+"parent": null,
+"standalone": true
+},
+"song_26": {
+"objects": 474,
+"parent": null,
+"standalone": true
+},
+"song_27": {
+"objects": 2884,
+"parent": null,
+"standalone": true
+},
+"song_28": {
+"objects": 553,
+"parent": null,
+"standalone": true
+},
+"song_29": {
+"objects": 576,
+"parent": null,
+"standalone": true
+},
+"song_enclave": {
+"objects": 2538,
+"parent": null,
+"standalone": true
+},
+"song_enclave_tube": {
+"objects": 712,
+"parent": null,
+"standalone": true
+},
+"song_tower_01": {
+"objects": 781,
+"parent": null,
+"standalone": true
+},
+"song_tower_destroyed": {
+"objects": 1167,
+"parent": null,
+"standalone": true
+},
+"sprintmaster_cave": {
+"objects": 3135,
+"parent": null,
+"standalone": true
+},
+"tube_hub": {
+"objects": 3372,
+"parent": null,
+"standalone": true
+},
+"tut_01": {
+"objects": 3552,
+"parent": null,
+"standalone": true
+},
+"tut_01b": {
+"objects": 2137,
+"parent": null,
+"standalone": true
+},
+"tut_02": {
+"objects": 3051,
+"parent": null,
+"standalone": true
+},
+"tut_03": {
+"objects": 1905,
+"parent": null,
+"standalone": true
+},
+"tut_04": {
+"objects": 1340,
+"parent": null,
+"standalone": true
+},
+"tut_05": {
+"objects": 1903,
+"parent": null,
+"standalone": true
+},
+"under_01": {
+"objects": 2338,
+"parent": null,
+"standalone": true
+},
+"under_01b": {
+"objects": 843,
+"parent": null,
+"standalone": true
+},
+"under_02": {
+"objects": 3527,
+"parent": null,
+"standalone": true
+},
+"under_03": {
+"objects": 682,
+"parent": null,
+"standalone": true
+},
+"under_03b": {
+"objects": 1082,
+"parent": null,
+"standalone": true
+},
+"under_03c": {
+"objects": 1055,
+"parent": null,
+"standalone": true
+},
+"under_03d": {
+"objects": 1152,
+"parent": null,
+"standalone": true
+},
+"under_04": {
+"objects": 2040,
+"parent": null,
+"standalone": true
+},
+"under_05": {
+"objects": 2263,
+"parent": null,
+"standalone": true
+},
+"under_06": {
+"objects": 1752,
+"parent": null,
+"standalone": true
+},
+"under_07": {
+"objects": 1442,
+"parent": null,
+"standalone": true
+},
+"under_07b": {
+"objects": 1141,
+"parent": null,
+"standalone": true
+},
+"under_07c": {
+"objects": 2269,
+"parent": null,
+"standalone": true
+},
+"under_08": {
+"objects": 1888,
+"parent": null,
+"standalone": true
+},
+"under_10": {
+"objects": 1321,
+"parent": null,
+"standalone": true
+},
+"under_11": {
+"objects": 1117,
+"parent": null,
+"standalone": true
+},
+"under_12": {
+"objects": 595,
+"parent": null,
+"standalone": true
+},
+"under_13": {
+"objects": 3072,
+"parent": null,
+"standalone": true
+},
+"under_14": {
+"objects": 1146,
+"parent": null,
+"standalone": true
+},
+"under_16": {
+"objects": 740,
+"parent": null,
+"standalone": true
+},
+"under_17": {
+"objects": 2751,
+"parent": null,
+"standalone": true
+},
+"under_18": {
+"objects": 3022,
+"parent": null,
+"standalone": true
+},
+"under_19": {
+"objects": 2271,
+"parent": null,
+"standalone": true
+},
+"under_19b": {
+"objects": 1866,
+"parent": null,
+"standalone": true
+},
+"under_19c": {
+"objects": 859,
+"parent": null,
+"standalone": true
+},
+"under_20": {
+"objects": 1268,
+"parent": null,
+"standalone": true
+},
+"under_21": {
+"objects": 861,
+"parent": null,
+"standalone": true
+},
+"under_22": {
+"objects": 468,
+"parent": null,
+"standalone": true
+},
+"under_23": {
+"objects": 2519,
+"parent": null,
+"standalone": true
+},
+"under_27": {
+"objects": 3505,
+"parent": null,
+"standalone": true
+},
+"ward_01": {
+"objects": 2267,
+"parent": null,
+"standalone": true
+},
+"ward_02": {
+"objects": 2463,
+"parent": null,
+"standalone": true
+},
+"ward_02_boss": {
+"objects": 274,
+"parent": "ward_02",
+"standalone": false
+},
+"ward_02b": {
+"objects": 1963,
+"parent": null,
+"standalone": true
+},
+"ward_03": {
+"objects": 3599,
+"parent": null,
+"standalone": true
+},
+"ward_04": {
+"objects": 513,
+"parent": null,
+"standalone": true
+},
+"ward_05": {
+"objects": 1287,
+"parent": null,
+"standalone": true
+},
+"ward_06": {
+"objects": 681,
+"parent": null,
+"standalone": true
+},
+"ward_07": {
+"objects": 1427,
+"parent": null,
+"standalone": true
+},
+"ward_09": {
+"objects": 1126,
+"parent": null,
+"standalone": true
+},
+"weave_02": {
+"objects": 1724,
+"parent": null,
+"standalone": true
+},
+"weave_03": {
+"objects": 4418,
+"parent": null,
+"standalone": true
+},
+"weave_04": {
+"objects": 760,
+"parent": null,
+"standalone": true
+},
+"weave_05b": {
+"objects": 1472,
+"parent": null,
+"standalone": true
+},
+"weave_07": {
+"objects": 790,
+"parent": null,
+"standalone": true
+},
+"weave_08": {
+"objects": 3430,
+"parent": null,
+"standalone": true
+},
+"weave_10": {
+"objects": 955,
+"parent": null,
+"standalone": true
+},
+"weave_11": {
+"objects": 1410,
+"parent": null,
+"standalone": true
+},
+"weave_12": {
+"objects": 583,
+"parent": null,
+"standalone": true
+},
+"weave_13": {
+"objects": 508,
+"parent": null,
+"standalone": true
+},
+"weave_14": {
+"objects": 530,
+"parent": null,
+"standalone": true
+},
+"wisp_02": {
+"objects": 3205,
+"parent": null,
+"standalone": true
+},
+"wisp_03": {
+"objects": 2289,
+"parent": null,
+"standalone": true
+},
+"wisp_04": {
+"objects": 1126,
+"parent": null,
+"standalone": true
+},
+"wisp_05": {
+"objects": 1127,
+"parent": null,
+"standalone": true
+},
+"wisp_06": {
+"objects": 373,
+"parent": null,
+"standalone": true
+},
+"wisp_07": {
+"objects": 2993,
+"parent": null,
+"standalone": true
+},
+"wisp_08": {
+"objects": 1660,
+"parent": null,
+"standalone": true
+},
+"wisp_09": {
+"objects": 1001,
+"parent": null,
+"standalone": true
+}
+}
