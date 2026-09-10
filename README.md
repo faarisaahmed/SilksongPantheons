@@ -94,39 +94,51 @@ From SilksongGodhome, all present in this repo:
 
 ## The rosters
 
-Done. The order is [Pantheon of Pharloom](https://thunderstore.io/c/hollow-knight-silksong/p/momochi003/Pantheon_Of_Pharloom/)'s,
-which is the convention the Silksong boss-rush mods have settled on — three authored
-Pantheons and a fourth that is the first three back to back.
+Four Pantheons, 44 bosses, all of Silksong's own.
 
 | | | |
 | --- | --- | --- |
-| Pantheon of the Judge | 12 bosses, 1 bench | Moss Mother → Last Judge |
-| Pantheon of the Sinner | 14 bosses, 2 benches | Garmond and Zaza → First Sinner |
-| Pantheon of the Void | 12 bosses, 2 benches | Bell Eater → Lost Lace |
-| Pantheon of Pharloom | all 38, back to back | `@include`s the others, so editing them edits it |
+| Pantheon of the Judge | 12 | Moss Mother → Last Judge |
+| Pantheon of the Weaver | 10 | Phantom → First Sinner |
+| Pantheon of the Monarch | 8 | Groal The Great → Grand Mother Silk |
+| Pantheon of the Imperators | 14 | Bell Eater → Crust King Khann |
 
-The lists are plain text and live beside the DLL, so they can be reordered without
+The lists are plain text beside the DLL, so they can be reordered or repointed without
 rebuilding anything:
 
 ```
-Bell Beast = Bone_05_boss : Bone Beast
-Moorwing = Greymoor_05_boss : Vampire Gnat
+Bell Beast = Bone_05 + Bone_05_boss : Bone Beast
+Sister Splinter = Shellwood_18 : Splinter Queen
 Bench
 ```
 
-`Display Name = Scene : Boss Object`. The scene is Silksong's own Addressables key and
-the object is the boss inside it — both read out of the game by `tools/silksong_index.py`,
-not guessed. `Bench` is a rest stop. `#` comments.
+`Display Name = Room [+ Piece] : Boss Object`. `Bench` is a rest stop, `#` comments.
 
-**38 of the 45 entries resolve.** The seven that do not are written as `# UNRESOLVED`
-lines with their closest candidates beside them, and
-`Baked/pantheons/UNASSIGNED.txt` lists the 22 boss-sized enemies no Pantheon uses yet, so
-filling one in is a copy and paste. The unresolved ones are Zango, Gurr, Kramelita,
-Watcher, Father of Flame, Signis and Gron, and Unravelled — mostly the NPC duels, whose
-objects are not plain `HealthManager` enemies.
+Three things in that line are read out of the game rather than guessed:
 
-Pantheon of Pharloom's door is **open from the start**. Hollow Knight only revealed its
-fourth door once the others were finished; there is no reason to make you earn it here.
+* **The room.** Silksong composes a room from a main scene plus additive pieces, and its
+  bosses usually live in a piece - `Bone_05_boss` is 202 objects with no `_SceneManager`
+  and no terrain. Loading one directly drops the player into a void, so a piece names
+  its room too, taken from the `SceneAdditiveLoadConditional` that loads it.
+* **The name.** Bundle files are lowercased and the catalog holds both spellings.
+  `silksong_names.py` harvests the strings the game itself passes to Addressables -
+  every `TransitionPoint.targetScene` and `sceneNameToLoad` - which is how
+  `Bone_East_08` and `coral_judge_arena` both come out right. All 50 arena scenes verify
+  against the catalog.
+* **The boss.** `silksong_index.py` records every `HealthManager` in the game: 2802
+  enemies across 383 scenes.
+
+**Six of the 44 are inferred rather than looked up**, and say so in the file:
+
+```
+Plasmified Zango = Bone_East_18b : Bone Hunter Trapper    # GUESS: a hunter duel, which is what Zango is
+```
+
+Zango, Signis, Gron, Khann, Gurr, Groal, Karmelita and Watcher appear nowhere in any of
+Silksong's 590 scenes under those names - `findboss.py` returns zero matches for each -
+so those bosses are known by titles the game does not use internally. The six entries
+are the best fit from the enemies no Pantheon uses, with the reasoning attached. A wrong
+one is one edit away, and `pantheons/UNASSIGNED.txt` lists what else is available.
 
 ## What is left
 

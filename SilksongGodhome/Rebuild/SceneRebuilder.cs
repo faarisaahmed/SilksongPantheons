@@ -1111,19 +1111,57 @@ namespace SilksongGodhome.Rebuild
         }
 
         /// <summary>
-        /// What BossSequenceDoor.Start() does for an unlocked door: hide the padlock,
-        /// reveal the open state, drop the "inspect the lock" prompt. Without it the
-        /// Pantheons are enterable but still look sealed.
+        /// Opens the Pantheon doors, and makes them stay open.
+        ///
+        /// Toggling the padlock objects is not enough on its own. The room's real
+        /// BossSequenceDoor runs its own Start() afterwards and puts the lock straight
+        /// back:
+        ///
+        ///     if (IsUnlocked() || completion.canUnlock) { ...unlocked... }
+        ///     else { lockSet.SetActive(true); unlockedSet.SetActive(false); }
+        ///
+        /// and IsUnlocked() is `completion.unlocked || bossSequence.IsUnlocked()`. The
+        /// completion comes from a Hollow Knight PlayerData field Silksong does not
+        /// have, so it reads back false, and the door's bossSequence points at an asset
+        /// that does not exist here - so both are false and the door re-locks itself.
+        /// That is why the fourth door stayed shut.
+        ///
+        /// Handing it the sequence we built fixes it at the source: ours has
+        /// useSceneUnlocks off and no tests, so BossSequence.IsUnlocked() returns true
+        /// and the door opens itself through the game's own path.
         /// </summary>
         private static void UnlockDoors(List<GodhomeData.ObjectDef> doors, Transform[] made)
         {
+            int wired = 0;
             foreach (GodhomeData.ObjectDef d in doors)
             {
                 SetActiveByIndex(made, d.DoorLockSet, false);
                 SetActiveByIndex(made, d.DoorPrompt, false);
                 SetActiveByIndex(made, d.DoorUnlockedSet, true);
+
+                string title = PantheonDoor.TitleForTier(d.DoorSequence);
+                if (string.IsNullOrEmpty(title)) continue;
+
+                BossSequence seq = PantheonRegistry.Get(title);
+                if (seq == null) continue;
+
+                foreach (Transform t in made)
+                {
+                    if (t == null) continue;
+                    var bsd = t.GetComponent<BossSequenceDoor>();
+                    if (bsd == null || bsd.bossSequence != null) continue;
+                    if (t.name != d.Name) continue;
+                    bsd.bossSequence = seq;
+                    wired++;
+                    break;
+                }
             }
-            if (doors.Count > 0) Plugin.Log.LogInfo($"Godhome: unlocked {doors.Count} pantheon door(s).");
+            if (doors.Count > 0)
+            {
+                Plugin.Log.LogInfo(
+                    $"Godhome: unlocked {doors.Count} pantheon door(s), " +
+                    $"{wired} wired to their sequence so they stay unlocked.");
+            }
         }
 
         private static void SetActiveByIndex(Transform[] made, int index, bool active)
