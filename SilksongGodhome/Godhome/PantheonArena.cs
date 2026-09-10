@@ -30,8 +30,18 @@ namespace SilksongGodhome.Godhome
     internal class PantheonArena : MonoBehaviour
     {
         private const float SideOffset = 6f;
-        private const float CastHeight = 30f;
-        private const float CastDepth = 60f;
+
+        /// <summary>
+        /// How near a respawn marker has to be to count as part of the fight. Beyond
+        /// this it is somewhere else in the room - Tut_03's is by the exit.
+        /// </summary>
+        private const float ArenaMarkerRange = 18f;
+
+        /// <summary>
+        /// A beat between the last boss falling and the next arena loading, so a death
+        /// has time to land rather than being cut off by a fade.
+        /// </summary>
+        private const float BeatBetweenArenas = 1.75f;
 
         private PantheonRegistry.Entry _entry;
         private static PantheonArena _current;
@@ -119,7 +129,12 @@ namespace SilksongGodhome.Godhome
                 }
             }
 
-            Plugin.Log.LogInfo($"Godhome: loading boss piece '{piece}' into {_entry.Scene}.");
+            // The room should have loaded it itself once ArenaFlags set the conditions
+            // it tests; this is the fallback for an arena whose conditions we have not
+            // worked out.
+            Plugin.Log.LogInfo(
+                $"Godhome: {_entry.Scene} did not load '{piece}' on its own - forcing it. " +
+                "Its conditions are probably missing from pantheons/flags.txt.");
             var op = UnityEngine.AddressableAssets.Addressables.LoadSceneAsync(
                 "Scenes/" + piece, LoadSceneMode.Additive);
             yield return op;
@@ -173,8 +188,14 @@ namespace SilksongGodhome.Godhome
         ///
         /// Every Silksong room already contains positions guaranteed to be safe standing
         /// ground: its RespawnMarkers and HazardRespawnMarkers, which are where the game
-        /// itself puts you after a fall. The nearest one to the boss is a better answer
-        /// than any cast, and needs no geometry at all.
+        /// itself puts you after a fall.
+        ///
+        /// But only if one is actually *in the arena*. Tut_03's nearest marker to Moss
+        /// Mother is by the room's exit, so taking the nearest unconditionally spawned
+        /// the player at the door and left them to walk back. A marker is only used when
+        /// it is close enough to be part of the same fight; otherwise the boss's own
+        /// feet are the better reference, since a boss is standing on the floor by
+        /// definition.
         /// </summary>
         private static void PlaceHeroAt(GameObject boss)
         {
@@ -201,12 +222,13 @@ namespace SilksongGodhome.Godhome
                 if (dd < best) { best = dd; target = m.transform.position; how = "hazard marker '" + m.name + "'"; }
             }
 
-            // A marker on the far side of a large room is worse than standing next to the
-            // fight, so fall back when the nearest one is nowhere near.
-            if (best > 60f * 60f)
+            // A marker has to be part of this fight to be worth using. Beyond that,
+            // stand beside the boss - level with its feet, a few metres to one side.
+            if (best > ArenaMarkerRange * ArenaMarkerRange)
             {
-                target = b;
-                how = "the boss's own position (nearest marker was " + Mathf.Sqrt(best).ToString("F0") + "m away)";
+                float side = hero.transform.position.x <= b.x ? -SideOffset : SideOffset;
+                target = new Vector3(b.x + side, b.y, b.z);
+                how = $"beside the boss (nearest marker was {Mathf.Sqrt(best):F0}m away)";
             }
 
             // Last guard: never leave the hero outside the room.
@@ -297,6 +319,9 @@ namespace SilksongGodhome.Godhome
 
             if (_advanced) yield break;
             _advanced = true;
+
+            // Let the death land before the screen goes.
+            yield return new WaitForSeconds(BeatBetweenArenas);
 
             Plugin.Log.LogInfo($"Godhome: {_entry.DisplayName} finished - next arena.");
             if (PantheonRun.IsActive) PantheonRun.Advance();
