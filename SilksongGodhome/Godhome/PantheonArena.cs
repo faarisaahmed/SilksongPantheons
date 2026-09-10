@@ -52,23 +52,33 @@ namespace SilksongGodhome.Godhome
 
         private IEnumerator Run()
         {
-            // Wait for the room to be up and the hero in control. Looking earlier finds
-            // a half-loaded scene - the first version reported the boss missing simply
-            // because it asked before the room existed - and moving the hero mid-entry
-            // fights GameManager's own placement.
-            float deadline = Time.realtimeSinceStartup + 30f;
+            // Wait for *this room* to be the one we are standing in, and for the hero
+            // to be in control. Waiting on GameState alone was not enough: the arena is
+            // installed before the transition starts, so the game was still PLAYING back
+            // in the Atrium and the very first check passed - which is how it came to
+            // report the boss missing from a room that had not begun loading.
+            float deadline = Time.realtimeSinceStartup + 60f;
+            bool arrived = false;
             while (Time.realtimeSinceStartup < deadline)
             {
                 GameManager gm = GameManager.instance;
-                if (gm != null && gm.GameState == GlobalEnums.GameState.PLAYING) break;
+                if (gm != null && gm.GameState == GlobalEnums.GameState.PLAYING &&
+                    string.Equals(SceneManager.GetActiveScene().name, _entry.Scene,
+                                  StringComparison.OrdinalIgnoreCase))
+                {
+                    arrived = true;
+                    break;
+                }
                 yield return null;
             }
-            if (Time.realtimeSinceStartup >= deadline)
+            if (!arrived)
             {
                 Plugin.Log.LogWarning(
-                    $"Godhome: {_entry.Scene} did not reach PLAYING within 30s; " +
-                    "setting the arena up anyway.");
+                    $"Godhome: never arrived in '{_entry.Scene}' (still in " +
+                    $"'{SceneManager.GetActiveScene().name}') - giving up on this arena.");
+                yield break;
             }
+            Plugin.Log.LogInfo($"Godhome: arrived in '{_entry.Scene}'.");
             yield return null;
 
             if (!string.IsNullOrEmpty(_entry.SubScene)) yield return EnsurePiece(_entry.SubScene);
