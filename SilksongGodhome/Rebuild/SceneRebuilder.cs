@@ -1097,10 +1097,15 @@ namespace SilksongGodhome.Rebuild
             // reads as "one of the Pantheons is still locked".
             pending.Add(d);
 
-            if (string.IsNullOrEmpty(d.DoorSequence)) return;
+            // Hollow Knight's five doors carry its own tier names. Three of them become
+            // the three authored Pantheons and the fourth becomes Pantheon of Pharloom,
+            // the three run back to back - which is the door Hollow Knight only opened
+            // once you had finished the others, and which is open from the start here.
+            string title = PantheonDoor.TitleForTier(d.DoorSequence);
+            if (string.IsNullOrEmpty(title)) return;
 
             var door = go.AddComponent<PantheonDoor>();
-            door.SequenceName = d.DoorSequence;
+            door.SequenceName = title;
             door.PlayerDataName = d.DoorPlayerData;
             door.Range = 3.5f;
         }

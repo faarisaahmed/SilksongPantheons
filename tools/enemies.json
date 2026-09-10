@@ -1,0 +1,14778 @@
+{
+"abandoned_town": [
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (3)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (6)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (5)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (7)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (2)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (8)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (4)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (1)"
+},
+{
+"active": true,
+"hp": 17,
+"name": "Surface Scuttler (9)"
+}
+],
+"abyss_01": [
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler (2)"
+}
+],
+"abyss_02": [
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler (2)"
+}
+],
+"abyss_02b": [
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler (1)"
+},
+{
+"active": true,
+"hp": 200,
+"name": "Gloom Beast"
+},
+{
+"active": true,
+"hp": 200,
+"name": "Gloom Beast (1)"
+}
+],
+"abyss_03": [
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler"
+}
+],
+"abyss_04": [
+{
+"active": true,
+"hp": 80,
+"name": "Abyss Crawler Large"
+}
+],
+"abyss_05": [
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler (4)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Abyss Crawler Large (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler (2)"
+}
+],
+"abyss_06": [
+{
+"active": true,
+"hp": 80,
+"name": "Abyss Crawler Large"
+}
+],
+"abyss_08": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken"
+}
+],
+"abyss_09": [
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (7)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (9)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (8)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (10)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (11)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (2)"
+}
+],
+"abyss_13": [
+{
+"active": true,
+"hp": 40,
+"name": "Abyss Crawler"
+}
+],
+"abyss_cocoon": [
+{
+"active": true,
+"hp": 1800,
+"name": "Lost Lace Boss"
+}
+],
+"ant_02": [
+{
+"active": true,
+"hp": 150,
+"name": "Bone Hunter Throw"
+}
+],
+"ant_03": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (3)"
+}
+],
+"ant_04": [
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Bone Hunter Fly"
+}
+],
+"ant_04_left": [
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"ant_04_mid": [
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter (Return)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (Return)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (Return) (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (6)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (Return) (4)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (3)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (5)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (2)"
+}
+],
+"ant_05b": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30000000,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"ant_08": [
+{
+"active": true,
+"hp": 150,
+"name": "Bone Hunter Throw"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+}
+],
+"ant_09": [
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+}
+],
+"ant_14": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (6)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (8)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (7)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (4)"
+}
+],
+"ant_19": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler Smn (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler Smn"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer Smn (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer Smn"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 550,
+"name": "Bone Flyer Giant"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Circler Vicious Smn"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+}
+],
+"ant_20": [
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+}
+],
+"ant_21": [
+{
+"active": true,
+"hp": 150,
+"name": "Bone Hunter Throw"
+},
+{
+"active": true,
+"hp": 150,
+"name": "Bone Hunter Throw"
+},
+{
+"active": true,
+"hp": 150,
+"name": "Bone Hunter Throw"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (1)"
+}
+],
+"aqueduct_01": [
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (3)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (4)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker (2)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (5)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (3)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (2)"
+}
+],
+"aqueduct_02": [
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (1)"
+}
+],
+"aqueduct_03": [
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (5)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (4)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (6)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny (3)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Swamp Mosquito Skinny"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker (3)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (7)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (6)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (3)"
+}
+],
+"aqueduct_04": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (3)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Swamp Ductsucker"
+}
+],
+"aqueduct_06": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (5)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (3)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle"
+}
+],
+"aqueduct_07": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle"
+}
+],
+"aqueduct_08": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Barnacle (1)"
+}
+],
+"arborium_01": [
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (2)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (1)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Arborium Keeper (2)"
+}
+],
+"arborium_02": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (1)"
+},
+{
+"active": true,
+"hp": 150,
+"name": "Rhino"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": false,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": false,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+},
+{
+"active": false,
+"hp": 27,
+"name": "Bone Circler Vicious (2)"
+}
+],
+"arborium_03": [
+{
+"active": false,
+"hp": 70,
+"name": "Arborium Keeper"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (2)"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Bloom Shooter (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (3)"
+}
+],
+"arborium_04": [
+{
+"active": false,
+"hp": 12,
+"name": "MossBone Fly"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (2)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": false,
+"hp": 10,
+"name": "MossBone Crawler (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (2)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (3)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (2)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Bone Thumper"
+}
+],
+"arborium_05": [
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer"
+}
+],
+"arborium_06": [
+{
+"active": true,
+"hp": 80,
+"name": "Coral Goomba Large (2)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Coral Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Coral Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (2)"
+}
+],
+"arborium_07": [
+{
+"active": true,
+"hp": 70,
+"name": "Arborium Keeper"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Arborium Keeper (1)"
+}
+],
+"arborium_08": [
+{
+"active": false,
+"hp": 200,
+"name": "Giant Flea"
+}
+],
+"arborium_09": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 80,
+"name": "MossBone Crawler Fat (1)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (1)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "MossBone Crawler Fat"
+}
+],
+"arborium_11": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat R1"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large R"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large R"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large L"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large L"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat L1"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat R2"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat L2"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat R1"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat L2"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat L1"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat R2"
+}
+],
+"aspid_01": [
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (3)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (4)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (5)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (7)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+}
+],
+"belltown_04": [
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bell Fly (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bell Fly (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bell Fly"
+}
+],
+"belltown_basement_03": [
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bell Fly (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bell Fly"
+}
+],
+"belltown_shrine": [
+{
+"active": true,
+"hp": 360,
+"name": "Spinner Boss"
+}
+],
+"bellway_03": [
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (2)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+}
+],
+"bellway_centipede_arena": [
+{
+"active": true,
+"hp": 400,
+"name": "Giant Centipede Head"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (2)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (4)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (4)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (1)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (3)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (2)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (3)"
+},
+{
+"active": true,
+"hp": 10000,
+"name": "Giant Centipede Coil (1)"
+},
+{
+"active": true,
+"hp": 400,
+"name": "Giant Centipede Butt"
+}
+],
+"bone_01": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer Return"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (4)"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Rock Roller"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Bone Goomba (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (1)"
+}
+],
+"bone_01b": [
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+}
+],
+"bone_01c": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+}
+],
+"bone_02": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (4)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (2)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (3)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_03": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (5)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (2)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (4)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (3)"
+}
+],
+"bone_04": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (1)"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Rock Roller"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_05_boss": [
+{
+"active": true,
+"hp": 150,
+"name": "Bone Beast"
+}
+],
+"bone_05b": [
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (5)"
+}
+],
+"bone_06": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (2)"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Rock Roller"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Shell Fossil Mimic AppearVariant"
+}
+],
+"bone_07": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Rock Roller"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (3)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (6)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (7)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_08": [
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+}
+],
+"bone_09": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (2)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (2)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_10": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (2)"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Bone Crawler"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (3)"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Bone Crawler (4)"
+}
+],
+"bone_11": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (1)"
+}
+],
+"bone_12": [
+{
+"active": false,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+}
+],
+"bone_14": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (3)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (8)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (6)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (7)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (5)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Shell Fossil Mimic"
+}
+],
+"bone_15": [
+{
+"active": true,
+"hp": 450,
+"name": "Skull King"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": false,
+"hp": 9999999,
+"name": "Pierce Dmg Receiver"
+}
+],
+"bone_16": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Crawler (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+}
+],
+"bone_18": [
+{
+"active": false,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Pilgrim 03"
+}
+],
+"bone_east_01": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+}
+],
+"bone_east_02": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (16)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (11)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (18)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (20)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (17)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (14)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (13)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (12)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (21)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (15)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (9)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (19)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (5)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+}
+],
+"bone_east_02b": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 150,
+"name": "Rhino"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_east_03": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Shell Fossil Mimic"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child Alerter"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (2)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_east_04": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Tiny (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (3)"
+}
+],
+"bone_east_04b": [
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (6)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hunter Buzzer (7)"
+}
+],
+"bone_east_04c": [
+{
+"active": true,
+"hp": 64,
+"name": "Slab Fly Large Cage"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+}
+],
+"bone_east_05": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (2)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_east_07": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (13)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (14)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (15)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (12)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (11)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (21)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (18)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (22)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (17)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (16)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (5)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (3)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (4)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+}
+],
+"bone_east_08_boss_beastfly": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Spitter (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Spitter"
+},
+{
+"active": true,
+"hp": 650,
+"name": "Bone Flyer Giant"
+}
+],
+"bone_east_08_boss_golem": [
+{
+"active": true,
+"hp": 500,
+"name": "SG_head"
+}
+],
+"bone_east_09": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+}
+],
+"bone_east_09b": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (4)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+}
+],
+"bone_east_10": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02 (Unique female)"
+}
+],
+"bone_east_10_church": [
+{
+"active": true,
+"hp": 150,
+"name": "Rhino"
+}
+],
+"bone_east_10_room": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 150,
+"name": "Rhino"
+}
+],
+"bone_east_11": [
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (7)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (5)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (4)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (5)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (6)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (6)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (7)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+}
+],
+"bone_east_12": [
+{
+"active": true,
+"hp": 250,
+"name": "Lace Boss1"
+}
+],
+"bone_east_13": [
+{
+"active": false,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer (2)"
+}
+],
+"bone_east_14": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Shell Fossil Mimic"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (3)"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Spine Floater - visitedCitadel"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater - dynamic"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater (9)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater (10)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater - static"
+}
+],
+"bone_east_14b": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (5)"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Fields Goomba (3)"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Fields Goomba (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (6)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (9)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater (7)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Spine Floater (5)"
+}
+],
+"bone_east_15": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (19)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (25)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (16)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (11)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (15)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+}
+],
+"bone_east_16": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+}
+],
+"bone_east_17": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (3)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (11)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"bone_east_17b": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Fields Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+}
+],
+"bone_east_18": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (1)"
+},
+{
+"active": true,
+"hp": 110,
+"name": "Bone Hopper Giant"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple (1)"
+}
+],
+"bone_east_18b": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": true,
+"hp": 1000,
+"name": "Bone Hunter Trapper"
+}
+],
+"bone_east_18c": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+}
+],
+"bone_east_20": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (1)"
+}
+],
+"bone_east_22": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+}
+],
+"bone_east_24": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer (2)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 110,
+"name": "Bone Hopper Giant"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Bone Hopper Giant"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Fields Flock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Hunter Child (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bone Hopper Simple"
+}
+],
+"bone_east_25": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": true,
+"hp": 150,
+"name": "Bone Hunter Throw"
+}
+],
+"bone_east_26": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"bone_east_lavachallenge": [
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter (4)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Bone Spitter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (3)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+}
+],
+"bone_east_weavehome": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken (1)"
+}
+],
+"bone_steel_servant": [
+{
+"active": true,
+"hp": 500,
+"name": "Abyss Mass"
+}
+],
+"bonegrave": [
+{
+"active": true,
+"hp": 85,
+"name": "Rosary Pilgrim"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04 (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Act3 Pilgrim 05"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Act3 Pilgrim BellThrower"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Act3 Pilgrim BellThrower"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+}
+],
+"bonetown": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (3)"
+}
+],
+"bonetown_boss": [
+{
+"active": true,
+"hp": 450,
+"name": "Skull King"
+},
+{
+"active": false,
+"hp": 9999999,
+"name": "Pierce Dmg Receiver"
+}
+],
+"chapel_wanderer": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+}
+],
+"clover_01b": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 42,
+"name": "Grass Goomba"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Hornet Dragonfly (1)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly"
+}
+],
+"clover_02c": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba (3)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher (1)"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba (2)"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Fly"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+}
+],
+"clover_03": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (1)"
+}
+],
+"clover_04b": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Fly"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Grasshopper Child (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher (2)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Fly"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Fly"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Grasshopper Child"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly"
+}
+],
+"clover_05c": [
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba (2)"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba (1)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly"
+}
+],
+"clover_06": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (1)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (2)"
+},
+{
+"active": true,
+"hp": 62,
+"name": "Cloverstag (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+}
+],
+"clover_10": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 300,
+"name": "Dancer B"
+},
+{
+"active": true,
+"hp": 300,
+"name": "Dancer A"
+}
+],
+"clover_10_web": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Grasshopper Child"
+}
+],
+"clover_11": [
+{
+"active": true,
+"hp": 55,
+"name": "Grasshopper Child (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Grasshopper Child (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Grasshopper Child"
+}
+],
+"clover_16": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (1)"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (2)"
+},
+{
+"active": true,
+"hp": 42,
+"name": "Grass Goomba (1)"
+},
+{
+"active": false,
+"hp": 62,
+"name": "Cloverstag (7)"
+},
+{
+"active": true,
+"hp": 62,
+"name": "Cloverstag (8)"
+},
+{
+"active": true,
+"hp": 62,
+"name": "Cloverstag"
+},
+{
+"active": true,
+"hp": 62,
+"name": "Cloverstag (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+}
+],
+"clover_18": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Hornet Dragonfly (3)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Dragonfly Large"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Dragonfly Large (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Dragonfly Large (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Lilypad Fly"
+}
+],
+"clover_19": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 480,
+"name": "Cloverstag White Boss"
+}
+],
+"clover_20": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang"
+}
+],
+"clover_21": [
+{
+"active": false,
+"hp": 70,
+"name": "Enemy"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Fly"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Grasshopper Slasher"
+}
+],
+"cog_04": [
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton Goomba"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton Goomba (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"cog_05": [
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (1)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Automaton Shield"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02 (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (2)"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Automaton Shield"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (1)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Automaton Shield"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Automaton Shield"
+},
+{
+"active": false,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"cog_06": [
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (4)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Automaton Shield"
+}
+],
+"cog_07": [
+{
+"active": false,
+"hp": 190,
+"name": "Song Automaton Ball R"
+},
+{
+"active": false,
+"hp": 190,
+"name": "Song Automaton Ball L"
+},
+{
+"active": true,
+"hp": 145,
+"name": "Song Automaton Ball (1)"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly Repair 1"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (2)"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly Repair 2"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"cog_08": [
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (9)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (8)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (6)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Automaton Shield"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Song Automaton Fly Spike (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Automaton 02 (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton Goomba (7)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton Goomba (8)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton Goomba (5)"
+}
+],
+"cog_09": [
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (3)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Song Automaton 01 (2)"
+}
+],
+"cog_10_destroyed": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy (1)"
+}
+],
+"cog_dancers_boss": [
+{
+"active": true,
+"hp": 300,
+"name": "Dancer A"
+},
+{
+"active": true,
+"hp": 300,
+"name": "Dancer B"
+}
+],
+"coral_02": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Coral Judge (3)"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Coral Judge (4)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Coral Judge (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Hiker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Hiker (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 Judge Buddy"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim BellThrower"
+}
+],
+"coral_03": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Hiker"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (4)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (1)"
+},
+{
+"active": false,
+"hp": 29,
+"name": "Coral Conch Shooter (2)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (3)"
+}
+],
+"coral_11": [
+{
+"active": true,
+"hp": 400,
+"name": "Driller A"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"coral_12": [
+{
+"active": false,
+"hp": 25,
+"name": "Blade Spider (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Coral Judge (2)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Coral Judge (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Hiker"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly"
+},
+{
+"active": false,
+"hp": 29,
+"name": "Coral Conch Shooter (1)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (3)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"coral_19": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (3)"
+}
+],
+"coral_19b": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (4)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (1)"
+}
+],
+"coral_23": [
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (3)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy"
+}
+],
+"coral_24": [
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (1)"
+},
+{
+"active": false,
+"hp": 45,
+"name": "Coral Conch Stabber (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (1)"
+}
+],
+"coral_25": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+}
+],
+"coral_26": [
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (2)"
+}
+],
+"coral_27": [
+{
+"active": true,
+"hp": 820,
+"name": "Coral Conch Driller Giant Solo"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Driller C"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Driller B"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller Roar (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller Roar (4)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller Roar"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller Roar (3)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller Roar (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Driller A"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (3)"
+}
+],
+"coral_29": [
+{
+"active": true,
+"hp": 550,
+"name": "Zap Core Enemy"
+}
+],
+"coral_32": [
+{
+"active": true,
+"hp": 75,
+"name": "Coral Judge (4)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Coral Judge (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Hiker"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (1)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter (2)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"coral_33": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Hiker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+},
+{
+"active": false,
+"hp": 900,
+"name": "Garmond Black Threaded Fighter"
+}
+],
+"coral_35b": [
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (1)"
+}
+],
+"coral_36": [
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (6)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (7)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (8)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (2)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (4)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (9)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (3)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (5)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Judge Child (10)"
+}
+],
+"coral_38": [
+{
+"active": true,
+"hp": 50,
+"name": "Shell Fossil Mimic"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Driller"
+}
+],
+"coral_39": [
+{
+"active": true,
+"hp": 900,
+"name": "Coral Warrior Grey"
+}
+],
+"coral_41": [
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba (3)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Spike Goomba (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (1)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Coral Conch Shooter"
+}
+],
+"coral_42": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+}
+],
+"coral_44": [
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Coral Conch Stabber (2)"
+}
+],
+"coral_judge_arena": [
+{
+"active": true,
+"hp": 720,
+"name": "Last Judge"
+}
+],
+"cradle_03": [
+{
+"active": true,
+"hp": 1204,
+"name": "Silk Boss"
+}
+],
+"cradle_destroyed_challenge_01": [
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (9)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (6)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (8)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (5)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (7)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Spike Lazy Flyer (10)"
+},
+{
+"active": true,
+"hp": 999999,
+"name": "Centipede Trap"
+},
+{
+"active": true,
+"hp": 999999,
+"name": "Centipede Trap"
+},
+{
+"active": true,
+"hp": 999999,
+"name": "Centipede Trap"
+}
+],
+"cradle_destroyed_challenge_02": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang (1)"
+}
+],
+"crawl_01": [
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (6)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (7)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (8)"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Shell Fossil Mimic"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (9)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (6)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (8)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (7)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm"
+}
+],
+"crawl_02": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly (1)"
+}
+],
+"crawl_03": [
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (3)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (4)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bone Worm BlueTurret (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (3)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (3)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (4)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (7)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bone Worm BlueTurret"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Crypt Worm (6)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (9)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (15)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (13)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (11)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (10)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (16)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (7)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (17)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (19)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (14)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (12)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (18)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (8)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (6)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (20)"
+}
+],
+"crawl_03b": [
+{
+"active": true,
+"hp": 80,
+"name": "Bone Worm BlueTurret (1)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bone Worm BlueTurret"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm"
+}
+],
+"crawl_04": [
+{
+"active": true,
+"hp": 200,
+"name": "Roof Crab"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Small Crab"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Small Crab (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Small Crab (2)"
+}
+],
+"crawl_05": [
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (5)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (6)"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Bone Worm BlueTurret"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (9)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (11)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (8)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (7)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (6)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (10)"
+}
+],
+"crawl_06": [
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+}
+],
+"crawl_07": [
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+}
+],
+"crawl_09": [
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Bone Worm BlueBlood (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Crypt Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (5)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Bone Worm (3)"
+}
+],
+"crawl_10": [
+{
+"active": true,
+"hp": 1000,
+"name": "Blue Assistant"
+}
+],
+"dock_02": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (5)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (1)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (3)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious (2)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (2)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Shield Dockworker (2)"
+}
+],
+"dock_02b": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (5)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Dock Charger"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 9999,
+"name": "Dock Guard Thrower Enc1"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (2)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (5)"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (6)"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Bone Circler Vicious"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler (4)"
+}
+],
+"dock_03": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Dock Charger"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Dock Flyer Amb"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber (2)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Dock Bomber Amb1"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+}
+],
+"dock_03b": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+}
+],
+"dock_03c": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Dock Charger"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (4)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Dock Bomber (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker (1)"
+}
+],
+"dock_03d": [
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Goomba (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Fields Flyer"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Dock Flyer Amb"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Dock Bomber Amb1"
+}
+],
+"dock_04": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"dock_05": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+}
+],
+"dock_06_church": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+}
+],
+"dock_08": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Flyer"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+}
+],
+"dock_09": [
+{
+"active": true,
+"hp": 20,
+"name": "Dock Flyer (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Dock Worker (2)"
+},
+{
+"active": true,
+"hp": 720,
+"name": "Dock Guard Slasher"
+},
+{
+"active": false,
+"hp": 520,
+"name": "Dock Guard Thrower"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+}
+],
+"dock_11": [
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (2)"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (7)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Tar Slug (1)"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (6)"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (7)"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (4)"
+},
+{
+"active": true,
+"hp": 85,
+"name": "Tar Slug Huge (1)"
+}
+],
+"dock_16": [
+{
+"active": true,
+"hp": 30,
+"name": "Bone Goomba Large"
+},
+{
+"active": true,
+"hp": 14,
+"name": "Bone Circler"
+}
+],
+"dust_01": [
+{
+"active": false,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Dustroach Caged (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Dustroach Caged (2)"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Dustroach Caged (1)"
+}
+],
+"dust_02": [
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+}
+],
+"dust_03": [
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (1)"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"dust_04": [
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (5)"
+}
+],
+"dust_05": [
+{
+"active": true,
+"hp": 100,
+"name": "Roachkeeper (2)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Roachkeeper - Garmond Target"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Roachkeeper"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (3)"
+}
+],
+"dust_06": [
+{
+"active": true,
+"hp": 100,
+"name": "Roachkeeper"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+}
+],
+"dust_11": [
+{
+"active": true,
+"hp": 45,
+"name": "Roachfeeder Tall"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"dust_12": [
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Dustroach Caged (3)"
+}
+],
+"dust_chef": [
+{
+"active": true,
+"hp": 60,
+"name": "Roachkeeper Chef Tiny"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Roachkeeper Chef Tiny"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Roachkeeper Chef Tiny (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Roachkeeper Chef Tiny (2)"
+},
+{
+"active": true,
+"hp": 600,
+"name": "Roachkeeper Chef (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Roachkeeper Chef Tiny (1)"
+}
+],
+"dust_maze_01": [
+{
+"active": true,
+"hp": 45,
+"name": "Wraith"
+}
+],
+"greymoor_01": [
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+}
+],
+"greymoor_02": [
+{
+"active": true,
+"hp": 50,
+"name": "Crowman"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"greymoor_03": [
+{
+"active": true,
+"hp": 20,
+"name": "Crow"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (2)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (5)"
+}
+],
+"greymoor_04": [
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (1)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (1)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (3)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+}
+],
+"greymoor_05": [
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede (1)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (3)"
+},
+{
+"active": false,
+"hp": 29,
+"name": "Farmer Scissors"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede Act 3"
+},
+{
+"active": true,
+"hp": 64,
+"name": "Slab Fly Large Cage"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (7)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (5)"
+}
+],
+"greymoor_05_boss": [
+{
+"active": true,
+"hp": 600,
+"name": "Vampire Gnat"
+}
+],
+"greymoor_06": [
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors (1)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+}
+],
+"greymoor_07": [
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors (1)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors (2)"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors (3)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (5)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"greymoor_08": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pilgrim Fly (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+}
+],
+"greymoor_08_boss": [
+{
+"active": true,
+"hp": 600,
+"name": "Vampire Gnat"
+}
+],
+"greymoor_08_mapper": [
+{
+"active": true,
+"hp": 600,
+"name": "Mapper Spar NPC"
+}
+],
+"greymoor_10": [
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede (1)"
+}
+],
+"greymoor_11": [
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"greymoor_12": [
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Roachfeeder Short"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"greymoor_13": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim BellThrower"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim BellThrower (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder (1)"
+}
+],
+"greymoor_15": [
+{
+"active": true,
+"hp": 20,
+"name": "Crow (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (2)"
+}
+],
+"greymoor_15b": [
+{
+"active": false,
+"hp": 20,
+"name": "Crow (10)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (11)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (8)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (13)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (7)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (6)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (5)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild (7)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny Variant - Wild"
+}
+],
+"greymoor_16": [
+{
+"active": true,
+"hp": 60,
+"name": "Gnat Giant"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Gnat Giant (2)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Gnat Giant (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"greymoor_17": [
+{
+"active": true,
+"hp": 50,
+"name": "Shell Fossil Mimic"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mitefly (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite"
+}
+],
+"greymoor_20c": [
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors (1)"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher"
+},
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Farmer Centipede"
+},
+{
+"active": true,
+"hp": 29,
+"name": "Farmer Scissors (1)"
+}
+],
+"greymoor_22": [
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (3)"
+}
+],
+"hang_02": [
+{
+"active": true,
+"hp": 65,
+"name": "Song Pilgrim Maestro"
+}
+],
+"hang_03": [
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"hang_03_top": [
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator (3)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator (2)"
+}
+],
+"hang_04": [
+{
+"active": true,
+"hp": 230,
+"name": "Song Heavy Sentry"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator"
+}
+],
+"hang_04_boss": [
+{
+"active": false,
+"hp": 60,
+"name": "Song Administrator"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Song Administrator (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Song Administrator"
+},
+{
+"active": false,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": false,
+"hp": 230,
+"name": "Song Heavy Sentry"
+},
+{
+"active": false,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": false,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Song Administrator (1)"
+},
+{
+"active": false,
+"hp": 230,
+"name": "Song Heavy Sentry (2)"
+},
+{
+"active": false,
+"hp": 230,
+"name": "Song Heavy Sentry (3)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Pilgrim 03 (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 (3)"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Song Pilgrim Maestro (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Reed (1)"
+},
+{
+"active": false,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Reed (3)"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Song Pilgrim Maestro"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 (2)"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Song Pilgrim Maestro"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Reed (2)"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song (1)"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song (1)"
+}
+],
+"hang_06_bank": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Understore Mite Giant"
+}
+],
+"hang_07": [
+{
+"active": true,
+"hp": 130,
+"name": "Song Reed Grand"
+},
+{
+"active": true,
+"hp": 130,
+"name": "Song Reed Grand (1)"
+},
+{
+"active": true,
+"hp": 800,
+"name": "Song Knight"
+}
+],
+"hang_08": [
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator (1)"
+}
+],
+"hang_09": [
+{
+"active": true,
+"hp": 100,
+"name": "Understore Mite Giant"
+}
+],
+"hang_10": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Understore Mite Giant"
+}
+],
+"hang_13": [
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator (2)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Song Administrator (3)"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Song Pilgrim Maestro"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"hang_14": [
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (8)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (4)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (5)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (7)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (3)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (2)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (1)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (9)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (1)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (6)"
+}
+],
+"hang_15": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+}
+],
+"hang_17b": [
+{
+"active": true,
+"hp": 800,
+"name": "Song Knight"
+}
+],
+"library_01": [
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (9)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (4)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (2)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (8)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (7)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (6)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (3)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (5)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Scrollkeeper"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (4)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (11)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Scrollkeeper (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (10)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (5)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"library_02": [
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Scholar"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Scholar"
+},
+{
+"active": false,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (3)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Scholar (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim Stomper Song (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"library_04": [
+{
+"active": true,
+"hp": 70,
+"name": "Scholar"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (12)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (11)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (6)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Lightbearer (2)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (5)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (13)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (14)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (2)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (10)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Lightbearer (3)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (3)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (15)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (4)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (9)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Lightbearer (4)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (8)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Lightbearer (1)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Scholar (1)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Scrollkeeper"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel (1)"
+}
+],
+"library_05": [
+{
+"active": false,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": false,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"library_06": [
+{
+"active": true,
+"hp": 70,
+"name": "Scholar"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (3)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (5)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Song Scholar Acolyte (4)"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Scrollkeeper"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Understore Mite Giant"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"library_09": [
+{
+"active": true,
+"hp": 5,
+"name": "Song Pilgrim Target"
+},
+{
+"active": true,
+"hp": 460,
+"name": "Garmond Fighter"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat R1"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large R"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Citadel Bat Large L"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat L1"
+}
+],
+"library_11b": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker (1)"
+}
+],
+"library_12": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (4)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang"
+}
+],
+"library_13": [
+{
+"active": true,
+"hp": 700,
+"name": "Trobbio"
+},
+{
+"active": true,
+"hp": 950,
+"name": "Tormented Trobbio"
+}
+],
+"library_14": [
+{
+"active": false,
+"hp": 70,
+"name": "Scholar"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Scholar"
+}
+],
+"library_15": [
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Song Scholar Acolyte"
+}
+],
+"memory_ant_queen": [
+{
+"active": true,
+"hp": 1500,
+"name": "Hunter Queen Boss"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Bone Hunter"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Bone Hunter (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Bone Hunter Child (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Bone Hunter Child"
+},
+{
+"active": true,
+"hp": 130,
+"name": "Bone Hunter Fly Chief (1)"
+},
+{
+"active": true,
+"hp": 130,
+"name": "Bone Hunter Fly Chief"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Bone Hunter Fly"
+}
+],
+"memory_coral_tower": [
+{
+"active": true,
+"hp": 25,
+"name": "Coral Goomba L"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Coral Goomba L (1)"
+},
+{
+"active": false,
+"hp": 105,
+"name": "Coral Bubble Brute"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter (1)"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw (1)"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 140,
+"name": "Coral Brawler (1)"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 140,
+"name": "Coral Brawler"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter"
+},
+{
+"active": false,
+"hp": 140,
+"name": "Coral Brawler"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Coral Big Jellyfish"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 105,
+"name": "Coral Bubble Brute"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Coral Big Jellyfish"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer Throw"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Coral Big Jellyfish"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Coral Big Jellyfish"
+},
+{
+"active": false,
+"hp": 140,
+"name": "Coral Brawler"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 140,
+"name": "Coral Brawler"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter"
+},
+{
+"active": false,
+"hp": 105,
+"name": "Coral Bubble Brute"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Coral Big Jellyfish (1)"
+},
+{
+"active": false,
+"hp": 60,
+"name": "Coral Flyer"
+},
+{
+"active": false,
+"hp": 90,
+"name": "Coral Warrior (1)"
+},
+{
+"active": false,
+"hp": 80,
+"name": "Coral Hunter"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (2)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Spike Swimmer"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (2)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (3)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (3)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Spike Swimmer (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (2)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Spike Swimmer"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (4)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Poke Swimmer (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Poke Swimmer (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (2)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Poke Swimmer"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Poke Swimmer"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Spike Swimmer (1)"
+},
+{
+"active": false,
+"hp": 5,
+"name": "Coral Swimmer Fat (1)"
+},
+{
+"active": true,
+"hp": 1650,
+"name": "Coral King"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Coral Goomba M (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Coral Goomba M (3)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Driller (2)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Coral Conch Shooter Heavy"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (11)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (7)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (5)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (1)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (6)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (5)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (8)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (10)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (7)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (8)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (5)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (6)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (3)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Coral Swimmer Small (9)"
+}
+],
+"memory_red": [
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "White Palace Fly Red Memory (9)"
+}
+],
+"mosstown_01": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter (2)"
+}
+],
+"mosstown_02": [
+{
+"active": false,
+"hp": 15,
+"name": "Aspid Collector (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01 (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Moss Spitter (2)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"mosstown_03": [
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Aspid Collector (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer (1)"
+}
+],
+"organ_01": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 650,
+"name": "Phantom"
+}
+],
+"peak_01": [
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (4)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (18)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (16)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (21)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (10)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (12)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (13)"
+}
+],
+"peak_02": [
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (10)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (12)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (17)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (13)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (13)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (8)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (14)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (11)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (18)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Weaver Servitor Large"
+}
+],
+"peak_04": [
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (10)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (8)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (11)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (9)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (12)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (3)"
+}
+],
+"peak_04c": [
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (1)"
+}
+],
+"peak_04d": [
+{
+"active": true,
+"hp": 70,
+"name": "Weaver Servitor Large"
+}
+],
+"peak_05": [
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (7)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (15)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (12)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (13)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (14)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (2)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (4)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (1)"
+}
+],
+"peak_05c": [
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (6)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (1)"
+}
+],
+"peak_05d": [
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (16)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (15)"
+}
+],
+"peak_05e": [
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (8)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (7)"
+}
+],
+"peak_06": [
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (6)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (7)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (11)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (10)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (5)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (4)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crystal Drifter Giant (9)"
+}
+],
+"peak_07": [
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (11)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (1)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (9)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (8)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (6)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter"
+},
+{
+"active": true,
+"hp": 910,
+"name": "Pinstress Boss"
+}
+],
+"peak_08": [
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (16)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Peaks Drifter (17)"
+}
+],
+"peak_08b": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken"
+}
+],
+"peak_10": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken"
+}
+],
+"room_crowcourt": [
+{
+"active": true,
+"hp": 50,
+"name": "Crowman (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Crow (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Dagger"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (2)"
+},
+{
+"active": false,
+"hp": 15,
+"name": "Mite"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Mite (1)"
+}
+],
+"room_crowcourt_02": [
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Juror (2)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Juror"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Juror (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Juror"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Crowman Juror Tiny (1)"
+},
+{
+"active": true,
+"hp": 1300,
+"name": "Crawfather"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Dagger Juror"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Dagger Juror"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Dagger Juror (1)"
+},
+{
+"active": true,
+"hp": 60,
+"name": "Crowman Dagger Juror"
+}
+],
+"room_forge": [
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Worker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Dock Flyer"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Shield Dockworker"
+}
+],
+"shadow_01": [
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach (3)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach (1)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach (2)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach"
+}
+],
+"shadow_02": [
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach (3)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach (2)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach (1)"
+},
+{
+"active": true,
+"hp": 80,
+"name": "Bloat Roach"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (2)"
+}
+],
+"shadow_03": [
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (2)"
+}
+],
+"shadow_04": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+}
+],
+"shadow_04b": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman"
+}
+],
+"shadow_05": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (3)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"shadow_09": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (6)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (7)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+}
+],
+"shadow_10": [
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Lurer"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (3)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman"
+}
+],
+"shadow_11": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (1)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Swamp Goomba"
+}
+],
+"shadow_12": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (5) -replaced by tall guys"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (4)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+}
+],
+"shadow_13": [
+{
+"active": false,
+"hp": 35,
+"name": "Swamp Mosquito (6)"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Swamp Mosquito (4)"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Swamp Mosquito (2)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (2)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (5)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (8)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (6)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (3)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (7)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (1)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (4)"
+},
+{
+"active": true,
+"hp": 22,
+"name": "Dustroach Pollywog (9)"
+}
+],
+"shadow_14": [
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (3)"
+}
+],
+"shadow_15": [
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (1)"
+}
+],
+"shadow_16": [
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+}
+],
+"shadow_18": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall B"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman A"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman B"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall A"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall"
+},
+{
+"active": true,
+"hp": 650,
+"name": "Swamp Shaman"
+}
+],
+"shadow_19": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (3)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (5)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman Tall"
+}
+],
+"shadow_20": [
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Swamp Mosquito (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+}
+],
+"shadow_21": [
+{
+"active": true,
+"hp": 45,
+"name": "Swamp Muckman"
+},
+{
+"active": true,
+"hp": 64,
+"name": "Slab Fly Large Cage"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Swamp Goomba"
+}
+],
+"shadow_22": [
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (4)"
+}
+],
+"shadow_23": [
+{
+"active": true,
+"hp": 130,
+"name": "Rosary Pilgrim"
+}
+],
+"shadow_25": [
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter"
+}
+],
+"shadow_26": [
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (4)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (5)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Swamp Goomba (1)"
+}
+],
+"shadow_27": [
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (9)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Swamp Drifter (4)"
+}
+],
+"shadow_28": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief (2)"
+}
+],
+"shadow_weavehome": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor Broken"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor"
+}
+],
+"shellgrave": [
+{
+"active": true,
+"hp": 85,
+"name": "Rosary Pilgrim"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 01"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03 (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 02 (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 03"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim BellThrower (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim BellThrower"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim StaffWielder"
+}
+],
+"shellwood_01": [
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy BT (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy BT"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 05"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer (1)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Control"
+}
+],
+"shellwood_01b": [
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (5)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect Charger"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect Charger"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"shellwood_02": [
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect Charger"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Control"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"shellwood_03": [
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (8)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (6)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (1)"
+},
+{
+"active": false,
+"hp": 20,
+"name": "Bloom Shooter (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (9)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (11)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (10)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (7)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (2)"
+}
+],
+"shellwood_04b": [
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim Fisher Enemy (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim 04"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"shellwood_04c": [
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Fly (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Pilgrim Bellthrower Fly (1)"
+}
+],
+"shellwood_08": [
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (9)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (10)"
+}
+],
+"shellwood_10": [
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (1)"
+}
+],
+"shellwood_11": [
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Puncher (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (1)"
+}
+],
+"shellwood_11b_memory": [
+{
+"active": true,
+"hp": 1250,
+"name": "Flower Queen Boss"
+}
+],
+"shellwood_14": [
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (7)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (6)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (2)"
+}
+],
+"shellwood_15": [
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"shellwood_18": [
+{
+"active": true,
+"hp": 12,
+"name": "Splinter Queen Spike"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Splinter Queen Spike (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Splinter Queen Spike (2)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Splinter Queen Spike (3)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Splinter Queen Spike (4)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Splinter Queen Spike (5)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Stick Insect Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Stick Insect Flyer"
+},
+{
+"active": true,
+"hp": 310,
+"name": "Splinter Queen"
+}
+],
+"shellwood_20": [
+{
+"active": true,
+"hp": 25,
+"name": "Stick Insect Charger"
+}
+],
+"shellwood_22": [
+{
+"active": true,
+"hp": 1185,
+"name": "Seth"
+}
+],
+"shellwood_25": [
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Goomba Flyer"
+}
+],
+"shellwood_26": [
+{
+"active": true,
+"hp": 15,
+"name": "Stick Insect Flyer (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Stick Insect Flyer (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Stick Insect Flyer"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Stick Insect Flyer (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Shellwood Wasp"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Pond Skater"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Control"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"shellwood_witch": [
+{
+"active": false,
+"hp": 15,
+"name": "Flower Drifter (1)"
+}
+],
+"slab_01": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+}
+],
+"slab_03": [
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+}
+],
+"slab_04": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+}
+],
+"slab_05": [
+{
+"active": true,
+"hp": 50,
+"name": "Slab Prisoner Leaper New"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small"
+}
+],
+"slab_06": [
+{
+"active": false,
+"hp": 25,
+"name": "Citadel Bat (3)"
+}
+],
+"slab_07": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief (2)"
+}
+],
+"slab_10b": [
+{
+"active": true,
+"hp": 1300,
+"name": "First Weaver"
+}
+],
+"slab_13": [
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"slab_14": [
+{
+"active": false,
+"hp": 9,
+"name": "Slab Alarm Prisoner Fly (2)"
+},
+{
+"active": false,
+"hp": 12,
+"name": "Slab Alarm Prisoner (2)"
+},
+{
+"active": false,
+"hp": 12,
+"name": "Slab Alarm Prisoner (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Slab Prisoner Fly New (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Slab Prisoner Fly New"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slab Prisoner Leaper New"
+}
+],
+"slab_15": [
+{
+"active": true,
+"hp": 9,
+"name": "Slab Alarm Prisoner Fly (2)"
+},
+{
+"active": false,
+"hp": 12,
+"name": "Slab Alarm Prisoner (3)"
+},
+{
+"active": false,
+"hp": 12,
+"name": "Slab Alarm Prisoner (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Slab Alarm Prisoner"
+},
+{
+"active": true,
+"hp": 9,
+"name": "Slab Alarm Prisoner Fly (1)"
+},
+{
+"active": false,
+"hp": 9,
+"name": "Slab Alarm Prisoner Fly (1)"
+},
+{
+"active": false,
+"hp": 12,
+"name": "Slab Alarm Prisoner (2)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "Slab Alarm Prisoner (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Slab Prisoner Fly New"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slab Prisoner Leaper New (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slab Prisoner Leaper New"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+}
+],
+"slab_16": [
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (1)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (1)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (1)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (2)"
+}
+],
+"slab_16b": [
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 700,
+"name": "Slab Fly Broodmother"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (9)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (7)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (2)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (6)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (2)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (3)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (4)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (1)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (5)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (3)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (8)"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh"
+},
+{
+"active": true,
+"hp": 5,
+"name": "Slab Fly Small Fresh (1)"
+}
+],
+"slab_18": [
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"slab_22": [
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (2)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (5)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (3)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Slab Fly Large (4)"
+}
+],
+"slab_23": [
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Slab Fly Mid"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (7)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (6)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Slab Fly Small (2)"
+}
+],
+"song_01": [
+{
+"active": false,
+"hp": 45,
+"name": "Pilgrim 02 Song (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 (3)"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song (4)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song (2)"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Pilgrim 04 Song (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"song_02": [
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim Stomper Song"
+},
+{
+"active": false,
+"hp": 45,
+"name": "Pilgrim 02 Song"
+},
+{
+"active": false,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 SK"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song SK"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song SK"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song SK"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song SK"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 99999,
+"name": "Song Knight BattleEncounter"
+}
+],
+"song_03": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+}
+],
+"song_04": [
+{
+"active": false,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": false,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 99999,
+"name": "Song Knight BattleEncounter"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"song_05": [
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song (1)"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 (1)"
+},
+{
+"active": false,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song"
+},
+{
+"active": false,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song (1)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"song_07": [
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+}
+],
+"song_08": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+}
+],
+"song_09": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"song_09b": [
+{
+"active": false,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+}
+],
+"song_10": [
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+}
+],
+"song_11": [
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim Stomper Song"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (2)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+}
+],
+"song_12": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": false,
+"hp": 45,
+"name": "Pilgrim Stomper Song"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim Stomper Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (1)"
+}
+],
+"song_13": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 (1)"
+}
+],
+"song_14": [
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": false,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+}
+],
+"song_15": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"song_17": [
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Handmaiden (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"song_18": [
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": false,
+"hp": 25,
+"name": "Mite Heavy (2)"
+}
+],
+"song_20": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (1)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim Stomper Song"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 wake"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (3)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03 wake"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (1)"
+}
+],
+"song_20b": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (4)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim 03 Song"
+}
+],
+"song_24": [
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Rosary Thief"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Song Pilgrim 03"
+}
+],
+"song_25": [
+{
+"active": true,
+"hp": 130,
+"name": "Song Reed Grand SK"
+},
+{
+"active": true,
+"hp": 130,
+"name": "Song Reed Grand"
+},
+{
+"active": true,
+"hp": 130,
+"name": "Song Reed Grand (1)"
+},
+{
+"active": true,
+"hp": 130,
+"name": "Song Reed Grand (2)"
+},
+{
+"active": true,
+"hp": 99999,
+"name": "Song Knight BattleEncounter"
+}
+],
+"song_27": [
+{
+"active": true,
+"hp": 55,
+"name": "Song Reed (9)"
+},
+{
+"active": true,
+"hp": 48,
+"name": "Song Pilgrim 01 (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song (2)"
+},
+{
+"active": true,
+"hp": 55,
+"name": "Pilgrim 02 Song (3)"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01 (1)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Pilgrim 02 Song (1)"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (1)"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (2)"
+},
+{
+"active": true,
+"hp": 38,
+"name": "Song Pilgrim 01"
+},
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 01 Song"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (3)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (1)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Pilgrim 04 Song (2)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Pilgrim 04 Song"
+},
+{
+"active": true,
+"hp": 99999,
+"name": "Song Knight BattleEncounter"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core_Citadel"
+}
+],
+"song_29": [
+{
+"active": true,
+"hp": 28,
+"name": "Song Automaton Fly (4)"
+}
+],
+"song_tower_01": [
+{
+"active": true,
+"hp": 800,
+"name": "Lace Boss2 New"
+}
+],
+"tut_01": [
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (2)"
+},
+{
+"active": true,
+"hp": 45,
+"name": "Bone Thumper"
+}
+],
+"tut_01b": [
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (4)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (2)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (2)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Bone Thumper"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (1)"
+}
+],
+"tut_02": [
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (2)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (5)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (5)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (9)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (6)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (4)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (4)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (6)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (3)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler"
+},
+{
+"active": true,
+"hp": 350,
+"name": "Mossbone Mother Ambient"
+}
+],
+"tut_03": [
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (6)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (11)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (9)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (4)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler Summon"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (14)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (8)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (10)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (3)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (13)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (7)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (15)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler Summon (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (12)"
+},
+{
+"active": true,
+"hp": 120,
+"name": "Mossbone Mother"
+}
+],
+"under_01": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"under_02": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker (3)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small (2)"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"under_03": [
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy (1)"
+}
+],
+"under_03b": [
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore (1)"
+}
+],
+"under_03c": [
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"under_04": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim Staff Understore"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+}
+],
+"under_05": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower (2)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Understore Thrower (1)"
+},
+{
+"active": false,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim Staff Understore"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"under_06": [
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small (2)"
+}
+],
+"under_07": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim Staff Understore"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy"
+}
+],
+"under_07c": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (2)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (3)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (2)"
+}
+],
+"under_10": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim Staff Understore"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy (1)"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy (1)"
+}
+],
+"under_11": [
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+}
+],
+"under_12": [
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 30,
+"name": "Understore Small"
+}
+],
+"under_13": [
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (9)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (1)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (6)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (10)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (7)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (8)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (5)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (2)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+}
+],
+"under_16": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+}
+],
+"under_18": [
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (1)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (1)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (2)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (5)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (1)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Poker"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim Staff Understore"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"under_19": [
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (11)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (9)"
+},
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton"
+},
+{
+"active": true,
+"hp": 27,
+"name": "Pilgrim 03 Understore (1)"
+},
+{
+"active": true,
+"hp": 35,
+"name": "Pilgrim Staff Understore"
+}
+],
+"under_19b": [
+{
+"active": true,
+"hp": 4,
+"name": "Understore Automaton (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (4)"
+},
+{
+"active": true,
+"hp": 40,
+"name": "Understore Thrower"
+},
+{
+"active": true,
+"hp": 70,
+"name": "Understore Heavy"
+}
+],
+"under_19c": [
+{
+"active": false,
+"hp": 4,
+"name": "Understore Automaton (2)"
+},
+{
+"active": false,
+"hp": 4,
+"name": "Understore Automaton (1)"
+}
+],
+"under_21": [
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (8)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (8)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (3)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (1)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (7)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (4)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (2)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (9)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (6)"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Understore Automaton EX (10)"
+}
+],
+"under_23": [
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Mite Heavy (1)"
+}
+],
+"under_27": [
+{
+"active": true,
+"hp": 20,
+"name": "Bloom Shooter (9)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (3)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (4)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Flower Drifter (4)"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"ward_02": [
+{
+"active": true,
+"hp": 50,
+"name": "Slammer 1"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slasher 1"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slasher 2"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slammer 2"
+}
+],
+"ward_02_boss": [
+{
+"active": true,
+"hp": 50,
+"name": "Slasher 1"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slammer 2"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slammer 1"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Slasher 2"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Ward Corpse Projectile 2"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Ward Corpse Projectile 2 (1)"
+},
+{
+"active": true,
+"hp": 1000,
+"name": "Conductor Boss"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Ward Corpse Projectile 1 (2)"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Ward Corpse Projectile 1"
+},
+{
+"active": true,
+"hp": 65,
+"name": "Ward Corpse Projectile 1 (1)"
+}
+],
+"ward_02b": [
+{
+"active": true,
+"hp": 25,
+"name": "Citadel Bat"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Song Threaded Husk Return"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Song Threaded Husk"
+}
+],
+"ward_03": [
+{
+"active": true,
+"hp": 95,
+"name": "Song Creeper"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Song Creeper (2)"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Song Creeper (1)"
+},
+{
+"active": false,
+"hp": 75,
+"name": "Song Pilgrim 02"
+}
+],
+"ward_06": [
+{
+"active": false,
+"hp": 75,
+"name": "Song Pilgrim 02"
+},
+{
+"active": true,
+"hp": 100,
+"name": "Understore Mite Giant"
+}
+],
+"ward_07": [
+{
+"active": true,
+"hp": 50,
+"name": "Song Threaded Husk"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Song Threaded Husk R"
+},
+{
+"active": false,
+"hp": 50,
+"name": "Song Threaded Husk L"
+}
+],
+"ward_09": [
+{
+"active": true,
+"hp": 95,
+"name": "Song Creeper"
+},
+{
+"active": true,
+"hp": 95,
+"name": "Song Creeper (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Song Pilgrim 02"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Song Pilgrim 02"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Song Pilgrim 02"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Song Pilgrim 02 (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Song Pilgrim 02 (1)"
+},
+{
+"active": true,
+"hp": 75,
+"name": "Song Pilgrim 02 Dummy"
+}
+],
+"weave_02": [
+{
+"active": false,
+"hp": 1,
+"name": "Weaver Servitor (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (1)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor"
+}
+],
+"weave_03": [
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (2)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (1)"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly"
+},
+{
+"active": true,
+"hp": 12,
+"name": "MossBone Fly (2)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (5)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (6)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler Summon"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler Summon (1)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler Summon (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "MossBone Cocoon (4)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler Summon (3)"
+},
+{
+"active": true,
+"hp": 10,
+"name": "MossBone Crawler (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (3)"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Bone Thumper (1)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller (2)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Roller"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Bone Thumper"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (1)"
+},
+{
+"active": true,
+"hp": 350,
+"name": "Mossbone Mother B"
+},
+{
+"active": true,
+"hp": 350,
+"name": "Mossbone Mother A"
+},
+{
+"active": true,
+"hp": 190,
+"name": "Black_Thread_Core"
+}
+],
+"weave_04": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (2)"
+}
+],
+"weave_05b": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (11)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (13)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (12)"
+},
+{
+"active": true,
+"hp": 15,
+"name": "Bone Goomba Bounce Fly (10)"
+}
+],
+"weave_08": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor (2)"
+},
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor"
+}
+],
+"weave_11": [
+{
+"active": true,
+"hp": 50,
+"name": "Bone Thumper"
+},
+{
+"active": true,
+"hp": 50,
+"name": "Bone Thumper (1)"
+}
+],
+"weave_13": [
+{
+"active": true,
+"hp": 1,
+"name": "Weaver Servitor"
+}
+],
+"wisp_02": [
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp (1)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp (2)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp Immolater Variant"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp Immolater Variant (3)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp Immolater Variant (2)"
+}
+],
+"wisp_03": [
+{
+"active": true,
+"hp": 21,
+"name": "Farmer Catcher"
+},
+{
+"active": true,
+"hp": 20,
+"name": "Bell Goomba"
+}
+],
+"wisp_07": [
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp (1)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp Immolater Variant (1)"
+},
+{
+"active": true,
+"hp": 90,
+"name": "Farmer Wisp Immolater Variant"
+}
+],
+"wisp_09": [
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang (1)"
+},
+{
+"active": true,
+"hp": 25,
+"name": "Blade Spider Hang"
+}
+]
+}

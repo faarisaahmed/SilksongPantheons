@@ -22,29 +22,36 @@ namespace SilksongGodhome.Godhome
     /// </summary>
     internal class PantheonDoor : GodhomeInteractable
     {
-        /// <summary>e.g. "Boss Sequence Tier 1".</summary>
+        /// <summary>The Pantheon's title, e.g. "Pantheon of the Judge".</summary>
         public string SequenceName;
+
+        /// <summary>
+        /// Which Pantheon a Hollow Knight door leads to now.
+        ///
+        /// Godhome's Atrium has five doors. Four of them carry a tier name; the fifth is
+        /// Hollow Knight's Pantheon of Hallownest, which it only revealed once the rest
+        /// were done and which has no counterpart here. Tiers one to three are the
+        /// authored Pantheons and tier four is Pantheon of Pharloom - the three back to
+        /// back, and deliberately open from the start rather than gated behind them.
+        /// </summary>
+        public static string TitleForTier(string doorSequence)
+        {
+            switch (doorSequence)
+            {
+                case "Boss Sequence Tier 1": return PantheonRegistry.Titles[0];
+                case "Boss Sequence Tier 2": return PantheonRegistry.Titles[1];
+                case "Boss Sequence Tier 3": return PantheonRegistry.Titles[2];
+                case "Boss Sequence Tier 4": return PantheonRegistry.Titles[3];
+                default: return null;
+            }
+        }
 
         /// <summary>Hollow Knight's per-tier PlayerData field, e.g. "bossDoorStateTier1".</summary>
         public string PlayerDataName;
 
         private const string ArenaEntryGate = "door_dreamEnter";
 
-        private string Title
-        {
-            get
-            {
-                switch (SequenceName)
-                {
-                    case "Boss Sequence Tier 1": return "Pantheon of the Master";
-                    case "Boss Sequence Tier 2": return "Pantheon of the Artist";
-                    case "Boss Sequence Tier 3": return "Pantheon of the Sage";
-                    case "Boss Sequence Tier 4": return "Pantheon of the Knight";
-                    case "Boss Sequence Tier 5": return "Pantheon of Hallownest";
-                    default: return SequenceName;
-                }
-            }
-        }
+        private string Title => SequenceName;
 
         protected override bool CanInteract() =>
             !string.IsNullOrEmpty(SequenceName) && !PantheonChallengeUI.IsOpen;
@@ -56,11 +63,6 @@ namespace SilksongGodhome.Godhome
                 BossSequence seq = PantheonRegistry.Get(SequenceName);
                 if (seq == null) return $"{Title} (unavailable)";
 
-                string first = seq.Count > 0 ? seq.GetSceneAt(0) : null;
-                if (!string.IsNullOrEmpty(first) && !Rebuild.GodhomeData.HasScene(first))
-                {
-                    return $"{Title} - {seq.Count} bosses\n(arena '{first}' is not baked yet)";
-                }
                 return $"{Title} - {seq.Count} bosses\nPress Up to inspect";
             }
         }

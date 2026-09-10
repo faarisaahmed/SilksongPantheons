@@ -24,7 +24,8 @@
   <ItemGroup Condition="'$(NoAssets)' != 'true'">
     <EmbeddedResource Include="Baked/**/*.png" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
     <EmbeddedResource Include="Baked/**/*.scene" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
-    <!-- sequences.bin: the Pantheon boss lists -->
+    <!-- The Pantheon lists. Editable beside the DLL; embedded so there is a default. -->
+    <EmbeddedResource Include="Baked/pantheons/*.txt" LogicalName="Godhome.pantheons/%(Filename)%(Extension)" />
     <EmbeddedResource Include="Baked/**/*.bin" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
     <!-- Godhome's audio: mono 16-bit PCM, played back via AudioClip.SetData -->
     <EmbeddedResource Include="Baked/**/*.pcm" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />

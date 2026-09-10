@@ -8,24 +8,52 @@ using UnityEngine;
 namespace SilksongGodhome.Godhome
 {
     /// <summary>
-    /// Recreates Hollow Knight's Pantheon lists as live ScriptableObjects.
+    /// The four Pantheons, as live ScriptableObjects.
     ///
-    /// A Pantheon is a <see cref="BossSequence"/> asset holding an ordered array of
-    /// <see cref="BossScene"/> assets. Silksong still has both classes and, crucially,
-    /// still has <c>BossSequenceController.SetupNewSequence</c> - so once the lists exist
-    /// the game's own sequence machinery drives the run: bindings, boss index, completion.
+    /// A Pantheon is a <see cref="BossSequence"/> holding an ordered array of
+    /// <see cref="BossScene"/>. Silksong still has both classes and still has
+    /// <c>BossSequenceController.SetupNewSequence</c>, so once the lists exist the game's
+    /// own machinery drives the run: bindings, boss index, completion.
     ///
-    /// The lists themselves are baked from Hollow Knight's resources.assets by
-    /// tools/sequences.py; see Baked/sequences.bin.
+    /// The lists are plain text - `pantheons/pantheon1.txt` and friends, beside the DLL
+    /// or embedded in it - in the format the Silksong boss-rush mods have settled on:
+    ///
+    ///     Bell Beast = Bone_05_boss : Bone Beast
+    ///     Bench
+    ///     # anything after a hash is a comment
+    ///
+    /// with a scene and an object name added to each line, because a Pantheon here loads
+    /// Silksong's own room rather than rebuilding one. They are editable in place; no
+    /// rebuild, no re-bake. tools/pantheons.py generates them.
     /// </summary>
     internal static class PantheonRegistry
     {
-        private const string Resource = "Godhome.sequences.bin";
-        private const string Magic = "GGSQ";
-        private const int Version = 1;
+        /// <summary>Titles, in door order. Index 3 is the combined one.</summary>
+        public static readonly string[] Titles =
+        {
+            "Pantheon of the Judge",
+            "Pantheon of the Sinner",
+            "Pantheon of the Void",
+            "Pantheon of Pharloom",
+        };
+
+        /// <summary>One line of a Pantheon list.</summary>
+        public sealed class Entry
+        {
+            public string DisplayName;
+            /// <summary>Silksong's own scene, e.g. "Bone_05_boss". Empty for a bench.</summary>
+            public string Scene;
+            /// <summary>The boss object inside it, e.g. "Bone Beast".</summary>
+            public string BossObject;
+            public bool IsBench;
+
+            public override string ToString() =>
+                IsBench ? "Bench" : $"{DisplayName} = {Scene} : {BossObject}";
+        }
 
         private static Dictionary<string, BossSequence> _sequences;
         private static Dictionary<string, string[]> _raw;
+        private static Dictionary<string, List<Entry>> _entries;
 
         /// <summary>Sequence name -> ordered arena scene names.</summary>
         public static Dictionary<string, string[]> Raw
@@ -33,51 +61,128 @@ namespace SilksongGodhome.Godhome
             get { Load(); return _raw; }
         }
 
+        /// <summary>Sequence name -> the full entries, including benches.</summary>
+        public static Dictionary<string, List<Entry>> Entries
+        {
+            get { Load(); return _entries; }
+        }
+
         public static bool IsLoaded => _raw != null && _raw.Count > 0;
+
+        /// <summary>The entry a run is on, so the arena knows which boss to expect.</summary>
+        public static Entry EntryAt(string sequenceName, int index)
+        {
+            Load();
+            if (!_entries.TryGetValue(sequenceName ?? "", out List<Entry> list)) return null;
+            return index >= 0 && index < list.Count ? list[index] : null;
+        }
 
         private static void Load()
         {
             if (_raw != null) return;
 
             _raw = new Dictionary<string, string[]>(StringComparer.Ordinal);
+            _entries = new Dictionary<string, List<Entry>>(StringComparer.Ordinal);
             _sequences = new Dictionary<string, BossSequence>(StringComparer.Ordinal);
 
-            Stream s = Rebuild.GodhomeResources.Open(Resource.StartsWith("Godhome.")
-                ? Resource.Substring("Godhome.".Length) : Resource);
-            if (s == null)
+            var files = new Dictionary<string, List<Entry>>(StringComparer.OrdinalIgnoreCase);
+            for (int i = 1; i <= 4; i++)
             {
-                Plugin.Log.LogWarning(
-                    "Godhome: no sequences.bin embedded - the Pantheons will be unavailable. " +
-                    "Run tools/extract_godhome.py and rebuild.");
-                return;
+                List<Entry> parsed = ReadList("pantheon" + i, files);
+                if (parsed == null) continue;
+                files["pantheon" + i] = parsed;
+
+                string title = i - 1 < Titles.Length ? Titles[i - 1] : "Pantheon " + i;
+                _entries[title] = parsed;
+
+                var scenes = new List<string>();
+                foreach (Entry e in parsed)
+                {
+                    if (!e.IsBench && !string.IsNullOrEmpty(e.Scene)) scenes.Add(e.Scene);
+                }
+                _raw[title] = scenes.ToArray();
+                Plugin.Log.LogInfo(
+                    $"Godhome: {title} - {scenes.Count} bosses" +
+                    (parsed.Count > scenes.Count ? $", {parsed.Count - scenes.Count} bench(es)" : ""));
             }
 
+            if (_raw.Count == 0)
+            {
+                Plugin.Log.LogWarning(
+                    "Godhome: no pantheon lists found. Expected pantheons/pantheon1.txt " +
+                    "beside the DLL or embedded in it; run tools/pantheons.py.");
+            }
+        }
+
+        /// <summary>
+        /// Parses one list. `@include pantheonN` splices another in, which is how the
+        /// fourth Pantheon is the first three back to back without repeating them.
+        /// </summary>
+        private static List<Entry> ReadList(string name,
+                                            Dictionary<string, List<Entry>> already)
+        {
+            Stream s = Rebuild.GodhomeResources.Open("pantheons/" + name + ".txt")
+                       ?? Rebuild.GodhomeResources.Open(name + ".txt");
+            if (s == null) return null;
+
+            var outp = new List<Entry>();
             try
             {
                 using (s)
-                using (var r = new BinaryReader(s))
+                using (var r = new StreamReader(s))
                 {
-                    var magic = new string(r.ReadChars(4));
-                    if (magic != Magic) throw new InvalidDataException($"bad magic '{magic}'");
-                    int version = r.ReadInt32();
-                    if (version != Version) throw new InvalidDataException($"version {version}, expected {Version}");
-
-                    int count = r.ReadInt32();
-                    for (int i = 0; i < count; i++)
+                    string line;
+                    while ((line = r.ReadLine()) != null)
                     {
-                        string name = r.ReadString();
-                        var scenes = new string[r.ReadInt32()];
-                        for (int j = 0; j < scenes.Length; j++) scenes[j] = r.ReadString();
-                        _raw[name] = scenes;
+                        line = line.Trim();
+                        if (line.Length == 0 || line[0] == '#') continue;
+
+                        if (line.StartsWith("@include ", StringComparison.OrdinalIgnoreCase))
+                        {
+                            string other = line.Substring("@include ".Length).Trim();
+                            if (!already.TryGetValue(other, out List<Entry> sub))
+                            {
+                                sub = ReadList(other, already);
+                                if (sub != null) already[other] = sub;
+                            }
+                            if (sub != null) outp.AddRange(sub);
+                            else Plugin.Log.LogWarning($"Godhome: {name} includes missing '{other}'.");
+                            continue;
+                        }
+
+                        if (string.Equals(line, "Bench", StringComparison.OrdinalIgnoreCase))
+                        {
+                            outp.Add(new Entry { DisplayName = "Bench", IsBench = true });
+                            continue;
+                        }
+
+                        int eq = line.IndexOf('=');
+                        if (eq < 0)
+                        {
+                            Plugin.Log.LogWarning($"Godhome: {name}: can't read '{line}'.");
+                            continue;
+                        }
+                        string display = line.Substring(0, eq).Trim();
+                        string rhs = line.Substring(eq + 1).Trim();
+                        int colon = rhs.IndexOf(':');
+                        string scene = colon < 0 ? rhs : rhs.Substring(0, colon).Trim();
+                        string obj = colon < 0 ? "" : rhs.Substring(colon + 1).Trim();
+
+                        outp.Add(new Entry
+                        {
+                            DisplayName = display,
+                            Scene = scene,
+                            BossObject = obj,
+                        });
                     }
                 }
-
-                Plugin.Log.LogInfo($"Godhome: {_raw.Count} pantheons loaded.");
             }
             catch (Exception e)
             {
-                Plugin.Log.LogError("Godhome: sequences.bin is unreadable: " + e);
+                Plugin.Log.LogError($"Godhome: {name}.txt is unreadable: {e}");
+                return null;
             }
+            return outp;
         }
 
         /// <summary>

@@ -85,12 +85,10 @@ namespace SilksongGodhome.Godhome
         {
             string scene = Sequence.GetSceneAt(index);
 
-            // Arenas we never baked would drop the player into an unbuilt room, so step
-            // over them rather than stranding the run.
             int guard = 0;
-            while (!Rebuild.GodhomeData.HasScene(scene) && guard++ < Sequence.Count)
+            while (string.IsNullOrEmpty(scene) && guard++ < Sequence.Count)
             {
-                Plugin.Log.LogWarning($"Godhome: '{scene}' isn't baked; skipping past it.");
+                Plugin.Log.LogWarning("Godhome: a Pantheon entry has no scene; stepping over it.");
                 Index++;
                 if (Index >= Sequence.Count)
                 {
@@ -99,9 +97,22 @@ namespace SilksongGodhome.Godhome
                 }
                 scene = Sequence.GetSceneAt(Index);
             }
+            if (string.IsNullOrEmpty(scene))
+            {
+                Finish();
+                return;
+            }
 
-            Plugin.Log.LogInfo($"Godhome: run -> {scene} ({Index + 1}/{Count})");
-            Travel(scene, ArenaEntryGate);
+            PantheonRegistry.Entry entry = PantheonRegistry.EntryAt(Title, index);
+            string boss = entry != null ? entry.DisplayName : scene;
+            Plugin.Log.LogInfo($"Godhome: run -> {boss} in {scene} ({Index + 1}/{Count})");
+
+            // Godhome's own rooms are rebuilt from baked data and keep Hollow Knight's
+            // arena gate. A Silksong arena is one of the game's real rooms, so it is
+            // loaded the ordinary way and the hero is placed by the scene's own respawn
+            // marker - Hollow Knight's gate name means nothing there.
+            bool godhomeRoom = Rebuild.GodhomeData.HasScene(scene);
+            Travel(scene, godhomeRoom ? ArenaEntryGate : "");
         }
 
         private static void Finish()

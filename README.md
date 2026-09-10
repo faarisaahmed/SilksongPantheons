@@ -92,21 +92,51 @@ From SilksongGodhome, all present in this repo:
   byte-exact FSM parser, tk2d collection and animation rebuilding, and an installer that
   needs nothing but Python.
 
-## What actually has to be built
+## The rosters
 
-Roughly, and in order:
+Done. The order is [Pantheon of Pharloom](https://thunderstore.io/c/hollow-knight-silksong/p/momochi003/Pantheon_Of_Pharloom/)'s,
+which is the convention the Silksong boss-rush mods have settled on — three authored
+Pantheons and a fourth that is the first three back to back.
 
-1. **A boss survey.** Which Silksong scenes contain a boss, what its `HealthManager` is,
-   and how the room signals that the fight is over. `tools/` already has the machinery to
-   read Silksong's own scenes; this is a scan, not a port.
-2. **Make a Silksong boss room work as a Pantheon arena.** Put a `BossSceneController` in
-   it, point it at the boss's `HealthManager`, and let its `OnBossSceneComplete` advance
-   the run. Everything on both sides of that already exists.
-3. **Getting in and out.** A Pantheon arena needs the hero placed, the room's own entry
-   sequence suppressed, and a clean exit on death or victory.
-4. **Pantheon rosters.** Which bosses, in what order, across how many Pantheons.
-5. **The Hall of Gods.** Statues for Silksong's bosses — art and journal data that
-   Silksong already has.
+| | | |
+| --- | --- | --- |
+| Pantheon of the Judge | 12 bosses, 1 bench | Moss Mother → Last Judge |
+| Pantheon of the Sinner | 14 bosses, 2 benches | Garmond and Zaza → First Sinner |
+| Pantheon of the Void | 12 bosses, 2 benches | Bell Eater → Lost Lace |
+| Pantheon of Pharloom | all 38, back to back | `@include`s the others, so editing them edits it |
+
+The lists are plain text and live beside the DLL, so they can be reordered without
+rebuilding anything:
+
+```
+Bell Beast = Bone_05_boss : Bone Beast
+Moorwing = Greymoor_05_boss : Vampire Gnat
+Bench
+```
+
+`Display Name = Scene : Boss Object`. The scene is Silksong's own Addressables key and
+the object is the boss inside it — both read out of the game by `tools/silksong_index.py`,
+not guessed. `Bench` is a rest stop. `#` comments.
+
+**38 of the 45 entries resolve.** The seven that do not are written as `# UNRESOLVED`
+lines with their closest candidates beside them, and
+`Baked/pantheons/UNASSIGNED.txt` lists the 22 boss-sized enemies no Pantheon uses yet, so
+filling one in is a copy and paste. The unresolved ones are Zango, Gurr, Kramelita,
+Watcher, Father of Flame, Signis and Gron, and Unravelled — mostly the NPC duels, whose
+objects are not plain `HealthManager` enemies.
+
+Pantheon of Pharloom's door is **open from the start**. Hollow Knight only revealed its
+fourth door once the others were finished; there is no reason to make you earn it here.
+
+## What is left
+
+1. **Make a Silksong boss room behave as a Pantheon arena.** Put a `BossSceneController`
+   in it, point it at the boss named in the roster, and let its `OnBossSceneComplete`
+   advance the run. Everything on both sides of that already exists — this is the next
+   piece of work, and the one that makes a Pantheon playable end to end.
+2. **Getting in and out cleanly.** The hero is currently placed by the room's own respawn
+   marker; arenas also need the room's normal content quietened and a clean exit on death.
+3. **The Hall of Gods.** Statues for Silksong's bosses.
 
 ## An open question worth deciding early
 
