@@ -326,8 +326,10 @@ namespace SilksongGodhome.Rebuild
 
                 if (_available.Count == 0)
                 {
-                    Plugin.Log.LogWarning(
-                        "Godhome: no baked scenes found, either beside the DLL or in it. Run " +
+                    Plugin.Log.LogError(
+                        "Godhome: NO BAKED ROOMS. Godhome cannot be built, so you will "
+                        + "land in the donor room instead. Put the baked data in a "
+                        + "'Godhome' folder beside the plugin DLL, or run " +
                         "tools/extract_godhome.py and rebuild.");
                 }
                 else

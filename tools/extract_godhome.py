@@ -68,7 +68,10 @@ TIER1_ARENAS = [
     "GG_Mage_Knight", "GG_Brooding_Mawlek", "GG_Engine", "GG_Nailmasters",
 ]
 
-DEFAULT_SCENES = HUB_SCENES + TIER1_ARENAS
+# Only the hub. The Pantheons are fought in Silksong's own rooms now, so Hollow Knight's
+# twelve arenas - and the several hundred megabytes of boss atlases behind them - are no
+# longer needed. Pass them on the command line if you want them anyway.
+DEFAULT_SCENES = HUB_SCENES
 
 # Hollow Knight components that exist in Silksong under the same name and carry no
 # serialised fields worth configuring - attaching the bare component is the whole

@@ -16,16 +16,16 @@
     directory the plugin still compiles and loads, it just has no scenes to rebuild.
   -->
   <!--
-    NoAssets=true builds the plugin with nothing baked in - the small DLL that gets
-    released. It reads its data from a `Godhome` folder beside itself instead (see
-    GodhomeResources), which is what lets people install it without the .NET SDK: run
-    the extractor against their own Hollow Knight and drop the folder next to the DLL.
+    Baked data is normally *not* embedded: the build copies Baked/ into a `Godhome`
+    folder beside the plugin and GodhomeResources reads it from there. That keeps the
+    DLL small, builds fast, and is the same path the released installer uses - you run
+    the extractor against your own Hollow Knight and the folder appears next to the DLL.
+
+    Build with -p:EmbedAssets=true to get a single self-contained DLL instead.
   -->
-  <ItemGroup Condition="'$(NoAssets)' != 'true'">
+  <ItemGroup Condition="'$(EmbedAssets)' == 'true'">
     <EmbeddedResource Include="Baked/**/*.png" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
     <EmbeddedResource Include="Baked/**/*.scene" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
-    <!-- The Pantheon lists. Editable beside the DLL; embedded so there is a default. -->
-    <EmbeddedResource Include="Baked/pantheons/*.txt" LogicalName="Godhome.pantheons/%(Filename)%(Extension)" />
     <EmbeddedResource Include="Baked/**/*.bin" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
     <!-- Godhome's audio: mono 16-bit PCM, played back via AudioClip.SetData -->
     <EmbeddedResource Include="Baked/**/*.pcm" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
@@ -134,8 +134,31 @@
     </Reference>
   </ItemGroup>
 
+  <!--
+    The DLL *and* its data. The plugin reads baked rooms from a `Godhome` folder beside
+    itself, and copying only the DLL leaves an install with a plugin and nothing to
+    build - which loads the donor room and looks like Godhome has vanished. Baked/ is
+    the source of truth; SkipUnchangedFiles keeps the copy cheap.
+  -->
+  <!-- Always embedded, so there is a default roster even with no data folder. -->
+  <ItemGroup>
+    <EmbeddedResource Include="Baked/pantheons/*.txt"
+                      LogicalName="Godhome.pantheons/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BakedData Include="Baked/**/*" />
+  </ItemGroup>
+
   <Target Name="CopyToPlugins" AfterTargets="Build">
-    <Copy SourceFiles="$(TargetDir)$(AssemblyName).dll" DestinationFolder="$(GamePath)/BepInEx/plugins/SilksongGodhome/" />
+    <Copy SourceFiles="$(TargetDir)$(AssemblyName).dll"
+          DestinationFolder="$(GamePath)/BepInEx/plugins/SilksongGodhome/" />
+    <Copy SourceFiles="@(BakedData)"
+          DestinationFiles="@(BakedData->'$(GamePath)/BepInEx/plugins/SilksongGodhome/Godhome/%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true"
+          Condition="'@(BakedData)' != ''" />
+    <Warning Text="No Baked/ data: the plugin will load the donor room instead of Godhome. Run tools/extract_godhome.py."
+             Condition="'@(BakedData)' == ''" />
   </Target>
 
 </Project>
