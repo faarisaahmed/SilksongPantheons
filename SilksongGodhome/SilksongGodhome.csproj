@@ -1,0 +1,140 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>SilksongGodhome</AssemblyName>
+    <RootNamespace>SilksongGodhome</RootNamespace>
+  </PropertyGroup>
+
+  <!--
+    Godhome's art and scene graph, produced by tools/extract_godhome.py from a local
+    Hollow Knight install and embedded straight into the DLL so the mod ships as
+    plain DLLs in a BepInEx plugin folder.
+
+    Baked/ is gitignored on purpose - it holds Hollow Knight's assets. Regenerate it
+    rather than committing it. The glob is deliberately non-fatal: with no Baked/
+    directory the plugin still compiles and loads, it just has no scenes to rebuild.
+  -->
+  <!--
+    NoAssets=true builds the plugin with nothing baked in - the small DLL that gets
+    released. It reads its data from a `Godhome` folder beside itself instead (see
+    GodhomeResources), which is what lets people install it without the .NET SDK: run
+    the extractor against their own Hollow Knight and drop the folder next to the DLL.
+  -->
+  <ItemGroup Condition="'$(NoAssets)' != 'true'">
+    <EmbeddedResource Include="Baked/**/*.png" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Baked/**/*.scene" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
+    <!-- sequences.bin: the Pantheon boss lists -->
+    <EmbeddedResource Include="Baked/**/*.bin" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
+    <!-- Godhome's audio: mono 16-bit PCM, played back via AudioClip.SetData -->
+    <EmbeddedResource Include="Baked/**/*.pcm" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
+    <!-- Music, as IMA ADPCM: a quarter the size, decoded on load -->
+    <EmbeddedResource Include="Baked/**/*.adpcm" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
+    <!-- Baked bosses: tk2d sprite collection + animation library -->
+    <EmbeddedResource Include="Baked/**/*.boss" LogicalName="Godhome.%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- BepInEx / Harmony, from the BepInEx pack already installed alongside the game -->
+    <Reference Include="BepInEx">
+      <HintPath>$(GamePath)/BepInEx/core/BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(GamePath)/BepInEx/core/0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Game assemblies -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(ManagedPath)/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(ManagedPath)/Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Unity -->
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedPath)/UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ManagedPath)/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Sprite / SpriteRenderer, for rebuilding Godhome's scenery -->
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>$(ManagedPath)/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>$(ManagedPath)/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Colliders that make the geometry solid -->
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>$(ManagedPath)/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Texture2D.LoadImage, for the baked atlas pages -->
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(ManagedPath)/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- AudioClip / AudioSource, for Godhome's ambience -->
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>$(ManagedPath)/UnityEngine.AudioModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(ManagedPath)/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(ManagedPath)/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Relabelling the Godseeker menu entry -->
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(ManagedPath)/UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(ManagedPath)/UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(ManagedPath)/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="TeamCherry.Localization">
+      <HintPath>$(ManagedPath)/TeamCherry.Localization.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- SceneLoadInfo.SceneResourceLocation is an IResourceLocation -->
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>$(ManagedPath)/Unity.ResourceManager.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>$(ManagedPath)/Unity.Addressables.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- tk2dTileMap, which is where CameraController gets the scene's dimensions -->
+    <Reference Include="TeamCherry.TK2D">
+      <HintPath>$(ManagedPath)/TeamCherry.TK2D.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>$(ManagedPath)/PlayMaker.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="CopyToPlugins" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetDir)$(AssemblyName).dll" DestinationFolder="$(GamePath)/BepInEx/plugins/SilksongGodhome/" />
+  </Target>
+
+</Project>

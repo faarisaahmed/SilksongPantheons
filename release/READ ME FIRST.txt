@@ -1,0 +1,99 @@
+====================================================================
+  SILKSONG GODHOME
+  Hollow Knight's Godhome, ported into Silksong as Godseeker mode
+====================================================================
+
+  THIS IS UNFINISHED AND DEVELOPMENT HAS STOPPED.
+
+  What works:  Godhome's rooms, with their real architecture and
+               lighting. Walking between them. The bench. The Hall of
+               Gods. The Pantheon doors and their challenge screen.
+               The music. Bosses appear in their arenas and run
+               Hollow Knight's own logic.
+
+  What doesn't: the boss fights don't play through properly. That is
+               the part that was never finished. Expect bosses to get
+               stuck, and expect to use the skip key (F8).
+
+  Play it to look around Godhome in Silksong. Don't expect to beat a
+  Pantheon.
+
+
+--------------------------------------------------------------------
+  WHAT YOU NEED
+--------------------------------------------------------------------
+
+  1. Hollow Knight, installed.        <- the mod reads Godhome from it
+  2. Silksong, installed.
+  3. BepInEx, already working in Silksong.
+     If you have never installed BepInEx, search for
+     "BepInEx Silksong install guide" and do that first, then start
+     Silksong once so it creates its folders.
+
+  You must own both games. This download contains no Hollow Knight
+  content - it takes it from your own copy, on your own machine, and
+  nothing is uploaded anywhere.
+
+
+--------------------------------------------------------------------
+  HOW TO INSTALL
+--------------------------------------------------------------------
+
+  Double-click the one for your computer:
+
+      Windows      INSTALL - Windows.bat
+      Mac          INSTALL - Mac.command
+      Linux        INSTALL - Linux.sh
+
+  It finds both games by itself, extracts Godhome from Hollow Knight,
+  and puts it where Silksong will find it.
+
+  The extraction takes 5 to 30 minutes and looks like it has frozen at
+  times. It has not. Leave it alone.
+
+  If it can't find a game, it will tell you exactly what to do.
+
+  On a Mac, if double-clicking is blocked: right-click the file,
+  choose Open, then click Open again.
+
+
+--------------------------------------------------------------------
+  HOW TO PLAY
+--------------------------------------------------------------------
+
+  Start Silksong. On the menu where you pick a save file, there is a
+  play-mode option called GODSEEKER. Pick that.
+
+  You wake up in the Godhome Atrium as Hornet.
+
+  Keys:
+      F8    skip the current boss and move to the next arena
+            (you will need this)
+      F10   jump straight back to the Atrium
+      F6    spawn a boss where you stand
+
+
+--------------------------------------------------------------------
+  IF SOMETHING GOES WRONG
+--------------------------------------------------------------------
+
+  There is a log at
+
+      <your Silksong folder>/BepInEx/LogOutput.log
+
+  It records what the mod did and what failed. That file is the
+  answer to almost every "why is this happening".
+
+  To uninstall: delete the folder
+      <your Silksong folder>/BepInEx/plugins/SilksongGodhome
+
+
+--------------------------------------------------------------------
+  SOURCE
+--------------------------------------------------------------------
+
+  https://github.com/faarisaahmed/SilksongGodhome
+
+  The README there explains how far this got, why it stopped, and
+  what someone continuing it should do first. Nothing found in this
+  project turned out to be impossible.
