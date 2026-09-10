@@ -103,6 +103,18 @@ ALIASES = {
 
 }
 
+# Fights that are more than one object. The extra names are appended with "&" so the run
+# only advances once every one of them is down - killing Dancer A while Dancer B is still
+# up should not end the arena.
+COMPANIONS = {
+    "Cogwork Dancers":  ["Dancer B"],
+    "Clover Dancers":   ["Dancer B"],
+    "Moss Mother Duo":  ["Mossbone Mother B"],
+    "Forebrothers Signis and Gron": ["Dock Guard Thrower"],
+    "Bell Eater":       ["Giant Centipede Butt"],
+}
+
+
 # Bosses Silksong does not name anywhere in its scenes - findboss.py finds zero
 # GameObjects containing "zango", "signis", "gron", "khann", "gurr", "groal",
 # "karmelita" or "watcher" in all 590 of them. These are the best fit from the enemies
@@ -220,10 +232,12 @@ def resolve(display, index, scenes):
     return None, None, "no candidate found"
 
 
-def render(where, obj):
+def render(where, obj, display=None):
     room, sub = where
     left = scene_key(room) if not sub else f"{scene_key(room)} + {scene_key(sub)}"
-    return f"{left} : {obj}"
+    extra = COMPANIONS.get(display or "", [])
+    right = " & ".join([obj] + extra)
+    return f"{left} : {right}"
 
 
 def main():
@@ -239,6 +253,8 @@ def main():
             f"# {title}",
             "#",
             "# One entry per line:  Display Name = Room : Boss Object",
+            "# Several objects in one fight are joined with &, and the arena only ends",
+            "# once all of them are down.",
             "# or, when the boss lives in one of the room's additive pieces:",
             "#                      Display Name = Room + Piece : Boss Object",
             "# 'Bench' on its own is a rest stop between fights.",
@@ -252,15 +268,15 @@ def main():
                 continue
             where, obj, note = resolve(e, index, scenes)
             if where and not note:
-                lines.append(f"{e} = {render(where, obj)}")
+                lines.append(f"{e} = {render(where, obj, e)}")
                 resolved += 1
             elif where and note.startswith("GUESS: "):
                 # Written live, but labelled - the mapping is a judgement, not a lookup.
-                lines.append(f"{e} = {render(where, obj)}    # {note}")
+                lines.append(f"{e} = {render(where, obj, e)}    # {note}")
                 resolved += 1
                 guessed.append(e)
             elif where:
-                lines.append(f"# UNRESOLVED  {e} = {render(where, obj)}    # {note}")
+                lines.append(f"# UNRESOLVED  {e} = {render(where, obj, e)}    # {note}")
                 unresolved += 1
             else:
                 lines.append(f"# UNRESOLVED  {e}    # {note}")

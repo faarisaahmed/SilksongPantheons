@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -83,19 +82,23 @@ namespace SilksongGodhome.Godhome
 
             if (!string.IsNullOrEmpty(_entry.SubScene)) yield return EnsurePiece(_entry.SubScene);
 
-            GameObject boss = FindBoss(_entry.BossObject);
-            if (boss == null)
+            var bosses = new List<GameObject>();
+            foreach (string want in Names())
             {
-                Plugin.Log.LogWarning(
-                    $"Godhome: '{_entry.BossObject}' is not in {_entry.Scene}" +
-                    (string.IsNullOrEmpty(_entry.SubScene) ? "" : " + " + _entry.SubScene) +
-                    " - the arena will have no fight in it.");
+                GameObject g = FindBoss(want);
+                if (g != null) bosses.Add(g);
+                else Plugin.Log.LogWarning($"Godhome: '{want}' is not in {Where()}.");
             }
-            else
+
+            if (bosses.Count == 0)
             {
-                PlaceHeroNear(boss);
-                InstallController(boss);
+                Plugin.Log.LogWarning($"Godhome: no fight found in {Where()}.");
+                yield break;
             }
+
+            PlaceHeroAt(bosses[0]);
+            BossSceneHost.Install(null);
+            Watch(bosses);
         }
 
         /// <summary>
@@ -151,110 +154,153 @@ namespace SilksongGodhome.Godhome
             return best != null ? best.gameObject : null;
         }
 
+        private string[] Names() =>
+            _entry.BossObjects != null && _entry.BossObjects.Length > 0
+                ? _entry.BossObjects
+                : new[] { _entry.BossObject };
+
+        private string Where() =>
+            _entry.Scene + (string.IsNullOrEmpty(_entry.SubScene) ? "" : " + " + _entry.SubScene);
+
         /// <summary>
-        /// Beside the boss, standing on whatever the room's floor is.
+        /// Puts the hero on ground the room's own designers marked as safe.
         ///
-        /// The cast starts above the boss and looks down, which is the one direction a
-        /// 2D room reliably has ground in. If nothing is found the hero is left level
-        /// with the boss rather than dropped - being next to the fight in mid-air is
-        /// recoverable; being under the map is not.
+        /// The first version cast a ray downwards from beside the boss and used whatever
+        /// it hit. That fails in exactly the rooms it matters in - a boss standing over
+        /// a pit, a platform the ray misses, a room whose floor is a collider the mask
+        /// does not include - and dropping the player through the world is a great deal
+        /// worse than putting them a few metres off.
+        ///
+        /// Every Silksong room already contains positions guaranteed to be safe standing
+        /// ground: its RespawnMarkers and HazardRespawnMarkers, which are where the game
+        /// itself puts you after a fall. The nearest one to the boss is a better answer
+        /// than any cast, and needs no geometry at all.
         /// </summary>
-        private static void PlaceHeroNear(GameObject boss)
+        private static void PlaceHeroAt(GameObject boss)
         {
             HeroController hero = HeroController.instance;
-            if (hero == null) return;
+            if (hero == null || boss == null) return;
 
             Vector3 b = boss.transform.position;
-            float side = UnityEngine.Random.value < 0.5f ? -SideOffset : SideOffset;
-            var from = new Vector2(b.x + side, b.y + CastHeight);
+            Vector3 target = b;
+            string how = "the boss's own position";
+            float best = float.MaxValue;
 
-            Vector3 target = new Vector3(b.x + side, b.y, b.z);
-            RaycastHit2D hit = Physics2D.Raycast(from, Vector2.down, CastDepth,
-                                                 1 << LayerMask.NameToLayer("Terrain"));
-            if (hit.collider != null)
+            foreach (RespawnMarker m in UnityEngine.Object.FindObjectsByType<RespawnMarker>(
+                         FindObjectsInactive.Include, FindObjectsSortMode.None))
             {
-                target = new Vector3(hit.point.x, hit.point.y + 1.5f, b.z);
+                if (m == null) continue;
+                float dd = (m.transform.position - b).sqrMagnitude;
+                if (dd < best) { best = dd; target = m.transform.position; how = "respawn marker '" + m.name + "'"; }
             }
-            else
+            foreach (HazardRespawnMarker m in UnityEngine.Object.FindObjectsByType<HazardRespawnMarker>(
+                         FindObjectsInactive.Include, FindObjectsSortMode.None))
             {
-                // Try the other side before giving up on finding a floor.
-                from = new Vector2(b.x - side, b.y + CastHeight);
-                hit = Physics2D.Raycast(from, Vector2.down, CastDepth,
-                                        1 << LayerMask.NameToLayer("Terrain"));
-                if (hit.collider != null)
-                    target = new Vector3(hit.point.x, hit.point.y + 1.5f, b.z);
-                else
-                    Plugin.Log.LogWarning(
-                        $"Godhome: no floor found under '{boss.name}'; placing level with it.");
+                if (m == null) continue;
+                float dd = (m.transform.position - b).sqrMagnitude;
+                if (dd < best) { best = dd; target = m.transform.position; how = "hazard marker '" + m.name + "'"; }
+            }
+
+            // A marker on the far side of a large room is worse than standing next to the
+            // fight, so fall back when the nearest one is nowhere near.
+            if (best > 60f * 60f)
+            {
+                target = b;
+                how = "the boss's own position (nearest marker was " + Mathf.Sqrt(best).ToString("F0") + "m away)";
+            }
+
+            // Last guard: never leave the hero outside the room.
+            GameManager gm = GameManager.instance;
+            if (gm != null && gm.sceneWidth > 0f && gm.sceneHeight > 0f)
+            {
+                float x = Mathf.Clamp(target.x, 2f, gm.sceneWidth - 2f);
+                float y = Mathf.Clamp(target.y, 2f, gm.sceneHeight - 2f);
+                if (!Mathf.Approximately(x, target.x) || !Mathf.Approximately(y, target.y))
+                {
+                    how += " (clamped into the room)";
+                }
+                target = new Vector3(x, y, target.z);
             }
 
             hero.transform.position = target;
             var rb = hero.GetComponent<Rigidbody2D>();
             if (rb != null) rb.linearVelocity = Vector2.zero;
 
-            Plugin.Log.LogInfo($"Godhome: hero placed at {target} for '{boss.name}'.");
+            Plugin.Log.LogInfo($"Godhome: hero placed at {target} via {how}, boss at {b}.");
         }
 
         /// <summary>
-        /// A BossSceneController watching this boss, so the room reports itself finished
-        /// and PantheonRun moves on. Kept dormant for the same reason as everywhere else
-        /// in this project: its Awake pulls on sequence loading and its Start wants a
-        /// transition prefab, neither of which exist here.
+        /// Watches the fight, and moves the run on the moment the last boss has finished
+        /// dying.
+        ///
+        /// Hollow Knight's own BossSceneController waits a flat five seconds after the
+        /// last death before it reports the arena complete, which is a beat too long and
+        /// unrelated to what is on screen. This instead waits for the death *animation*
+        /// to end - the boss's tk2d animator stopping, or the object going away - so the
+        /// next arena begins as the corpse settles.
         /// </summary>
-        private static void InstallController(GameObject boss)
+        private void Watch(List<GameObject> bosses)
         {
-            var hm = boss.GetComponent<HealthManager>();
-            if (hm == null) return;
-
-            try
+            _alive = new List<HealthManager>();
+            foreach (GameObject g in bosses)
             {
-                var go = new GameObject("Godhome_BossSceneController");
-                go.SetActive(false);
-                var c = go.AddComponent<BossSceneController>();
+                HealthManager hm = g.GetComponent<HealthManager>();
+                if (hm != null) _alive.Add(hm);
+            }
+            if (_alive.Count == 0) return;
 
-                c.bosses = new[] { hm };
-                c.doTransitionIn = false;
-                c.doTransitionOut = false;
-                c.BossLevel = BossSceneHost.AttunedLevel;
-                c.CanTransition = true;
+            var names = new List<string>();
+            foreach (HealthManager hm in _alive) names.Add($"{hm.name} ({hm.hp} hp)");
+            Plugin.Log.LogInfo($"Godhome: watching {string.Join(", ", names)}.");
 
-                SetPrivate(c, "BossHealthLookup",
-                    new Dictionary<HealthManager, BossSceneController.BossHealthDetails>());
-                SetPrivate(c, "HasTransitionedIn", true);
+            StartCoroutine(WatchRoutine());
+        }
 
-                BossSceneController.Instance = c;
+        private List<HealthManager> _alive;
+        private bool _advanced;
 
-                // Setup() is what subscribes to OnDeath; Hollow Knight calls it from
-                // Awake, which is exactly the method we are avoiding running.
-                typeof(BossSceneController)
-                    .GetMethod("Setup", BindingFlags.NonPublic | BindingFlags.Instance)
-                    ?.Invoke(c, null);
-
-                c.OnBossSceneComplete += () =>
+        private IEnumerator WatchRoutine()
+        {
+            // Poll rather than subscribe: OnDeath is per-HealthManager and a boss that is
+            // replaced by a corpse object mid-fight would take its subscription with it.
+            while (true)
+            {
+                bool anyAlive = false;
+                foreach (HealthManager hm in _alive)
                 {
-                    Plugin.Log.LogInfo($"Godhome: '{boss.name}' is down - advancing the run.");
-                    if (PantheonRun.IsActive) PantheonRun.Advance();
-                };
-
-                Plugin.Log.LogInfo($"Godhome: watching '{boss.name}' ({hm.hp} hp) for the run.");
+                    if (hm != null && !hm.isDead) { anyAlive = true; break; }
+                }
+                if (!anyAlive) break;
+                yield return null;
             }
-            catch (Exception e)
+
+            Plugin.Log.LogInfo("Godhome: last boss down - waiting for the death animation.");
+
+            // Give the death animation up to a few seconds, and stop as soon as it ends.
+            float deadline = Time.time + 6f;
+            while (Time.time < deadline)
             {
-                Plugin.Log.LogError($"Godhome: couldn't watch '{boss.name}': {e}");
+                bool stillPlaying = false;
+                foreach (HealthManager hm in _alive)
+                {
+                    if (hm == null) continue;
+                    var an = hm.GetComponent<tk2dSpriteAnimator>();
+                    if (an != null && an.Playing && hm.gameObject.activeInHierarchy)
+                    {
+                        stillPlaying = true;
+                        break;
+                    }
+                }
+                if (!stillPlaying) break;
+                yield return null;
             }
+
+            if (_advanced) yield break;
+            _advanced = true;
+
+            Plugin.Log.LogInfo($"Godhome: {_entry.DisplayName} finished - next arena.");
+            if (PantheonRun.IsActive) PantheonRun.Advance();
         }
 
-        private static void SetPrivate(object target, string property, object value)
-        {
-            PropertyInfo p = typeof(BossSceneController)
-                .GetProperty(property, BindingFlags.Public | BindingFlags.Instance);
-            MethodInfo setter = p != null ? p.GetSetMethod(nonPublic: true) : null;
-            if (setter != null) { setter.Invoke(target, new[] { value }); return; }
-
-            FieldInfo f = typeof(BossSceneController).GetField(
-                "<" + property + ">k__BackingField",
-                BindingFlags.NonPublic | BindingFlags.Instance);
-            if (f != null) f.SetValue(target, value);
-        }
     }
 }
