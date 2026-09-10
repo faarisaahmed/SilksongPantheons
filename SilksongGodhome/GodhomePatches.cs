@@ -160,5 +160,72 @@ namespace SilksongGodhome
             // and can swap the room in place instead.
             return SceneRedirect.Intercept(info);
         }
+
+        // ------------------------------------------------------------------
+        // 6. Don't let our own stripped donor room break the next scene load.
+        // ------------------------------------------------------------------
+
+        /// <summary>
+        /// Removes destroyed entries from SceneAdditiveLoadConditional's static list
+        /// before it walks them.
+        ///
+        /// The list is static and components remove themselves in OnDisable. Building
+        /// Godhome means destroying most of the donor room, and a component destroyed
+        /// while its object is already inactive never gets that call - so the list keeps
+        /// dead entries. Unload then does:
+        ///
+        ///     for (...) { var s = _additiveSceneLoads[num]; if (!(s.gameObject.scene != owningScene)) ... }
+        ///
+        /// and `s.gameObject` throws on the first dead one. That exception happens inside
+        /// SceneLoad.BeginRoutine, which kills the coroutine mid-load: the fade completes,
+        /// the loading screen appears, and nothing ever finishes it. It only showed up
+        /// once a Pantheon started sending the player from Godhome to a real Silksong
+        /// room, because moving between two Godhome rooms cancels the transition instead.
+        /// </summary>
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(SceneAdditiveLoadConditional), nameof(SceneAdditiveLoadConditional.Unload),
+                      new[] { typeof(UnityEngine.SceneManagement.Scene),
+                              typeof(System.Collections.Generic.List<
+                                  UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<
+                                      UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>>) })]
+        private static void SceneAdditiveLoadConditional_Unload_Prefix()
+        {
+            PruneAdditiveLoaders();
+        }
+
+        internal static void PruneAdditiveLoaders()
+        {
+            try
+            {
+                FieldInfo f = AccessTools.Field(typeof(SceneAdditiveLoadConditional),
+                                                "_additiveSceneLoads");
+                if (f == null) return;
+                var list = f.GetValue(null) as System.Collections.IList;
+                if (list == null) return;
+
+                int removed = 0;
+                for (int i = list.Count - 1; i >= 0; i--)
+                {
+                    // The Unity == null override is what detects a destroyed component;
+                    // a plain reference check would not.
+                    var c = list[i] as UnityEngine.Object;
+                    if (c == null)
+                    {
+                        list.RemoveAt(i);
+                        removed++;
+                    }
+                }
+                if (removed > 0)
+                {
+                    Plugin.Log.LogInfo(
+                        $"Godhome: dropped {removed} destroyed additive-scene loader(s) " +
+                        "left behind by stripping the donor room.");
+                }
+            }
+            catch (Exception e)
+            {
+                Plugin.Log.LogWarning("Godhome: couldn't prune additive-scene loaders: " + e.Message);
+            }
+        }
     }
 }

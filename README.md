@@ -178,6 +178,17 @@ python3 tools/extract_godhome.py        # finds both games by itself
 python3 tools/verify_baked.py           # every room must read byte-exactly
 ```
 
+## Reading the logs
+
+BepInEx's `LogOutput.log` has the mod's own messages. It does **not** have the game's:
+its first line is `Unable to start Unity log writer`, so Unity-side exceptions never
+reach it. Those are in
+
+    <Silksong>/../LocalLow/Team Cherry/Hollow Knight Silksong/Player.log
+
+and that is where the answer usually is. The infinite loading screen when a Pantheon
+started was invisible in BepInEx's log and one stack trace away in Unity's.
+
 ## Ground rules carried over from the last attempt
 
 These were learned the hard way and are worth keeping.

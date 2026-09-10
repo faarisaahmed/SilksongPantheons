@@ -574,9 +574,12 @@ namespace SilksongGodhome.Rebuild
                 sm.defaultColor = l.DefaultColor;
                 sm.defaultIntensity = l.DefaultIntensity;
                 sm.heroLightColor = l.HeroLightColor;
-                sm.redChannel = l.Red;
-                sm.greenChannel = l.Green;
-                sm.blueChannel = l.Blue;
+                // SceneColorManager.PairKeyframes dereferences these without checking,
+                // and it runs on every later scene load through GameCameras.StartScene -
+                // so a null channel here throws in a room we have long since left.
+                sm.redChannel = l.Red ?? Flat();
+                sm.greenChannel = l.Green ?? Flat();
+                sm.blueChannel = l.Blue ?? Flat();
 
                 FieldInfo ov = AccessTools.Field(typeof(CustomSceneManager), "overrideColorSettings");
                 if (ov != null) ov.SetValue(sm, true);
@@ -604,6 +607,12 @@ namespace SilksongGodhome.Rebuild
             {
                 Plugin.Log.LogWarning("Godhome: couldn't apply scene lighting: " + e.Message);
             }
+        }
+
+        /// <summary>A do-nothing grading curve, for a channel the bake didn't carry.</summary>
+        private static AnimationCurve Flat()
+        {
+            return new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
         }
 
         /// <summary>Dump of the things most likely to be wrong after a rebuild.</summary>
@@ -742,6 +751,7 @@ namespace SilksongGodhome.Rebuild
         {
             var made = new Transform[baked.Objects.Length];
             _made = made;
+            _doorObjects.Clear();
             var pendingDoors = new List<GodhomeData.ObjectDef>();
             bool verbose = GodhomeConfig.VerboseRebuildLogging.Value;
             int count = 0;
@@ -1106,6 +1116,7 @@ namespace SilksongGodhome.Rebuild
 
             var door = go.AddComponent<PantheonDoor>();
             door.SequenceName = title;
+            _doorObjects[d] = go;
             door.PlayerDataName = d.DoorPlayerData;
             door.Range = 3.5f;
         }
@@ -1130,6 +1141,10 @@ namespace SilksongGodhome.Rebuild
         /// useSceneUnlocks off and no tests, so BossSequence.IsUnlocked() returns true
         /// and the door opens itself through the game's own path.
         /// </summary>
+        /// <summary>The GameObject built for each Pantheon door, so wiring is direct.</summary>
+        private static readonly Dictionary<GodhomeData.ObjectDef, GameObject> _doorObjects =
+            new Dictionary<GodhomeData.ObjectDef, GameObject>();
+
         private static void UnlockDoors(List<GodhomeData.ObjectDef> doors, Transform[] made)
         {
             int wired = 0;
@@ -1145,16 +1160,21 @@ namespace SilksongGodhome.Rebuild
                 BossSequence seq = PantheonRegistry.Get(title);
                 if (seq == null) continue;
 
-                foreach (Transform t in made)
+                if (!_doorObjects.TryGetValue(d, out GameObject doorGo) || doorGo == null)
                 {
-                    if (t == null) continue;
-                    var bsd = t.GetComponent<BossSequenceDoor>();
-                    if (bsd == null || bsd.bossSequence != null) continue;
-                    if (t.name != d.Name) continue;
-                    bsd.bossSequence = seq;
-                    wired++;
-                    break;
+                    Plugin.Log.LogWarning($"Godhome: no object recorded for door '{d.Name}'.");
+                    continue;
                 }
+                var bsd = doorGo.GetComponent<BossSequenceDoor>();
+                if (bsd == null)
+                {
+                    Plugin.Log.LogWarning(
+                        $"Godhome: '{d.Name}' has no BossSequenceDoor to wire - it will " +
+                        "re-lock itself when its Start runs.");
+                    continue;
+                }
+                bsd.bossSequence = seq;
+                wired++;
             }
             if (doors.Count > 0)
             {
