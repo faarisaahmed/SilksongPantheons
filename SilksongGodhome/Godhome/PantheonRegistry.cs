@@ -53,6 +53,12 @@ namespace SilksongGodhome.Godhome
             public string SubScene;
             /// <summary>The boss object inside it, e.g. "Bone Beast".</summary>
             public string BossObject;
+
+            /// <summary>
+            /// Every object in the fight. Usually one; "Dancer A &amp; Dancer B" for the
+            /// pairs, so the arena only ends when all of them are down.
+            /// </summary>
+            public string[] BossObjects = new string[0];
             public bool IsBench;
 
             public override string ToString() =>
@@ -188,12 +194,22 @@ namespace SilksongGodhome.Godhome
                             piece = left.Substring(plus + 1).Trim();
                         }
 
+                        // "A & B" is a fight with more than one boss in it.
+                        string[] parts = obj.Split('&');
+                        var objects = new List<string>();
+                        foreach (string part in parts)
+                        {
+                            string t = part.Trim();
+                            if (t.Length > 0) objects.Add(t);
+                        }
+
                         outp.Add(new Entry
                         {
                             DisplayName = display,
                             Scene = scene,
                             SubScene = piece,
-                            BossObject = obj,
+                            BossObject = objects.Count > 0 ? objects[0] : "",
+                            BossObjects = objects.ToArray(),
                         });
                     }
                 }
